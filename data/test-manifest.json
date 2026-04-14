@@ -1,0 +1,59 @@
+{
+  "subjects": {
+    "data-mining-and-data-warehousing": {
+      "name": "Data Mining and Data Warehousing",
+      "tests": [
+        {
+          "id": 1,
+          "title": "Test 1",
+          "path": "data-mining-and-data-warehousing\\test-1.json"
+        },
+        {
+          "id": 2,
+          "title": "Test 2",
+          "path": "data-mining-and-data-warehousing\\test-2.json"
+        },
+        {
+          "id": 3,
+          "title": "Test 3",
+          "path": "data-mining-and-data-warehousing\\test-3.json"
+        },
+        {
+          "id": 4,
+          "title": "Test 4",
+          "path": "data-mining-and-data-warehousing\\test-4.json"
+        },
+        {
+          "id": 5,
+          "title": "Test 5",
+          "path": "data-mining-and-data-warehousing\\test-5.json"
+        },
+        {
+          "id": 6,
+          "title": "Test 6",
+          "path": "data-mining-and-data-warehousing\\test-6.json"
+        }
+      ]
+    },
+    "principles-of-management": {
+      "name": "Principles of Management",
+      "tests": [
+        {
+          "id": 1,
+          "title": "Test 1",
+          "path": "principles-of-management\\test-1.json"
+        },
+        {
+          "id": 2,
+          "title": "Test 2",
+          "path": "principles-of-management\\test-2.json"
+        },
+        {
+          "id": 3,
+          "title": "Test 3",
+          "path": "principles-of-management\\test-3.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which characteristic of a data warehouse ensures that data from multiple heterogeneous sources are stored in a unified format?",
+    "options": [
+      "Subject-oriented",
+      "Integrated",
+      "Nonvolatile",
+      "Time-variant"
+    ],
+    "answer": "Integrated",
+    "explanation": "Integration involves data cleaning and transformation to ensure consistency in naming conventions, attribute types, and scaling across different sources before being stored in the warehouse."
+  },
+  {
+    "type": "mcq",
+    "question": "In the KDD process, which step involves consolidating data into forms appropriate for mining via summary or aggregation operations?",
+    "options": [
+      "Data selection",
+      "Data cleaning",
+      "Data transformation",
+      "Pattern evaluation"
+    ],
+    "answer": "Data transformation",
+    "explanation": "Data transformation (and consolidation) prepares data for mining by performing summary or aggregation operations."
+  },
+  {
+    "type": "mcq",
+    "question": "A medical researcher records a patient's 'Professional Rank' as Assistant, Associate, or Full Professor. This attribute is best classified as:",
+    "options": [
+      "Nominal",
+      "Binary",
+      "Ordinal",
+      "Numeric"
+    ],
+    "answer": "Ordinal",
+    "explanation": "Ordinal attributes have values that have a meaningful sequence or ranking, but the magnitude between ranks is not defined."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is considered a 'holistic' measure in a data cube?",
+    "options": [
+      "Sum()",
+      "Count()",
+      "Average()",
+      "Median()"
+    ],
+    "answer": "Median()",
+    "explanation": "A measure is holistic if there is no constant bound on the size of the storage needed to describe a subaggregate; the median is a classic example as it cannot be computed from sub-medians alone."
+  },
+  {
+    "type": "mcq",
+    "question": "Which schema is characterized by having multiple fact tables that share one or more common dimension tables?",
+    "options": [
+      "Star schema",
+      "Snowflake schema",
+      "Fact constellation schema",
+      "Starnet query model"
+    ],
+    "answer": "Fact constellation schema",
+    "explanation": "A fact constellation (or galaxy schema) consists of a collection of fact tables that share dimension tables."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary difference between OLTP and OLAP regarding the 'unit of work'?",
+    "options": [
+      "OLTP uses read-only scans; OLAP uses simple transactions",
+      "OLTP uses short, simple transactions; OLAP uses complex queries",
+      "OLTP focuses on historical data; OLAP focuses on current data",
+      "OLTP is subject-oriented; OLAP is application-oriented"
+    ],
+    "answer": "OLTP uses short, simple transactions; OLAP uses complex queries",
+    "explanation": "OLTP systems handle day-to-day operations with simple transactions, whereas OLAP handles decision support with complex multidimensional queries."
+  },
+  {
+    "type": "mcq",
+    "question": "During data cleaning, filling a missing value with the 'most probable value' usually involves:",
+    "options": [
+      "Ignoring the tuple",
+      "Using a global constant like 'Unknown'",
+      "Using regression or decision tree induction",
+      "Using the attribute mean"
+    ],
+    "answer": "Using regression or decision tree induction",
+    "explanation": "Using a learning algorithm to predict the missing value is a popular strategy because it uses more information from the existing data to preserve relationships."
+  },
+  {
+    "type": "mcq",
+    "question": "Min-max normalization maps a value 'v' of attribute A to 'v' in the range [0.0, 1.0]. If the original range is, what is the normalized value of 50?",
+    "options": [
+      "0.4",
+      "0.5",
+      "0.6",
+      "0.75"
+    ],
+    "answer": "0.5",
+    "explanation": "Formula: (v - min) / (max - min). Here, (50 - 20) / (80 - 20) = 30 / 60 = 0.5."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following data reduction techniques is specifically designed to handle 'curse of dimensionality' by finding a smaller set of original variables?",
+    "options": [
+      "Histograms",
+      "Attribute subset selection",
+      "Data cube aggregation",
+      "Sampling"
+    ],
+    "answer": "Attribute subset selection",
+    "explanation": "Attribute subset selection reduces data size by removing irrelevant or redundant attributes, helping to make the discovered patterns easier to understand."
+  },
+  {
+    "type": "mcq",
+    "question": "In a data cube with 'n' dimensions, what is the total number of possible cuboids (group-bys)?",
+    "options": [
+      "n^2",
+      "2n",
+      "2^n",
+      "n!"
+    ],
+    "answer": "2^n",
+    "explanation": "A data cube lattice of n dimensions contains 2 raised to the power of n cuboids."
+  },
+  {
+    "type": "mcq",
+    "question": "An 'iceberg cube' is defined as a data cube that:",
+    "options": [
+      "Stores only the base cuboid",
+      "Stores only cells that satisfy a minimum support threshold",
+      "Compressed via wavelet transforms",
+      "Stores only the apex cuboid"
+    ],
+    "answer": "Stores only cells that satisfy a minimum support threshold",
+    "explanation": "An iceberg cube computes and stores only those cube cells whose aggregate value is above a user-specified threshold."
+  },
+  {
+    "type": "mcq",
+    "question": "Which OLAP operation descends from a higher level of summarization to a more detailed level?",
+    "options": [
+      "Roll-up",
+      "Drill-down",
+      "Slice",
+      "Dice"
+    ],
+    "answer": "Drill-down",
+    "explanation": "Drill-down specializes data by either moving down a concept hierarchy or adding a new dimension."
+  },
+  {
+    "type": "mcq",
+    "question": "The Apriori property states that:",
+    "options": [
+      "If an itemset is frequent, all its supersets must be frequent",
+      "All subsets of a frequent itemset must be frequent",
+      "Only maximal itemsets are useful for rules",
+      "Support must always be greater than confidence"
+    ],
+    "answer": "All subsets of a frequent itemset must be frequent",
+    "explanation": "This property is antimonotone: if an itemset is frequent, any of its subsets must also satisfy the minimum support threshold."
+  },
+  {
+    "type": "mcq",
+    "question": "If an itemset {A, B} has a support of 2% and {A} alone has a support of 10%, what is the confidence of the rule A => B?",
+    "options": [
+      "5%",
+      "20%",
+      "50%",
+      "80%"
+    ],
+    "answer": "20%",
+    "explanation": "Confidence(A => B) = Support(A ∪ B) / Support(A). Here, 2% / 10% = 0.2 or 20%."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the main advantage of FP-growth over the Apriori algorithm?",
+    "options": [
+      "It generates fewer association rules",
+      "It does not require a minimum support threshold",
+      "It avoids the costly generation of a large number of candidate itemsets",
+      "It works better on sparse data sets"
+    ],
+    "answer": "It avoids the costly generation of a large number of candidate itemsets",
+    "explanation": "FP-growth uses a tree structure to compress the database and mines it directly without candidate generation."
+  },
+  {
+    "type": "mcq",
+    "question": "A lift value of 0.5 between itemsets A and B indicates that:",
+    "options": [
+      "A and B are positively correlated",
+      "A and B are independent",
+      "The occurrence of A is negatively correlated with B",
+      "A and B always occur together"
+    ],
+    "answer": "The occurrence of A is negatively correlated with B",
+    "explanation": "Lift < 1 implies a negative correlation; lift = 1 implies independence; lift > 1 implies positive correlation."
+  },
+  {
+    "type": "mcq",
+    "question": "Which interestingness measure is 'null-invariant', making it suitable for large data sets with many null-transactions?",
+    "options": [
+      "Lift",
+      "Chi-square",
+      "Kulczynski",
+      "Support"
+    ],
+    "answer": "Kulczynski",
+    "explanation": "Measures like Kulczynski, Cosine, and All-confidence are null-invariant, meaning they are not influenced by the number of transactions that contain neither of the items."
+  },
+  {
+    "type": "mcq",
+    "question": "In decision tree induction, which attribute selection measure was specifically designed to overcome the bias of Information Gain towards attributes with many values?",
+    "options": [
+      "Entropy",
+      "Gini Index",
+      "Gain Ratio",
+      "Misclassification Rate"
+    ],
+    "answer": "Gain Ratio",
+    "explanation": "Gain Ratio applies a 'split information' value to normalize Information Gain, reducing the bias toward attributes with many distinct values."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary purpose of 'Tree Pruning' in classification?",
+    "options": [
+      "To increase the depth of the tree",
+      "To reduce the training error to zero",
+      "To address the problem of overfitting",
+      "To remove the root node"
+    ],
+    "answer": "To address the problem of overfitting",
+    "explanation": "Pruning removes branches that reflect noise or outliers in the training data, improving the accuracy of the model on unseen data."
+  },
+  {
+    "type": "mcq",
+    "question": "The 'Naïve' assumption in Naïve Bayesian classification refers to:",
+    "options": [
+      "Assuming the data follows a normal distribution",
+      "Assuming that all class labels are equally likely",
+      "Assuming class-conditional independence between attributes",
+      "Assuming that there are no missing values"
+    ],
+    "answer": "Assuming class-conditional independence between attributes",
+    "explanation": "It 'naively' assumes that the effect of an attribute value on a given class is independent of the values of the other attributes."
+  },
+  {
+    "type": "mcq",
+    "question": "Laplace smoothing (or Laplacian correction) is used in Naïve Bayes to:",
+    "options": [
+      "Handle continuous attributes",
+      "Avoid zero probability values in calculations",
+      "Increase the number of training samples",
+      "Normalize the input features"
+    ],
+    "answer": "Avoid zero probability values in calculations",
+    "explanation": "If an attribute value never occurs with a class in the training set, the probability becomes zero; Laplace smoothing adds a small constant to prevent this."
+  },
+  {
+    "type": "mcq",
+    "question": "Which classification method aims to find the 'Maximal Marginal Hyperplane' (MMH) to separate classes?",
+    "options": [
+      "Decision Trees",
+      "Neural Networks",
+      "Support Vector Machines",
+      "Case-Based Reasoning"
+    ],
+    "answer": "Support Vector Machines",
+    "explanation": "SVMs find the hyperplane with the largest margin between support vectors of different classes to maximize generalization."
+  },
+  {
+    "type": "mcq",
+    "question": "In a neural network using 'Backpropagation', the error is propagated:",
+    "options": [
+      "From the input layer to the hidden layer",
+      "From the output layer backward toward the input layer",
+      "Only within the hidden layers",
+      "Simultaneously in both directions"
+    ],
+    "answer": "From the output layer backward toward the input layer",
+    "explanation": "Backpropagation computes the error at the output layer and updates weights backward through the network to minimize the sum of squared errors."
+  },
+  {
+    "type": "mcq",
+    "question": "A classifier correctly identifies 90 out of 100 'Yes' cases and 80 out of 100 'No' cases. What is its 'Sensitivity'?",
+    "options": [
+      "80%",
+      "85%",
+      "90%",
+      "170%"
+    ],
+    "answer": "90%",
+    "explanation": "Sensitivity (Recall) = True Positives / Total Positives. Here, 90 / 100 = 90%."
+  },
+  {
+    "type": "mcq",
+    "question": "Which evaluation method involves partitioning the data into 'k' mutually exclusive subsets and training/testing the model 'k' times?",
+    "options": [
+      "Holdout method",
+      "Random subsampling",
+      "K-fold cross-validation",
+      "Bootstrap"
+    ],
+    "answer": "K-fold cross-validation",
+    "explanation": "K-fold cross-validation uses each of the k parts as a test set once, while the remaining k-1 parts are used for training, to get a stable accuracy estimate."
+  },
+  {
+    "type": "mcq",
+    "question": "In the ID3 algorithm, if a partition of data 'D' contains only one class, the Entropy (Info(D)) is:",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "Infinity"
+    ],
+    "answer": "0",
+    "explanation": "Entropy measures disorder; if all tuples belong to the same class, the data is perfectly ordered and the information needed to classify it is zero."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of attribute is 'Temperature' in Celsius?",
+    "options": [
+      "Nominal",
+      "Binary",
+      "Interval-scaled",
+      "Ratio-scaled"
+    ],
+    "answer": "Interval-scaled",
+    "explanation": "Celsius has equal units but no true zero point (0°C is not the absence of heat), so it is interval-scaled."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the 'Midrange' of the following set of ages: {10, 20, 30, 40, 50, 90}?",
+    "options": [
+      "30",
+      "40",
+      "50",
+      "100"
+    ],
+    "answer": "50",
+    "explanation": "Midrange = (min + max) / 2. Here, (10 + 90) / 2 = 50."
+  },
+  {
+    "type": "mcq",
+    "question": "A data warehouse is 'Nonvolatile'. This means that:",
+    "options": [
+      "Data is updated in real-time as transactions occur",
+      "Data is never deleted or changed once entered",
+      "The schema is fixed and cannot be modified",
+      "It only stores summary data"
+    ],
+    "answer": "Data is never deleted or changed once entered",
+    "explanation": "Nonvolatile means that operational updates do not occur in the data warehouse environment; it is a physically separate store of data."
+  },
+  {
+    "type": "mcq",
+    "question": "Which rule-based classifier conflict resolution strategy fires the rule with the most attribute tests?",
+    "options": [
+      "Rule ordering",
+      "Class-based ordering",
+      "Size ordering",
+      "Confidence ordering"
+    ],
+    "answer": "Size ordering",
+    "explanation": "Size ordering assigns priority to the rule with the most 'tough' requirements (longest antecedent)."
+  },
+  {
+    "type": "mcq",
+    "question": "In the Apriori algorithm, the 'Prune Step' specifically removes candidate k-itemsets if:",
+    "options": [
+      "They have a low confidence",
+      "Any of their (k-1) subsets are infrequent",
+      "They contain duplicate items",
+      "They are too long"
+    ],
+    "answer": "Any of their (k-1) subsets are infrequent",
+    "explanation": "Based on the Apriori property, if any (k-1) subset of a candidate is infrequent, the candidate itself cannot possibly be frequent."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a 'Lazy Learner'?",
+    "options": [
+      "Decision Tree Induction",
+      "Naïve Bayes",
+      "K-Nearest Neighbor",
+      "Backpropagation"
+    ],
+    "answer": "K-Nearest Neighbor",
+    "explanation": "Lazy learners store training data and wait until a test tuple is presented before performing classification."
+  },
+  {
+    "type": "mcq",
+    "question": "If a dataset has a high 'Imbalance Ratio' (e.g., 0.99), the classes are said to be:",
+    "options": [
+      "Balanced",
+      "Negatively correlated",
+      "Highly skewed",
+      "Independent"
+    ],
+    "answer": "Highly skewed",
+    "explanation": "A high imbalance ratio indicates a very skewed distribution where one class or itemset is much more frequent than the other."
+  },
+  {
+    "type": "mcq",
+    "question": "In 'Star-Cubing', a 'star-node' is created when:",
+    "options": [
+      "The node is the root of the tree",
+      "The attribute value does not satisfy the iceberg condition",
+      "The attribute value is highly frequent",
+      "A new dimension is added"
+    ],
+    "answer": "The attribute value does not satisfy the iceberg condition",
+    "explanation": "Nodes not satisfying the iceberg condition are compressed into a single 'star-node' to save memory and processing."
+  },
+  {
+    "type": "mcq",
+    "question": "What does a 'Dendrogram' represent?",
+    "options": [
+      "The lattice of cuboids in a data cube",
+      "The hierarchy of clusters in hierarchical clustering",
+      "The layers of a neural network",
+      "The split points of a decision tree"
+    ],
+    "answer": "The hierarchy of clusters in hierarchical clustering",
+    "explanation": "A dendrogram is a treelike diagram that records the sequences of merges or splits in hierarchical clustering."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is NOT a data transformation strategy?",
+    "options": [
+      "Normalization",
+      "Discretization",
+      "Smoothing",
+      "Chi-square analysis"
+    ],
+    "answer": "Chi-square analysis",
+    "explanation": "Chi-square analysis is used for correlation/redundancy analysis during data integration, not transformation."
+  },
+  {
+    "type": "mcq",
+    "question": "The 'F-measure' is the harmonic mean of which two metrics?",
+    "options": [
+      "Sensitivity and Specificity",
+      "Precision and Recall",
+      "Accuracy and Error Rate",
+      "Support and Confidence"
+    ],
+    "answer": "Precision and Recall",
+    "explanation": "F-measure combines precision and recall into a single value to evaluate classifier performance, especially for imbalanced data."
+  },
+  {
+    "type": "mcq",
+    "question": "In 'Backpropagation', what does the 'Learning Rate' (l) control?",
+    "options": [
+      "The number of hidden layers",
+      "The speed of weight adjustment in each iteration",
+      "The accuracy of the initial weights",
+      "The size of the input layer"
+    ],
+    "answer": "The speed of weight adjustment in each iteration",
+    "explanation": "A small learning rate ensures the network doesn't overcorrect weights, preventing oscillation and ensuring convergence to a local minimum."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is an 'objective' measure of pattern interestingness?",
+    "options": [
+      "Actionability",
+      "Unexpectedness",
+      "Support",
+      "Novelty"
+    ],
+    "answer": "Support",
+    "explanation": "Support and confidence are objective measures based on statistics; actionability and novelty are subjective, based on user beliefs."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the 'Apex Cuboid' in a data cube lattice?",
+    "options": [
+      "The 0-D cuboid representing the total sum",
+      "The base cuboid with all dimensions",
+      "The most sparse cuboid",
+      "The cuboid with the highest resolution"
+    ],
+    "answer": "The 0-D cuboid representing the total sum",
+    "explanation": "The apex cuboid (often denoted as 'all') holds the highest level of summarization for the entire cube."
+  }
+]

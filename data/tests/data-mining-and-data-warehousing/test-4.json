@@ -1,0 +1,98 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which specific characteristic of a data warehouse ensures that naming conventions, attribute measures, and encoding structures are consistent across multiple heterogeneous sources?",
+    "options": [
+      "Subject-oriented",
+      "Integrated",
+      "Time-variant",
+      "Nonvolatile"
+    ],
+    "answer": "Integrated",
+    "explanation": "Integration is a key feature where data cleaning and transformation techniques are applied during the construction of the warehouse to ensure that data from different sources (like inconsistent department codes or currency formats) are stored in a unified, consistent format."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "While the mean is the most common measure of central tendency, it is highly sensitive to outliers; therefore, a ________ mean is used to offset the effect of extreme values by discarding a small, pre-specified percentage of data at the ends.",
+    "answer": "trimmed",
+    "explanation": "A trimmed mean (such as a 2% trimmed mean) is used to obtain a more robust center of distribution by 'chopping off' extreme values—like a few very high salaries in a company—that would otherwise pull the standard mean away from the majority of the data."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the 'Interestingness Paradox' in data mining: Why can a pattern that satisfies high support and confidence thresholds still be considered uninteresting to a user?",
+    "answer": "A pattern is uninteresting if it represents common sense or redundant knowledge (like 'Bread implies Milk') that offers no 'actionable' insight or 'unexpectedness'.",
+    "explanation": "Objective measures like support and confidence are often insufficient. A rule may be statistically strong but uninteresting if it doesn't contradict a user's belief (unexpectedness) or provide information that can be acted upon to achieve a goal (actionability)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following measures is classified as 'holistic' because its sub-aggregates cannot be combined using a constant amount of storage to compute the global result?",
+    "options": [
+      "Sum()",
+      "Count()",
+      "Average()",
+      "Median()"
+    ],
+    "answer": "Median()",
+    "explanation": "A measure is holistic if there is no constant bound on the size of storage needed to describe a sub-aggregate. Unlike algebraic measures (like Average) that can be computed from (sum, count) pairs, the median generally requires the entire sorted data set or complex approximations."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the Knowledge Discovery from Data (KDD) process, the step where data are consolidated into forms appropriate for mining by performing summary or aggregation operations is known as Data ________.",
+    "answer": "Transformation",
+    "explanation": "Data transformation (and consolidation) is the essential KDD step that prepares data for mining algorithms through operations like normalization, aggregation, or generalization."
+  },
+  {
+    "type": "short_answer",
+    "question": "Compare the 'Unit of Work' between OLTP and OLAP systems and explain why this difference necessitates separating them.",
+    "answer": "OLTP unit of work is a short, simple transaction (e.g., an ATM withdrawal), while OLAP handles complex multidimensional queries (e.g., sales trends by region).",
+    "explanation": "OLTP is optimized for high-concurrency 'write' operations and quick updates. OLAP queries often scan millions of records; running these on an operational system would lock resources and cause day-to-day business transactions to fail."
+  },
+  {
+    "type": "mcq",
+    "question": "Temperature measured in Celsius is considered which type of attribute, specifically because it has equal-sized units but lacks a true 'zero-point' representing the total absence of the property?",
+    "options": [
+      "Nominal",
+      "Ordinal",
+      "Interval-scaled",
+      "Ratio-scaled"
+    ],
+    "answer": "Interval-scaled",
+    "explanation": "Interval-scaled attributes allow us to quantify the difference between values (e.g., 20°C is 5° higher than 15°C), but because 0°C is not the absolute absence of heat, we cannot say 20°C is 'twice as warm' as 10°C."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A data warehouse is described as ________ because operational updates (like changing a customer's current address) do not occur in the warehouse environment; instead, it is a separate historical store.",
+    "answer": "nonvolatile",
+    "explanation": "Nonvolatile means that data is never deleted or changed once it is loaded into the warehouse. The warehouse only requires two operations: initial loading and data access, which preserves the historical perspective required for analysis."
+  },
+  {
+    "type": "short_answer",
+    "question": "In a Star Schema design, why are dimension identifiers in the central fact table usually represented by system-generated integers (surrogate keys) rather than the original attribute values?",
+    "answer": "To minimize the physical size of the fact table and improve the speed of join operations during queries.",
+    "explanation": "The fact table contains millions or billions of records. Using short, fixed-length integers instead of long strings (like product names or long addresses) keeps the table compact and optimized for the high-volume scans typical of OLAP."
+  },
+  {
+    "type": "mcq",
+    "question": "Which multidimensional schema is characterized by a 'galaxy' of multiple fact tables that share one or more common dimension tables?",
+    "options": [
+      "Star schema",
+      "Snowflake schema",
+      "Fact constellation schema",
+      "Starnet query model"
+    ],
+    "answer": "Fact constellation schema",
+    "explanation": "A fact constellation (or galaxy schema) allows sophisticated applications to link multiple subjects (e.g., sales and shipping) by sharing dimensions like 'time' or 'item' between different fact tables."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ is a departmental-level subset of corporate-wide data that is confined to a specific group of users, such as marketing or finance.",
+    "answer": "Data Mart",
+    "explanation": "Data marts are smaller in scope and often summarized, making them easier to implement (weeks instead of months) for specific business units compared to a full-scale enterprise data warehouse."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the logical 'Curse of Dimensionality' in the context of data cube computation, and how does it affect the total number of possible cuboids?",
+    "answer": "As the number of dimensions (n) increases, the number of possible cuboids grows exponentially at a rate of 2^n.",
+    "explanation": "In a data cube lattice, every subset of dimensions forms a cuboid. For 10 dimensions, there are 1,024 cuboids; for 20, there are over a million. This exponential growth makes 'full materialization' of the entire cube physically impossible for high-dimensional data."
+  }
+]

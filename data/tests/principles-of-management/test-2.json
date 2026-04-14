@@ -1,0 +1,362 @@
+[
+  {
+    "type": "mcq",
+    "question": "Goal succession refers to:",
+    "options": [
+      "Setting completely new goals without any relation to previous ones",
+      "Replacement of old goals with new goals",
+      "Complete failure to achieve any organizational goal",
+      "Shifting focus from goals to means only"
+    ],
+    "answer": "Replacement of old goals with new goals",
+    "explanation": "Unit 1 clearly defines goal succession as the replacement of old goals by new ones."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a major problem of goal formulation?",
+    "options": [
+      "Goals being too specific and measurable",
+      "Goal displacement",
+      "Goals being reviewed periodically",
+      "Goals matching organizational resources perfectly"
+    ],
+    "answer": "Goal displacement",
+    "explanation": "Unit 1 mentions problems of goal formulation including goal succession and displacement."
+  },
+  {
+    "type": "mcq",
+    "question": "Features of effective organizational goals include:",
+    "options": [
+      "Being vague and flexible for future changes",
+      "Being specific, measurable and attainable",
+      "Ignoring organizational resources and constraints",
+      "Focusing only on short-term targets"
+    ],
+    "answer": "Being specific, measurable and attainable",
+    "explanation": "Unit 1 highlights features of effective organizational goals."
+  },
+  {
+    "type": "mcq",
+    "question": "The process and functions of management are:",
+    "options": [
+      "Only planning and controlling",
+      "Planning, organizing, leading and controlling",
+      "Only decision making and staffing",
+      "Only motivation and communication"
+    ],
+    "answer": "Planning, organizing, leading and controlling",
+    "explanation": "Unit 2 explicitly lists the major functions of management."
+  },
+  {
+    "type": "mcq",
+    "question": "Managerial skills required at top level are mostly:",
+    "options": [
+      "Technical skills",
+      "Human skills",
+      "Conceptual skills",
+      "Operational skills only"
+    ],
+    "answer": "Conceptual skills",
+    "explanation": "Unit 2 discusses managerial skills and their varying importance by hierarchy."
+  },
+  {
+    "type": "mcq",
+    "question": "Which is NOT a type of manager according to managerial hierarchy?",
+    "options": [
+      "Top managers",
+      "Middle managers",
+      "First-line managers",
+      "Staff managers only"
+    ],
+    "answer": "Staff managers only",
+    "explanation": "Unit 2 covers managerial hierarchy: top, middle and first-line managers."
+  },
+  {
+    "type": "mcq",
+    "question": "A major limitation of Classical theory is:",
+    "options": [
+      "It ignores human behaviour completely",
+      "It is too focused on human relations",
+      "It considers only contingency factors",
+      "It is based on quantitative techniques"
+    ],
+    "answer": "It ignores human behaviour completely",
+    "explanation": "Unit 3 discusses contribution and limitation of Classical theory."
+  },
+  {
+    "type": "mcq",
+    "question": "Contingency theory suggests that:",
+    "options": [
+      "There is one best way to manage any organization",
+      "Management approach depends on the situation",
+      "Human relations are the only important factor",
+      "Quantitative tools are always sufficient"
+    ],
+    "answer": "Management approach depends on the situation",
+    "explanation": "Unit 3 highlights Contingency theory as one of the modern management thoughts."
+  },
+  {
+    "type": "mcq",
+    "question": "Learning organization is an emerging management concept that emphasizes:",
+    "options": [
+      "Rigid bureaucratic structure",
+      "Continuous learning and adaptation",
+      "Classical principles only",
+      "Avoiding knowledge management"
+    ],
+    "answer": "Continuous learning and adaptation",
+    "explanation": "Unit 3 lists learning organization as an emerging concept."
+  },
+  {
+    "type": "mcq",
+    "question": "Workforce diversity as an emerging concept mainly deals with:",
+    "options": [
+      "Hiring only local employees",
+      "Managing people from different backgrounds",
+      "Reducing employee participation",
+      "Ignoring cultural differences"
+    ],
+    "answer": "Managing people from different backgrounds",
+    "explanation": "Unit 3 mentions workforce diversity as a key emerging management concept."
+  },
+  {
+    "type": "mcq",
+    "question": "Business environment can be classified into:",
+    "options": [
+      "Only internal environment",
+      "Internal and external environment",
+      "Only economic environment",
+      "Only political environment"
+    ],
+    "answer": "Internal and external environment",
+    "explanation": "Unit 4 clearly states types of business environment – internal and external."
+  },
+  {
+    "type": "mcq",
+    "question": "Social responsibility of business mainly refers to:",
+    "options": [
+      "Maximizing profit only",
+      "Obligation towards society and stakeholders",
+      "Ignoring ethical practices",
+      "Focusing only on government regulations"
+    ],
+    "answer": "Obligation towards society and stakeholders",
+    "explanation": "Unit 4 covers concept and approaches of social responsibility of business."
+  },
+  {
+    "type": "mcq",
+    "question": "Business ethics is concerned with:",
+    "options": [
+      "Only legal compliance",
+      "Moral principles and values in business",
+      "Avoiding all social responsibilities",
+      "Maximizing short-term profit"
+    ],
+    "answer": "Moral principles and values in business",
+    "explanation": "Unit 4 discusses business ethics – meaning and significance."
+  },
+  {
+    "type": "mcq",
+    "question": "Hierarchy of planning includes:",
+    "options": [
+      "Only operational planning",
+      "Strategic, tactical and operational planning",
+      "Only strategic planning",
+      "Only contingency planning"
+    ],
+    "answer": "Strategic, tactical and operational planning",
+    "explanation": "Unit 5 mentions concept, types and hierarchy of planning."
+  },
+  {
+    "type": "mcq",
+    "question": "SWOT analysis is primarily used for:",
+    "options": [
+      "Financial auditing only",
+      "Environmental scanning",
+      "Employee performance appraisal",
+      "Daily operational control"
+    ],
+    "answer": "Environmental scanning",
+    "explanation": "Unit 5 covers environmental scanning and SWOT analysis."
+  },
+  {
+    "type": "mcq",
+    "question": "Decision making under uncertainty means:",
+    "options": [
+      "All outcomes and probabilities are known",
+      "No information about outcomes or probabilities is available",
+      "Only one possible outcome exists",
+      "Complete certainty about future events"
+    ],
+    "answer": "No information about outcomes or probabilities is available",
+    "explanation": "Unit 5 distinguishes decision making under certainty and uncertainty."
+  },
+  {
+    "type": "mcq",
+    "question": "Delegation of authority means:",
+    "options": [
+      "Centralizing all power at top level",
+      "Assigning authority and responsibility to subordinates",
+      "Removing all accountability",
+      "Avoiding decision making"
+    ],
+    "answer": "Assigning authority and responsibility to subordinates",
+    "explanation": "Unit 6 defines delegation of authority – meaning, features, advantages and barriers."
+  },
+  {
+    "type": "mcq",
+    "question": "Centralization refers to:",
+    "options": [
+      "Decision making concentrated at higher levels",
+      "Decision making pushed to lower levels",
+      "Complete departmentalization",
+      "Only mechanistic structure"
+    ],
+    "answer": "Decision making concentrated at higher levels",
+    "explanation": "Unit 6 explains centralization and decentralization – meaning, advantages and disadvantages."
+  },
+  {
+    "type": "mcq",
+    "question": "Matrix organizational structure is a type of:",
+    "options": [
+      "Traditional functional structure",
+      "Modern organizational structure",
+      "Classical mechanistic view",
+      "Simple line organization"
+    ],
+    "answer": "Modern organizational structure",
+    "explanation": "Unit 6 lists types of modern organizational structures – matrix, team and network."
+  },
+  {
+    "type": "mcq",
+    "question": "Mechanistic view of organization is associated with:",
+    "options": [
+      "Highly flexible and adaptive structure",
+      "Rigid, hierarchical and bureaucratic structure",
+      "Team-based and network structure",
+      "Organic and decentralized approach"
+    ],
+    "answer": "Rigid, hierarchical and bureaucratic structure",
+    "explanation": "Unit 6 contrasts organic and mechanistic views of organization."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The replacement of old goals by new goals is known as goal _____.",
+    "answer": "succession",
+    "explanation": "Unit 1 specifically mentions goal succession and displacement."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "_____ skills are most important at the top management level.",
+    "answer": "Conceptual",
+    "explanation": "Unit 2 discusses managerial skills according to hierarchy."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "_____ theory emphasizes that there is no one best way to manage.",
+    "answer": "Contingency",
+    "explanation": "Unit 3 covers Contingency theory."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Business environment consists of _____ and external components.",
+    "answer": "internal",
+    "explanation": "Unit 4 defines types of business environment."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "_____ analysis is a tool used in environmental scanning.",
+    "answer": "SWOT",
+    "explanation": "Unit 5 mentions SWOT analysis."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Delegation of _____ involves assigning both authority and responsibility.",
+    "answer": "authority",
+    "explanation": "Unit 6 defines delegation of authority."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "_____ structure combines functional and project-based departments.",
+    "answer": "Matrix",
+    "explanation": "Unit 6 lists matrix as a modern organizational structure."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Decision making under _____ means complete information is available.",
+    "answer": "certainty",
+    "explanation": "Unit 5 distinguishes certainty and uncertainty in decision making."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "_____ organization is characterized by continuous learning and knowledge sharing.",
+    "answer": "Learning",
+    "explanation": "Unit 3 mentions learning organization as an emerging concept."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Social _____ of business includes obligation towards society.",
+    "answer": "responsibility",
+    "explanation": "Unit 4 covers social responsibility of business."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any four features of effective organizational goals.",
+    "answer": "Effective goals are specific, measurable, attainable, relevant and time-bound. They align with organizational purpose and resources.",
+    "explanation": "Directly tests Unit 1 concept."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between goal succession and goal displacement.",
+    "answer": "Goal succession is replacement of old goals with new ones. Goal displacement occurs when means become ends and original goals are forgotten.",
+    "explanation": "Concept-based question from Unit 1."
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention any three emerging challenges for management.",
+    "answer": "Workforce diversity, globalization, rapid technological change and ethical issues are major emerging challenges.",
+    "explanation": "Unit 2 emerging challenges."
+  },
+  {
+    "type": "short_answer",
+    "question": "State two limitations of Classical management theory.",
+    "answer": "It ignores human behaviour and emotions. It assumes one best way to manage which is not practical in all situations.",
+    "explanation": "Unit 3 contribution and limitation."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of internal and external business environment.",
+    "answer": "Internal environment includes factors within the organization like resources and culture. External environment includes economic, socio-cultural, political and technological factors outside the organization.",
+    "explanation": "Unit 4 core concept."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the importance of planning in management?",
+    "answer": "Planning provides direction, reduces uncertainty, minimizes waste and facilitates control.",
+    "explanation": "Unit 5 importance of planning."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between centralization and decentralization.",
+    "answer": "Centralization keeps decision-making at top level. Decentralization distributes decision-making authority to lower levels.",
+    "explanation": "Unit 6 key concept."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the advantages of delegation of authority?",
+    "answer": "It reduces workload of superiors, develops subordinates, improves decision speed and motivates employees.",
+    "explanation": "Unit 6 advantages of delegation."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain mechanistic and organic views of organization.",
+    "answer": "Mechanistic view is rigid, hierarchical and bureaucratic. Organic view is flexible, adaptive and team-oriented.",
+    "explanation": "Unit 6 concept."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is environmental scanning? Mention one method.",
+    "answer": "Environmental scanning is the process of monitoring and analyzing external factors. One method is SWOT analysis.",
+    "explanation": "Unit 5 concept and methods."
+  }
+]

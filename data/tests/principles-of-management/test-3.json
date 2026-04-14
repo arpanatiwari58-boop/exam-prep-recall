@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Goal succession refers to:",
+    "options": [
+      "The process of achieving organizational goals",
+      "The replacement of one set of goals with another",
+      "The displacement of goals due to external pressure",
+      "The formulation of initial goals only"
+    ],
+    "answer": "The replacement of one set of goals with another",
+    "explanation": "Goal succession involves deliberately replacing old goals with new ones as per changing organizational needs (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "A major problem of goal formulation is:",
+    "options": [
+      "Setting too few goals",
+      "Presence of conflicting goals",
+      "Making goals too realistic",
+      "Limiting goals to short term only"
+    ],
+    "answer": "Presence of conflicting goals",
+    "explanation": "Conflicting goals create confusion and hinder coordinated efforts (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "According to Robert Katz, the managerial skill most important for top-level managers is:",
+    "options": [
+      "Technical skill",
+      "Human skill",
+      "Conceptual skill",
+      "Operational skill"
+    ],
+    "answer": "Conceptual skill",
+    "explanation": "Conceptual skill helps top managers understand the organization as a whole and complex interrelationships (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a decisional role of a manager as per Mintzberg?",
+    "options": [
+      "Figurehead",
+      "Liaison",
+      "Monitor",
+      "Entrepreneur"
+    ],
+    "answer": "Entrepreneur",
+    "explanation": "Decisional roles include entrepreneur, disturbance handler, resource allocator and negotiator (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The Human Relations theory was primarily developed to address the limitations of:",
+    "options": [
+      "System theory",
+      "Contingency theory",
+      "Classical theory",
+      "Management science theory"
+    ],
+    "answer": "Classical theory",
+    "explanation": "It focused on social and psychological aspects ignored by classical theorists (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Contingency theory states that effective management depends on:",
+    "options": [
+      "Universal principles",
+      "The specific situation",
+      "Scientific methods only",
+      "Employee motivation alone"
+    ],
+    "answer": "The specific situation",
+    "explanation": "There is no single best way; it depends on situational factors (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is part of the internal business environment?",
+    "options": [
+      "Economic conditions",
+      "Political stability",
+      "Organizational culture",
+      "Technological advancements"
+    ],
+    "answer": "Organizational culture",
+    "explanation": "Internal environment includes culture, structure and resources while others are external (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Social responsibility of business means obligations towards:",
+    "options": [
+      "Only shareholders",
+      "Only government",
+      "Society at large",
+      "Only customers"
+    ],
+    "answer": "Society at large",
+    "explanation": "It includes ethical and philanthropic duties beyond legal requirements (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "SWOT analysis is primarily used during:",
+    "options": [
+      "Implementation of plans",
+      "Environmental scanning",
+      "Delegation of authority",
+      "Conflict management"
+    ],
+    "answer": "Environmental scanning",
+    "explanation": "It identifies internal strengths/weaknesses and external opportunities/threats (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Decision making under certainty means:",
+    "options": [
+      "No information is available",
+      "Complete information about outcomes is available",
+      "High risk is involved",
+      "Only non-programmed decisions"
+    ],
+    "answer": "Complete information about outcomes is available",
+    "explanation": "All alternatives and consequences are fully known (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Divisional departmentalization is based on:",
+    "options": [
+      "Functions performed",
+      "Products or services offered",
+      "Geographic locations only",
+      "Customer types only"
+    ],
+    "answer": "Products or services offered",
+    "explanation": "It groups activities by product lines, customers or geography (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "One key advantage of decentralization is:",
+    "options": [
+      "Increased top management control",
+      "Faster decision-making at lower levels",
+      "Reduced need for delegation",
+      "More uniform policies across levels"
+    ],
+    "answer": "Faster decision-making at lower levels",
+    "explanation": "It empowers lower levels and improves responsiveness (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Matrix organizational structure combines:",
+    "options": [
+      "Functional and network structures",
+      "Team and mechanistic structures",
+      "Functional and project structures",
+      "Organic and classical structures"
+    ],
+    "answer": "Functional and project structures",
+    "explanation": "It overlays project teams on functional departments for flexibility (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "The trait approach to leadership emphasizes:",
+    "options": [
+      "Leader behaviors",
+      "Situational factors",
+      "Innate personal characteristics of leaders",
+      "Follower participation"
+    ],
+    "answer": "Innate personal characteristics of leaders",
+    "explanation": "It assumes leaders are born with certain traits (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "Functional conflict in organizations is:",
+    "options": [
+      "Always harmful to performance",
+      "Leads to constructive debate and better decisions",
+      "Should be completely eliminated",
+      "Only occurs in top management"
+    ],
+    "answer": "Leads to constructive debate and better decisions",
+    "explanation": "It stimulates creativity and improves decision quality (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The unintended shifting of organizational goals where means become ends is known as goal ________.",
+    "answer": "displacement",
+    "explanation": "Goal displacement occurs when original goals are unintentionally replaced (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ skills refer to the ability to work with people and build teams.",
+    "answer": "Human",
+    "explanation": "Human skills are essential at all management levels (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ theory views the organization as a set of interrelated parts working together.",
+    "answer": "System",
+    "explanation": "System theory is part of modern management thought (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of identifying internal strengths/weaknesses and external opportunities/threats is called ________ analysis.",
+    "answer": "SWOT",
+    "explanation": "SWOT is a key tool in environmental scanning (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the process of assigning authority and responsibility to subordinates.",
+    "answer": "Delegation",
+    "explanation": "Delegation is a core principle of the organizing function (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a ________ organization, authority is concentrated at the top level.",
+    "answer": "centralized",
+    "explanation": "Centralization vs decentralization is a major organizing decision (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ approach to leadership studies what leaders actually do rather than their traits.",
+    "answer": "behavioral",
+    "explanation": "Behavioral approach focuses on observable leader behaviors (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ environment of management includes economic, socio-cultural, political and technological factors.",
+    "answer": "External",
+    "explanation": "External environment affects the organization from outside (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Mintzberg identified three categories of managerial roles: interpersonal, informational and ________.",
+    "answer": "decisional",
+    "explanation": "Decisional roles involve choice and action (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ conflict contributes positively to organizational goals.",
+    "answer": "Functional",
+    "explanation": "Functional conflict leads to innovation and better decisions (Unit 7)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any four features of effective organizational goals.",
+    "answer": "Effective goals are specific, measurable, achievable, relevant and time-bound. They provide direction, motivate employees and act as performance standards.",
+    "explanation": "Directly from Unit 1 syllabus on features of effective organizational goals."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between technical, human and conceptual skills of managers.",
+    "answer": "Technical skills involve job-specific knowledge (lower level). Human skills involve working with people (all levels). Conceptual skills involve seeing the big picture (top level).",
+    "explanation": "Based on Katz’s model in Unit 2."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain the limitations of Classical theory of management.",
+    "answer": "It assumes one best way, ignores human emotions and social needs, treats workers mechanically and does not consider environmental changes.",
+    "explanation": "Key limitations covered in Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is business ethics? Why is it significant?",
+    "answer": "Business ethics are moral principles guiding decisions. It builds trust, improves reputation and ensures long-term sustainability.",
+    "explanation": "From Unit 4 on business ethics and its significance."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the importance of planning in management.",
+    "answer": "Planning provides direction, reduces uncertainty, minimises waste of resources and forms the basis for control.",
+    "explanation": "Core points from Unit 5 on importance of planning."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between centralization and decentralization.",
+    "answer": "Centralization keeps authority at top; decentralization distributes it to lower levels. Centralization ensures uniformity but slows decisions; decentralization improves speed and motivation.",
+    "explanation": "Key comparison from Unit 6."
+  },
+  {
+    "type": "short_answer",
+    "question": "Name and briefly describe two modern organizational structures.",
+    "answer": "Matrix structure combines functional and project departments. Network structure connects independent units through technology for flexibility.",
+    "explanation": "From Unit 6 syllabus on modern structures."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the situational approach to leadership.",
+    "answer": "It states that effective leadership depends on the situation, follower readiness and task requirements. No single style is best in all cases.",
+    "explanation": "Unit 7 leadership approaches."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the types of conflict in organizations?",
+    "answer": "Conflict can be functional (constructive) or dysfunctional (harmful). It may be task-related, relationship-related or process-related.",
+    "explanation": "Directly from Unit 7 on conflict meaning and types."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the process of structuring an organization.",
+    "answer": "It involves identifying tasks, departmentalization, assigning authority/responsibility and establishing coordination mechanisms.",
+    "explanation": "Process of structuring from Unit 6."
+  }
+]

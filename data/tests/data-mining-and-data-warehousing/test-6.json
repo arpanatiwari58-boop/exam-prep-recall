@@ -1,0 +1,98 @@
+[
+  {
+    "type": "mcq",
+    "question": "A retail analyst discovers a 'strong' association rule: {Coke} => {Pepsi} with 40% support and 70% confidence. However, the overall probability of a customer buying Pepsi is 80%. What does 'Lift' reveal about this relationship?",
+    "options": [
+      "The items are positively correlated.",
+      "The items are negatively correlated.",
+      "The items are statistically independent.",
+      "The rule is actionable and interesting."
+    ],
+    "answer": "The items are negatively correlated.",
+    "explanation": "Lift = P(B|A) / P(B). In this case, 0.70 / 0.80 = 0.875. Since Lift < 1, buying Coke actually reduces the likelihood of buying Pepsi compared to a random customer, proving the 'strong' rule is misleading."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In massive retail databases where the majority of transactions contain neither item A nor item B, measures like Lift and Chi-square become unstable; therefore, ________ measures like the Kulczynski or Cosine similarity are logically superior.",
+    "answer": "null-invariant",
+    "explanation": "Null-invariant measures are not influenced by 'null-transactions' (where neither item occurs). This property is essential for finding stable patterns in large, sparse datasets where the total number of transactions fluctuates."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the Apriori property and explain its logical role in pruning the search space during frequent itemset mining.",
+    "answer": "The Apriori property states that all nonempty subsets of a frequent itemset must also be frequent. If any (k-1)-subset of a candidate k-itemset is infrequent, the candidate itself is pruned.",
+    "explanation": "This is an antimonotone property. By identifying an infrequent subset, the algorithm can logically conclude that any superset containing it will also be infrequent, allowing it to discard thousands of potential candidates without scanning the database."
+  },
+  {
+    "type": "mcq",
+    "question": "Why is the ID3 algorithm's use of 'Information Gain' often criticized in TU DWDM exams when applied to attributes like 'Student_ID' or 'National_Code'?",
+    "options": [
+      "It results in extremely shallow and useless trees.",
+      "It is computationally too slow for numeric IDs.",
+      "It is biased toward attributes with a large number of distinct values.",
+      "It cannot handle attributes that are strictly categorical."
+    ],
+    "answer": "It is biased toward attributes with a large number of distinct values.",
+    "explanation": "Information Gain favors attributes that create many small, 'pure' partitions. A unique ID column would create partitions with zero entropy, making it appear to be the 'best' split logically, even though it has zero predictive power."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Naïve Bayesian classification, if a specific attribute value never appears in the training set for a given class, its probability becomes zero; ________ smoothing is applied to prevent this single zero from wiping out the entire product calculation.",
+    "answer": "Laplace",
+    "explanation": "Laplace smoothing (or Laplacian correction) adds a small constant (typically 1) to the count of each attribute value. This ensures that the final probability product is never zero, which would otherwise ignore the evidence provided by all other attributes."
+  },
+  {
+    "type": "short_answer",
+    "question": "When extracting classification rules from a decision tree, explain why the resulting rule set is described as being both 'mutually exclusive' and 'exhaustive'.",
+    "answer": "Mutually exclusive means no two rules will trigger for the same tuple; exhaustive means every possible attribute-value combination is covered by at least one rule.",
+    "explanation": "Because each leaf in the tree represents a unique path from the root, the logical conditions are distinct (exclusive). Since the tree is grown until all possible branches are resolved, the resulting rules cover the entire space of the training data (exhaustive)."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary engineering motivation for choosing the FP-growth algorithm over the Apriori algorithm for large-scale mining?",
+    "options": [
+      "FP-growth uses a vertical data format for faster intersections.",
+      "FP-growth avoids the costly and explosive generation of candidate itemsets.",
+      "FP-growth does not require the user to specify a minimum support threshold.",
+      "FP-growth is better at discovering negative correlation rules."
+    ],
+    "answer": "FP-growth avoids the costly and explosive generation of candidate itemsets.",
+    "explanation": "FP-growth compresses the database into an FP-tree structure and mines it using pattern fragment growth. This 'divide-and-conquer' strategy eliminates the need to generate and check millions of candidate itemsets level-by-level."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ measure is defined as the harmonic mean of precision and recall, serving as a balanced evaluation metric particularly when the class of interest is rare (class imbalance).",
+    "answer": "F (or F-measure)",
+    "explanation": "Unlike simple accuracy, the F-measure combines precision (how many detected are correct) and recall (how many actuals were detected) to provide a more realistic assessment for skewed data like fraud detection or medical diagnosis."
+  },
+  {
+    "type": "short_answer",
+    "question": "In the context of Support Vector Machines (SVM), what is the 'Maximal Marginal Hyperplane' and why is it logically preferred over other separating boundaries?",
+    "answer": "It is the hyperplane that separates classes with the widest possible margin (distance to the nearest support vectors). It is preferred because a larger margin provides better generalization accuracy on unseen data.",
+    "explanation": "An SVM seeks to find the 'safest' boundary. By maximizing the margin, the model is less sensitive to minor noise in the data and is statistically more likely to classify future tuples correctly compared to a boundary that is close to the data points."
+  },
+  {
+    "type": "mcq",
+    "question": "A student builds a classifier that achieves 99% accuracy on the training data but only 65% accuracy on the test data. This is a classic example of:",
+    "options": [
+      "Underfitting due to a high learning rate.",
+      "The 'Curse of Dimensionality'.",
+      "Overfitting due to over-specialization on training noise.",
+      "Class imbalance leading to skewed sensitivity."
+    ],
+    "answer": "Overfitting due to over-specialization on training noise.",
+    "explanation": "Overfitting occurs when a model learns the specific anomalies and noise of the training set rather than the general concept. This results in a model that performs perfectly on known data but fails to generalize to the independent test set."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In multilevel association mining, the ________ support approach applies the same minimum threshold to every level, which often results in many 'common sense' patterns at high levels and very few patterns at low levels.",
+    "answer": "uniform",
+    "explanation": "Uniform support is simple but flawed. Items at the top of a hierarchy (e.g., 'Dairy') occur much more often than items at the bottom (e.g., 'Milk Brand X'). To find deep patterns, a 'reduced' support approach for lower levels is usually required."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the logic of 'k-fold cross-validation' and why it is more robust than a simple 'holdout' method for small datasets.",
+    "answer": "The data is partitioned into k subsets. The model is trained k times, each time using one subset for testing and the others for training. The average result is taken as the final accuracy estimate.",
+    "explanation": "The simple holdout method is sensitive to the luck of the split. K-fold cross-validation is more robust because every single data tuple is used for testing exactly once and for training (k-1) times, minimizing the variance of the accuracy estimate."
+  }
+]

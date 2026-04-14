@@ -1,0 +1,98 @@
+[
+  {
+    "type": "mcq",
+    "question": "A dataset contains an attribute with several extreme outliers. If you must normalize this data but the actual minimum and maximum values are unknown for future inputs, which method is mathematically most robust?",
+    "options": [
+      "Min-max normalization",
+      "Normalization by decimal scaling",
+      "Z-score normalization using mean absolute deviation",
+      "Simple scaling by attribute mean"
+    ],
+    "answer": "Z-score normalization using mean absolute deviation",
+    "explanation": "Z-score normalization is preferred when min/max are unknown or outliers are present. Using mean absolute deviation instead of standard deviation further enhances robustness against extreme values that would otherwise inflate the variance."
+  },
+  {
+    "type": "mcq",
+    "question": "In Attribute-Oriented Induction (AOI), if a specific attribute (e.g., 'social_security_number') has 5,000 distinct values and no concept hierarchy is provided, what is the logically required action during the induction process?",
+    "options": [
+      "Retain it as a key attribute",
+      "Perform discretization using equal-width binning",
+      "Remove the attribute from the working relation",
+      "Generalize it to the 'all' level using a default hierarchy"
+    ],
+    "answer": "Remove the attribute from the working relation",
+    "explanation": "According to the AOI attribute removal rule, if there is a large set of distinct values for an attribute but no generalization operator/hierarchy is defined, the attribute must be removed to avoid generating non-concise rules."
+  },
+  {
+    "type": "mcq",
+    "question": "During data integration, you detect that 'salary' and 'tax_paid' are highly correlated. However, you suspect a 'hidden' third factor is causing this. This logical trap in redundancy analysis is best explained by which concept?",
+    "options": [
+      "The Entity Identification Problem",
+      "Attribute Subset Selection",
+      "The Causality Paradox",
+      "Correlation does not imply causality"
+    ],
+    "answer": "Correlation does not imply causality",
+    "explanation": "Two attributes may show high correlation not because one causes the other, but because they are both influenced by a third hidden factor (like 'job level'). Standard redundancy tests cannot detect this underlying logic."
+  },
+  {
+    "type": "mcq",
+    "question": "An analyst is implementing 'Partial Materialization' for a data cube with 15 dimensions. What is the primary engineering motivation for avoiding 'Full Materialization' in this high-dimensional scenario?",
+    "options": [
+      "The Curse of Dimensionality resulting in 2^n cuboids",
+      "The inability to perform drill-down on fully materialized cubes",
+      "Iceberg conditions becoming invalid",
+      "The loss of data granularity in the base cuboid"
+    ],
+    "answer": "The Curse of Dimensionality resulting in 2^n cuboids",
+    "explanation": "Full materialization of an n-dimensional cube requires computing 2 to the power of n cuboids. For 15 dimensions, this is over 32,000 cuboids, leading to an exponential explosion in storage and processing time."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the context of data cleaning, the process of smoothing by _______ boundaries replaces each value in a bin with its closest boundary value (minimum or maximum) to reduce the effect of noise.",
+    "answer": "bin",
+    "explanation": "Smoothing by bin boundaries is a technique where each value in a bin is replaced by the closest boundary value, effectively reducing local variance caused by noise."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A(n) _______ cube is a partially materialized data cube that stores only those cells whose aggregate values (like count) satisfy a user-specified minimum support threshold.",
+    "answer": "iceberg",
+    "explanation": "Iceberg cubes save space by only materializing 'interesting' cells that meet a certain threshold, similar to the 'tip of an iceberg'."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "During data reduction, _______ sampling is used when the data are skewed, ensuring that the rare 'positive' class is equally represented in the reduced sample compared to the 'negative' class.",
+    "answer": "stratified",
+    "explanation": "Stratified sampling partitions the data into 'strata' (like classes) and then takes samples from each to ensure representative distribution, especially for imbalanced datasets."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a data cube lattice, the _______ cuboid represents the most detailed level of data, while the _______ cuboid represents the highest level of summarization.",
+    "answer": "base, apex",
+    "explanation": "The base cuboid contains all dimensions at their lowest abstraction level; the apex cuboid (or 'all') contains the single most generalized aggregate."
+  },
+  {
+    "type": "short_answer",
+    "question": "Compare the 'Greedy' approach used in Attribute Subset Selection (like Stepwise Forward Selection) with an exhaustive search. Why is the greedy approach considered the only feasible 'stamina' choice for high-dimensional data?",
+    "answer": "Greedy search makes locally optimal choices to find a subset in polynomial time, whereas exhaustive search is exponential (2^n).",
+    "explanation": "For n attributes, there are 2^n possible subsets. An exhaustive search is computationally impossible for large n. Greedy methods like forward selection or backward elimination provide a logical compromise by selecting the 'best' attribute at each step without checking all combinations."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the logic of 'Synchronous Generalization' in Unit 4's mining of class comparisons. Why is it unfair to compare a target class at the 'City' level with a contrasting class at the 'Country' level?",
+    "answer": "Synchronous generalization ensures classes are compared at the same conceptual abstraction level to provide a balanced and meaningful analysis.",
+    "explanation": "If the target class (e.g., 'Science Students') is at the 'City' level and the contrasting class ('Arts Students') is at the 'Country' level, the comparison is logically skewed. Both must be moved to the same level in the hierarchy simultaneously for the result to be statistically valid."
+  },
+  {
+    "type": "short_answer",
+    "question": "In Data Transformation, when is 'Decimal Scaling' preferred over 'Min-Max' normalization? Consider a scenario where new data values arrive that may exceed the original range.",
+    "answer": "Decimal scaling is preferred when min-max would cause an 'out-of-bounds' error for future inputs exceeding the initial range.",
+    "explanation": "Min-max normalization strictly bounds data to [0.0, 1.0] based on current min/max. If a future value is larger than the recorded max, it breaks the formula. Decimal scaling only depends on the number of digits, allowing for a broader range of future values."
+  },
+  {
+    "type": "short_answer",
+    "question": "Distinguish between 'User Control' in OLAP and 'Automation' in Attribute-Oriented Induction (AOI). Why might a knowledge worker prefer AOI over manual OLAP operations?",
+    "answer": "OLAP is user-guided (manual roll-up/drill-down), whereas AOI is system-guided and automated based on attribute thresholds.",
+    "explanation": "OLAP requires the user to know which dimensions to explore and in what order. AOI automatically identifies relevant attributes and generalizes them until a specific 'threshold' of distinct values is reached, reducing the manual labor of exploring large multidimensional spaces."
+  }
+]
