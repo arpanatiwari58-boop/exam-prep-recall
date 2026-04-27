@@ -14,21 +14,21 @@ export const SPACING_INTERVALS = [1, 3, 7, 21, 45];
 export interface StudySession {
   id: string; // Unique document ID in Firebase
   userId: string; // Which user this belongs to
-
+  
   // Subject Info
   subjectId: string; // e.g. "pom" or "dwdm"
   subjectName: string; // e.g. "Principles of Management"
   topicTitle: string; // e.g. "Unit 1: Planning"
-
+  
   // Timestamps
   createdAt: number; // When they first read it (Unix timestamp)
   lastReviewedAt: number; // When they last completed a review
   nextReviewDate: number; // The exact date/time they need to review it next
-
+  
   // Spaced Repetition State
   currentStep: number; // Starts at 0, goes up as they complete reviews
   status: "learning" | "reviewing" | "mastered"; // 'mastered' when they finish all steps
-
+  
   // Optional: Keep a log of their reviews
   history: {
     reviewedAt: number;
@@ -54,7 +54,7 @@ export const mockStudySessions: StudySession[] = [
     subjectId: "pom",
     subjectName: "Principles of Management",
     topicTitle: "Unit 1: Introduction to Management",
-    createdAt: NOW - 2 * DAY_MS,
+    createdAt: NOW - 2 * DAY_MS, 
     lastReviewedAt: NOW - 2 * DAY_MS,
     nextReviewDate: NOW - 0.5 * DAY_MS, // Was due 12 hours ago -> OVERDUE/DUE
     currentStep: 0, // Needs their 1-day review
@@ -113,11 +113,11 @@ export function getReviewStatus(nextReviewDate: number): "due" | "upcoming" {
 export function formatNextReviewDate(nextReviewDate: number): string {
   const now = new Date();
   const next = new Date(nextReviewDate);
-
+  
   // Normalize to start of day for accurate day differences
   now.setHours(0, 0, 0, 0);
   next.setHours(0, 0, 0, 0);
-
+  
   const diffMs = next.getTime() - now.getTime();
   const diffDays = Math.round(diffMs / DAY_MS);
 
@@ -132,12 +132,12 @@ export function getProgressStats(session: StudySession) {
   const stepIndex = Math.min(session.currentStep, SPACING_INTERVALS.length - 1);
   const targetDays = SPACING_INTERVALS[stepIndex] || 1;
   const elapsedMs = Date.now() - session.lastReviewedAt;
-
+  
   // Calculate which day of the interval we are currently on (minimum Day 1)
   const elapsedDays = Math.max(0, Math.floor(elapsedMs / DAY_MS));
   // Cap current day at the target days plus maybe 1 for overdue visual
   const currentDay = Math.min(elapsedDays + 1, targetDays);
-
+  
   const percentage = Math.min(100, Math.round((currentDay / targetDays) * 100));
 
   return { currentDay, targetDays, percentage };
@@ -154,17 +154,17 @@ export async function addStudySession(
   subjectName: string,
   topicTitle: string
 ) {
-  const twoDaysAgo = Date.now() - 2 * DAY_MS; // Backdate to 2 days ago
-  const nextReviewDate = twoDaysAgo + SPACING_INTERVALS[0] * DAY_MS; // 2 days ago + 1 day = 1 day ago (immediately due)
+  const now = Date.now();
+  const nextReviewDate = now + SPACING_INTERVALS[0] * DAY_MS;
 
   const newSession: Omit<StudySession, "id"> = {
     userId,
     subjectId,
     subjectName,
     topicTitle,
-    createdAt: twoDaysAgo,      // Backdated: 2 days ago
-    lastReviewedAt: twoDaysAgo, // Backdated: 2 days ago
-    nextReviewDate,             // = 1 day ago → shows as Overdue immediately
+    createdAt: now,
+    lastReviewedAt: now,
+    nextReviewDate,
     currentStep: 0,
     status: "learning",
     history: []
@@ -178,9 +178,9 @@ export async function completeReviewSession(session: StudySession) {
   const now = Date.now();
   const nextStep = session.currentStep + 1;
   const isMastered = nextStep >= SPACING_INTERVALS.length;
-
+  
   // Calculate next interval. If mastered, stretch it far out or keep static.
-  const intervalDays = isMastered
+  const intervalDays = isMastered 
     ? 365 // Practically push it out a year once perfected
     : SPACING_INTERVALS[nextStep];
 
