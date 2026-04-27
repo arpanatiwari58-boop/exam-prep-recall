@@ -1,0 +1,326 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which of the following describes a 'Maximal Frequent Itemset' in relation to a 'Closed Frequent Itemset'?",
+    "options": [
+      "Every closed frequent itemset is also a maximal frequent itemset.",
+      "A maximal frequent itemset is always a closed frequent itemset.",
+      "Maximal frequent itemsets preserve the exact support counts of all their subsets.",
+      "A closed itemset has no frequent super-itemsets."
+    ],
+    "answer": "A maximal frequent itemset is always a closed frequent itemset.",
+    "explanation": "By definition, a maximal frequent itemset has no frequent super-itemsets. This implies there is no proper super-itemset with the same support (as any super-itemset would be infrequent), making it also closed.,"
+  },
+  {
+    "type": "mcq",
+    "question": "In a multilayer feed-forward neural network, the 'Squashing Function' (like the sigmoid function) is used to:",
+    "options": [
+      "Reduce the number of input dimensions to the hidden layer.",
+      "Map the net input of a unit to a range between 0 and 1.",
+      "Ensure the weights and biases are initialized to zero.",
+      "Calculate the error between the predicted and target class."
+    ],
+    "answer": "Map the net input of a unit to a range between 0 and 1.",
+    "explanation": "The sigmoid (squashing) function is used in backpropagation to map a large range of input values into a small range of to represent the output of a neuron.,"
+  },
+  {
+    "type": "mcq",
+    "question": "Which strategy is used in mining multilevel association rules to avoid losing interesting patterns at lower abstraction levels?",
+    "options": [
+      "Uniform Support",
+      "Reduced Support",
+      "Full Materialization",
+      "Attribute Removal"
+    ],
+    "answer": "Reduced Support",
+    "explanation": "Reduced support applies lower minimum support thresholds at deeper levels of the hierarchy, acknowledging that lower-level items occur less frequently.,"
+  },
+  {
+    "type": "mcq",
+    "question": "During the FP-growth algorithm, the 'Conditional Pattern Base' for a specific item is derived from:",
+    "options": [
+      "The set of all items that are infrequent in the database.",
+      "The set of prefix paths in the FP-tree that co-occur with that item.",
+      "The candidate k-itemsets generated in the previous pass.",
+      "The sorted list of frequent items in descending order."
+    ],
+    "answer": "The set of prefix paths in the FP-tree that co-occur with that item.",
+    "explanation": "FP-growth mines the FP-tree by building a conditional pattern base for each frequent item, which consists of prefix paths leading to that item in the tree.,"
+  },
+  {
+    "type": "mcq",
+    "question": "In Attribute-Oriented Induction (AOI), if a resulting relation contains more tuples than a specified limit, which control mechanism is triggered?",
+    "options": [
+      "Attribute Removal Threshold",
+      "Generalized Relation Threshold",
+      "Minimum Support Threshold",
+      "Information Gain Ratio"
+    ],
+    "answer": "Generalized Relation Threshold",
+    "explanation": "Generalized relation threshold control ensures the summary is concise; if the number of tuples exceeds the threshold, further generalization is performed."
+  },
+  {
+    "type": "mcq",
+    "question": "Which evaluation metric is defined as the harmonic mean of precision and recall?",
+    "options": [
+      "Sensitivity",
+      "Specificity",
+      "F-measure (F1)",
+      "Accuracy"
+    ],
+    "answer": "F-measure (F1)",
+    "explanation": "The F-measure (or F1 score) provides a single value by taking the harmonic mean of precision and recall, giving equal weight to both.,"
+  },
+  {
+    "type": "mcq",
+    "question": "A 'Fact Constellation' schema is best described as a schema that:",
+    "options": [
+      "Normalizes all dimension tables to reduce redundancy.",
+      "Consists of a single fact table with a set of non-normalized dimensions.",
+      "Contains multiple fact tables that share the same dimension tables.",
+      "Represents a concept hierarchy for a single attribute."
+    ],
+    "answer": "Contains multiple fact tables that share the same dimension tables.",
+    "explanation": "A fact constellation (or galaxy schema) allows multiple fact tables to share dimensions, making it suitable for complex data warehousing needs."
+  },
+  {
+    "type": "mcq",
+    "question": "A medical test result (Positive/Negative) where the occurrence of a positive result is significantly more important than a negative one is categorized as which type of attribute?",
+    "options": [
+      "Symmetric binary attribute",
+      "Asymmetric binary attribute",
+      "Ordinal attribute",
+      "Nominal attribute"
+    ],
+    "answer": "Asymmetric binary attribute",
+    "explanation": "A binary attribute is asymmetric if the outcomes are not equally important, such as a medical test where a 'positive' result is the primary focus of interest."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following data warehouse schemas is specifically designed to handle sophisticated applications where multiple fact tables share dimension tables?",
+    "options": [
+      "Star Schema",
+      "Snowflake Schema",
+      "Fact Constellation Schema",
+      "Star-net Query Model"
+    ],
+    "answer": "Fact Constellation Schema",
+    "explanation": "A fact constellation (or galaxy schema) allows multiple fact tables to share the same dimension tables, making it suitable for complex business requirements."
+  },
+  {
+    "type": "mcq",
+    "question": "During the data cleaning process, which technique uses linear or multiple linear equations to find a 'best-fit' line to represent the relationship between attributes for smoothing?",
+    "options": [
+      "Binning",
+      "Clustering",
+      "Regression",
+      "Attribute Construction"
+    ],
+    "answer": "Regression",
+    "explanation": "Regression allows one attribute to be modeled as a function of another, which helps in smoothing out noisy data by finding a mathematical best-fit relationship."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data mining functionality is responsible for comparing a target class with one or more contrasting classes to find distinguishing features?",
+    "options": [
+      "Data Characterization",
+      "Data Discrimination",
+      "Association Analysis",
+      "Outlier Analysis"
+    ],
+    "answer": "Data Discrimination",
+    "explanation": "Data discrimination provides descriptions comparing two or more data collections, specifically contrasting a target class against reference classes."
+  },
+  {
+    "type": "mcq",
+    "question": "When the mean of a numeric distribution is greater than the median, the distribution is said to be:",
+    "options": [
+      "Negatively skewed",
+      "Positively skewed",
+      "Symmetric",
+      "Normal"
+    ],
+    "answer": "Positively skewed",
+    "explanation": "In a positively skewed distribution, the mode is smaller than the median, and the mean is generally the largest because it is pulled by extreme values in the higher range."
+  },
+  {
+    "type": "mcq",
+    "question": "Which form of data reduction replaces the original data volume with alternative, smaller forms such as parametric models (e.g., log-linear models)?",
+    "options": [
+      "Dimensionality Reduction",
+      "Numerosity Reduction",
+      "Data Compression",
+      "Data Discretization"
+    ],
+    "answer": "Numerosity Reduction",
+    "explanation": "Numerosity reduction reduces data volume by using alternative, smaller forms of data representation like parametric models or nonparametric models like sampling."
+  },
+  {
+    "type": "mcq",
+    "question": "Which normalization technique is most appropriate when the actual minimum and maximum values of an attribute are unknown or when outliers are present?",
+    "options": [
+      "Min-Max Normalization",
+      "Z-score Normalization",
+      "Decimal Scaling",
+      "Attribute Transformation"
+    ],
+    "answer": "Z-score Normalization",
+    "explanation": "Z-score normalization uses the mean and standard deviation, making it more robust against outliers than Min-Max normalization, which is sensitive to extreme min/max values."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the significance of 'Null-invariance' in pattern evaluation measures like the Kulczynski measure.",
+    "answer": "A measure is null-invariant if its value is not influenced by the number of 'null-transactions' (transactions that contain none of the items being studied). This is critical for large datasets where the count of null-transactions can be huge and mislead measures like Lift or Chi-square.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is the FP-growth algorithm considered more efficient than the Apriori algorithm?",
+    "answer": "FP-growth eliminates the need for the costly 'candidate generation-and-test' step. It uses a compressed FP-tree structure and a divide-and-conquer approach to mine frequent itemsets directly through suffix growth.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between 'Class Characterization' and 'Class Comparison' as defined in Unit 4.",
+    "answer": "Class characterization summarizes the general features of a single target class (e.g., Science Students). Class comparison (discrimination) instead contrasts the target class against one or more contrasting classes (e.g., Science vs. Arts Students) at the same abstraction levels.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'Rule Coverage' and 'Rule Accuracy' in the context of a rule-based classifier.",
+    "answer": "Rule coverage is the percentage of total tuples in a dataset that satisfy the IF-part (antecedent) of the rule. Rule accuracy is the percentage of those covered tuples that are correctly classified by the THEN-part (consequent).",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the relationship between 'Underfitting' and 'Overfitting' in classification models.",
+    "answer": "Underfitting occurs when a model is too simple to capture the underlying data patterns. Overfitting occurs when a model is too complex and captures noise or random fluctuations in training data, resulting in poor generalization to test data.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the 'Class Conditional Independence' assumption in Naive Bayesian classification?",
+    "answer": "It assumes that the effect of an attribute value on a given class is independent of the values of other attributes. This simplifies computation by allowing class-conditional probabilities to be calculated as the product of individual attribute probabilities.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "How are IF-THEN rules extracted from a decision tree ensuring that the resulting rules are exhaustive?",
+    "answer": "Rules are extracted by tracing every possible path from the root node to every leaf node. Since the tree covers all attribute combinations seen in the data and every path leads to a leaf, the resulting rule set is exhaustive.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the 'Attribute Removal Rule' in Attribute-Oriented Induction.",
+    "answer": "If an attribute has a large set of distinct values in the initial working relation but has no defined concept hierarchy (generalization operator), it should be removed because it cannot be summarized concisely.,",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between the 'Subject-Oriented' and 'Application-Oriented' characteristics of databases.",
+    "answer": "Operational databases are application-oriented, focusing on daily functional areas. Data warehouses are subject-oriented, organized around major business themes like sales or customers to aid decision-making.",
+    "explanation": "Contrasts the orientation of OLTP and OLAP systems."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain 'Data Characterization' with a brief example from a retail context.",
+    "answer": "Data characterization summarizes a target class. For example, characterizing 'loyal customers' might produce a profile like: 'Customers aged 30-40 who spend over $500 monthly'.",
+    "explanation": "Uses a retail example to define the summarization of a target class."
+  },
+  {
+    "type": "short_answer",
+    "question": "How do 'Believability' and 'Interpretability' impact data quality assessment?",
+    "answer": "Believability is the user's trust in data accuracy, while interpretability is how easily the data can be understood. High quality requires data that is both trusted and understandable.",
+    "explanation": "Defines two subjective dimensions of data quality."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the components of the 'Five-number summary' in statistical description.",
+    "answer": "The summary consists of the minimum value, the first quartile (Q1), the median (Q2), the third quartile (Q3), and the maximum value of a distribution.",
+    "explanation": "Lists the five metrics used for concisely describing data dispersion."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'Attribute Subset Selection' and state why it is beneficial for mining.",
+    "answer": "It removes irrelevant or redundant attributes to find a minimum set of representative features. This reduces data size, improves mining efficiency, and makes results easier to interpret.",
+    "explanation": "Connects feature selection to mining performance."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is 'Concept Hierarchy Generation for Nominal Data'?",
+    "answer": "It generalizes nominal attributes into higher levels of abstraction (e.g., Street < City < Country) based on schema definitions or distinct value counts per attribute.",
+    "explanation": "Defines hierarchical transformation for categorical attributes."
+  },
+  {
+    "type": "short_answer",
+    "question": "Distinguish between 'Slice' and 'Dice' OLAP operations.",
+    "answer": "A slice operation performs selection on only one dimension of a cube to create a subcube. A dice operation performs selection on two or more dimensions simultaneously.",
+    "explanation": "Clarifies the difference in dimensionality selection for subcubes."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is 'Correlation Analysis' performed during the data integration step?",
+    "answer": "It measures how strongly one attribute implies another. Identifying high correlation allows the removal of redundant attributes, preventing them from slowing down or confusing the mining process.",
+    "explanation": "Links statistical correlation to the goal of reducing redundancy."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Bayesian classification, the technique used to avoid the zero-probability problem for attribute values not present in training data is called ______.",
+    "answer": "Laplace smoothing",
+    "explanation": "Also known as the Laplacian correction, it adds a small constant to each count to ensure no conditional probability is zero.,"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ______ is a lossy compression of a data cube that precomputes only cuboids involving a small number of dimensions (typically 3 to 5).",
+    "answer": "shell cube",
+    "explanation": "Shell cubes precompute small-dimensional fragments to handle the storage explosion in high-dimensional data spaces.,"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In SVM classification, the optimal separating hyperplane is called the ______.",
+    "answer": "Maximum Marginal Hyperplane",
+    "explanation": "The MMH is the hyperplane that provides the greatest separation (margin) between two classes.,"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ______ algorithm updates the weights and biases of a neural network by propagating errors from the output layer toward the input layer.",
+    "answer": "backpropagation",
+    "explanation": "Backpropagation uses gradient descent to minimize error by adjusting weights in reverse order through the network.,"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ______ test is a statistical method used to determine if there is a significant difference between the error rates of two classifiers.",
+    "answer": "McNemar's",
+    "explanation": "McNemar’s test is specifically required by the TU syllabus for comparing the performance of two classifiers on the same test set.,"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ warehouse is a set of views over operational databases that provides a unified schema without physically storing the integrated data.",
+    "answer": "Virtual",
+    "explanation": "A virtual warehouse is only as effective as the underlying operational system because it is merely a set of views and does not physically house data."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the KDD process, the phase where visualization and knowledge representation are used to show the discovered patterns to the user is ________.",
+    "answer": "Knowledge Presentation",
+    "explanation": "Knowledge presentation is the final step of KDD where the results are visualized or represented for user interpretation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ problem in data integration involves determining whether 'cust_id' in one database refers to the same real-world entity as 'customer_no' in another.",
+    "answer": "Entity Identification",
+    "explanation": "This problem arises when matching schemas from multiple heterogeneous data sources during integration."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ is an object in a database that carries semantic information and co-occurs with at least one frequent pattern in at least one transaction.",
+    "answer": "Context Unit",
+    "explanation": "Context units are basic objects, like items or patterns, used to model the semantic context for annotations."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The property of a data warehouse that implies data is never deleted or changed once it is entered is known as ________.",
+    "answer": "Non-volatile",
+    "explanation": "Non-volatile means the warehouse is physically separate from the operational environment and is generally not updated or deleted."
+  }
+]

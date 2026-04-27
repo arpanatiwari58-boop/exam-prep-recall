@@ -1,0 +1,290 @@
+[
+  {
+    "type": "mcq",
+    "question": "In a three-tier data warehouse architecture, the middle tier is primarily responsible for which of the following?",
+    "options": [
+      "Storing the physical detailed data in an RDBMS",
+      "Providing front-end tools for reporting and data mining",
+      "Implementing the OLAP server for multidimensional analysis",
+      "Extracting data from various operational heterogeneous sources"
+    ],
+    "answer": "Implementing the OLAP server for multidimensional analysis",
+    "explanation": "The middle tier typically consists of an OLAP server (ROLAP or MOLAP) that provides a multidimensional view of the data for the top-tier tools."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is considered a 'Symmetric' binary attribute?",
+    "options": [
+      "Medical test result (Positive/Negative)",
+      "Gender (Male/Female)",
+      "Smoker status (Yes/No)",
+      "HIV test outcome (Reactive/Non-reactive)"
+    ],
+    "answer": "Gender (Male/Female)",
+    "explanation": "A binary attribute is symmetric if both states are equally valuable and carry the short_answerme weight, with no preference on which is coded as 0 or 1."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data reduction strategy replaces the original data volume with alternative, smaller forms such as parametric models (e.g., regression) or non-parametric models (e.g., histograms)?",
+    "options": [
+      "Dimensionality Reduction",
+      "Data Compression",
+      "Numerosity Reduction",
+      "Data Discretization"
+    ],
+    "answer": "Numerosity Reduction",
+    "explanation": "Numerosity reduction reduces data volume by choosing alternative, smaller forms of data representation, such as models or short_answermpling."
+  },
+  {
+    "type": "mcq",
+    "question": "In a positively skewed distribution, what is the typical relationship between the three measures of central tendency?",
+    "options": [
+      "Mean = Median = Mode",
+      "Mode < Median < Mean",
+      "Mean < Median < Mode",
+      "Median < Mode < Mean"
+    ],
+    "answer": "Mode < Median < Mean",
+    "explanation": "In a positively skewed distribution, the mode occurs at a value smaller than the median, and the mean is generally the largest due to the influence of higher extreme values."
+  },
+  {
+    "type": "mcq",
+    "question": "A schema that allows multiple fact tables to share dimension tables, essentially forming a 'collection of stars,' is known as a:",
+    "options": [
+      "Snowflake Schema",
+      "Starnet Query Model",
+      "Fact Constellation Schema",
+      "Enterprise Data Warehouse"
+    ],
+    "answer": "Fact Constellation Schema",
+    "explanation": "A fact constellation (or galaxy schema) is used for sophisticated applications where multiple fact tables share dimension tables."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data discretization technique facilitates the generation of a concept hierarchy by climbing up the tree from cities to countries?",
+    "options": [
+      "Binning",
+      "Histogram Analysis",
+      "Concept Hierarchy Generation for Nominal Data",
+      "Principal Component Analysis"
+    ],
+    "answer": "Concept Hierarchy Generation for Nominal Data",
+    "explanation": "Nominal attributes can be generalized to higher-level concepts (e.g., City -> Province -> Country) based on schema definitions or distinct value counts."
+  },
+  {
+    "type": "mcq",
+    "question": "In the KDD process, which step involves using visualization and knowledge representation techniques to show the discovered patterns to the user?",
+    "options": [
+      "Data Transformation",
+      "Pattern Evaluation",
+      "Knowledge Presentation",
+      "Data Selection"
+    ],
+    "answer": "Knowledge Presentation",
+    "explanation": "Knowledge presentation is the final step where the mined results are visualized or represented for user interpretation."
+  },
+  {
+    "type": "mcq",
+    "question": "A data cube that stores only those aggregate cells whose measure values short_answertisfy a specific minimum support threshold is known as a(n):",
+    "options": [
+      "Full Materialized Cube",
+      "Iceberg Cube",
+      "Shell Cube",
+      "Closed Cube"
+    ],
+    "answer": "Iceberg Cube",
+    "explanation": "Iceberg cubes are designed to avoid the 'curse of dimensionality' by materializing only the cells that meet a user-specified condition, typically for support counting."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is the primary advantage of the FP-growth algorithm over the Apriori algorithm during frequent itemset mining?",
+    "options": [
+      "It generates a smaller number of candidate itemsets.",
+      "It requires only one database scan.",
+      "It completely eliminates the need for candidate generation.",
+      "It utilizes a vertical data format for faster intersections."
+    ],
+    "answer": "It completely eliminates the need for candidate generation.",
+    "explanation": "FP-growth uses a divide-and-conquer strategy to compress the database into an FP-tree and grow patterns directly, avoiding the costly candidate generation-and-test step found in Apriori."
+  },
+  {
+    "type": "mcq",
+    "question": "In the context of pattern evaluation, what does a 'Lift' value of 0.8 between itemsets A and B indicate?",
+    "options": [
+      "A and B are positively correlated.",
+      "A and B are independent.",
+      "A and B are negatively correlated.",
+      "A and B occur together more often than expected."
+    ],
+    "answer": "A and B are negatively correlated.",
+    "explanation": "A Lift value less than 1 implies that the occurrence of one itemset is negatively correlated with the occurrence of the other, meaning one tends to exclude the other."
+  },
+  {
+    "type": "mcq",
+    "question": "The Naive Bayesian classifier is called 'Naive' because it makes which of the following assumptions?",
+    "options": [
+      "The class labels are always uniformly distributed.",
+      "All attributes are conditionally independent of each other given the class label.",
+      "The training data is free of noise and missing values.",
+      "The decision boundary is always a linear hyperplane."
+    ],
+    "answer": "All attributes are conditionally independent of each other given the class label.",
+    "explanation": "The assumption of class-conditional independence simplifies computation by assuming that the effect of an attribute's value on a given class is independent of the values of other attributes."
+  },
+  {
+    "type": "mcq",
+    "question": "During the construction of a Decision Tree, the ID3 algorithm uses which attribute selection measure?",
+    "options": [
+      "Gini Index",
+      "Gain Ratio",
+      "Information Gain",
+      "Misclassification Rate"
+    ],
+    "answer": "Information Gain",
+    "explanation": "ID3 uses Information Gain, which is based on entropy, to select the attribute that best partitions the data into distinct classes."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary role of 'Support Vectors' in a Support Vector Machine (SVM)?",
+    "options": [
+      "They are outliers that should be removed to prevent overfitting.",
+      "They are the training tuples that define the maximum marginal hyperplane.",
+      "They are the weights assigned to the hidden layers in backpropagation.",
+      "They are used to normalize the data into a range of [0.0, 1.0]."
+    ],
+    "answer": "They are the training tuples that define the maximum marginal hyperplane.",
+    "explanation": "Support vectors are the essential training tuples that lie on the edge of the margin and are used to mathematically define the optimal decision boundary."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following describes the phenomenon where a classifier performs exceptionally well on training data but fails to generalize to unseen test data?",
+    "options": [
+      "Underfitting",
+      "Feature Selection",
+      "Overfitting",
+      "Data Normalization"
+    ],
+    "answer": "Overfitting",
+    "explanation": "Overfitting occurs when a model is too complex and captures noise or random fluctuations in the training data rather than the underlying pattern."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ data mart is sourced directly from an Enterprise Data Warehouse (EDW) rather than operational systems.",
+    "answer": "Dependent",
+    "explanation": "Dependent data marts are subsets of corporate-wide data sourced directly from the central warehouse."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Normalization by ________ maps a value into a new range by moving the decimal point of the attribute values.",
+    "answer": "Decimal Scaling",
+    "explanation": "Decimal scaling normalizes by moving the decimal point based on the maximum absolute value of the attribute."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In data cleaning, ________ missing data occurs when a user purposely selects a default value (like January 1st for a birthday) to avoid disclosing personal information.",
+    "answer": "Disguised",
+    "explanation": "Disguised missing data is a form of data inaccuracy where placeholders are used as real values."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ operation in OLAP provides an alternative data presentation by rotating the data axes in view.",
+    "answer": "Pivot",
+    "explanation": "Pivot (or rotate) allows users to change the orientation of the cube to view different perspectives of the data."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ step of KDD identifies the truly interesting patterns representing knowledge based on interestingness measures.",
+    "answer": "Pattern Evaluation",
+    "explanation": "Pattern evaluation filters the generated patterns to keep only those that are novel, valid, and useful."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In attribute-oriented induction, the ______ rule states that an attribute should be removed if there is a large set of distinct values but no generalization operator defined for it.",
+    "answer": "attribute removal",
+    "explanation": "The attribute removal rule generalizes the data by eliminating attributes that cannot be higher-level abstracted."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ______ test is a statistical method used specifically for comparing the performance of two different classifiers on the short_answerme test set.",
+    "answer": "McNemar's",
+    "explanation": "McNemar's test is standard for determining if there is a significant difference between the error rates of two models."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "______ smoothing is a technique used in Bayesian classification to avoid the problem of zero-probability values for attribute-class combinations not seen in training.",
+    "answer": "Laplace",
+    "explanation": "Laplace smoothing (or Laplacian correction) adds a small constant to each count to ensure no probability is exactly zero."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ______ frequent itemset is frequent and has no frequent super-itemsets.",
+    "answer": "maximal",
+    "explanation": "A maximal frequent itemset (or max-itemset) represents the boundary of frequent patterns in the lattice."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a multilayer feed-forward neural network, the ______ algorithm updates weights by propagating error signals from the output layer back to the input layer.",
+    "answer": "backpropagation",
+    "explanation": "Backpropagation iteratively adjusts network weights to minimize the mean squared error of the predictions."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between Independent and Dependent Data Marts.",
+    "answer": "Independent data marts are sourced from operational systems or external providers for specific departments. Dependent data marts are sourced directly from the central Enterprise Data Warehouse to ensure data consistency.",
+    "explanation": "Focuses on the data source and its role in the warehouse hierarchy."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain why 'Knowledge Discovery from Data (KDD)' is considered a broader process than just 'Data Mining.'",
+    "answer": "Data Mining is merely one step in the KDD process, focusing on pattern extraction. KDD also includes essential preparation steps like cleaning, integration, selection, and transformation, as well as post-mining evaluation and presentation.",
+    "explanation": "Distinguishes the mining step from the end-to-end discovery framework."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does 'Z-score normalization' handle outliers differently than 'Min-Max normalization'?",
+    "answer": "Min-Max normalization is sensitive to outliers because it relies on the extreme max and min values. Z-score normalization uses mean and standard deviation, which makes it more robust as values are scaled based on their distance from the average.",
+    "explanation": "Highlights the statistical robustness of the transformation methods."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is 'Attribute Subset Selection' used as a data reduction technique?",
+    "answer": "It identifies and removes irrelevant or redundant attributes from the dataset. This reduces the size of the data for processing, prevents mining algorithms from being confused by noise, and results in simpler, more understandable patterns.",
+    "explanation": "Connects dimensionality reduction to mining efficiency and quality."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the role of a 'Metadata Repository' in the data warehouse environment?",
+    "answer": "It serves as 'data about data,' defining the warehouse structure, mapping rules from operational sources to the warehouse, data lineage, and summarization algorithms used for OLAP.",
+    "explanation": "Defines the administrative and structural importance of metadata."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the significance of the 'Pruning' step in the Apriori algorithm.",
+    "answer": "The pruning step uses the antimonotonic Apriori property to remove candidate k-itemsets that have any infrequent (k-1)-subsets. This drastically reduces the search space because any superset of an infrequent itemset cannot be frequent.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "How does a 'Snowflake Schema' differ from a 'Star Schema' in data warehouse modeling?",
+    "answer": "A Star Schema contains a central fact table with non-normalized dimension tables. A Snowflake Schema normalizes these dimension tables into multiple related tables, resulting in a more complex structure that reduces data redundancy but requires more joins.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between 'Pre-pruning' and 'Post-pruning' in Decision Tree Induction.",
+    "answer": "Pre-pruning halts tree construction early by using thresholds (like information gain). Post-pruning removes subtrees from a fully grown tree and replaces them with leaves based on error rate estimates from a separate pruning set.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'Rule Coverage' and 'Rule Accuracy' in a rule-based classifier.",
+    "answer": "Rule coverage is the percentage of total tuples in the data set that short_answertisfy the rule's antecedent. Rule accuracy is the percentage of those covered tuples that the rule correctly classifies into the specified class.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is 'K-fold cross-validation' and why is it preferred for accuracy estimation?",
+    "answer": "The data set is randomly partitioned into k mutually exclusive subsets. The model is trained and tested k times, each time using a different subset as the test set. It is preferred because every short_answermple is used exactly once for testing and k-1 times for training, providing a reliable estimate with low bias.",
+    "explanation": ""
+  }
+]

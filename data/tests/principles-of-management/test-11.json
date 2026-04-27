@@ -1,0 +1,290 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which of the following describes 'Goal Succession' in an organizational context?",
+    "options": [
+      "Replacing original goals with new ones after the first set is achieved",
+      "The failure to meet primary objectives due to resource scarcity",
+      "Setting multiple conflicting goals at the same time",
+      "Substituting primary goals with secondary procedural goals"
+    ],
+    "answer": "Replacing original goals with new ones after the first set is achieved",
+    "explanation": "Goal succession occurs when an organization achieves its initial goals and develops new ones to ensure continued growth and survival."
+  },
+  {
+    "type": "mcq",
+    "question": "Which school of management thought introduced the concept of the 'Social Man' and emphasized the importance of informal groups?",
+    "options": [
+      "Scientific Management School",
+      "Administrative Management School",
+      "Human Relations School",
+      "Quantitative School"
+    ],
+    "answer": "Human Relations School",
+    "explanation": "The Human Relations School, led by Elton Mayo, shifted the focus from the 'Economic Man' to the 'Social Man,' highlighting social needs and group dynamics."
+  },
+  {
+    "type": "mcq",
+    "question": "A manager who evaluates whether the organization's actual performance is in line with the planned goals is performing which function?",
+    "options": [
+      "Organizing",
+      "Leading",
+      "Controlling",
+      "Staffing"
+    ],
+    "answer": "Controlling",
+    "explanation": "Controlling is the process of monitoring activities, comparing results with goals, and taking corrective actions."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of Mintzberg's roles is a manager fulfilling when they initiate a new software development project to improve company efficiency?",
+    "options": [
+      "Resource Allocator",
+      "Entrepreneur",
+      "Monitor",
+      "Disturbance Handler"
+    ],
+    "answer": "Entrepreneur",
+    "explanation": "The Entrepreneur role involves identifying opportunities, initiating change, and designing projects to improve organizational performance."
+  },
+  {
+    "type": "mcq",
+    "question": "In the context of Katz's managerial skills, 'Technical Skill' is most essential for which level of management?",
+    "options": [
+      "Top-level Managers",
+      "Middle-level Managers",
+      "First-line Managers",
+      "Board of Directors"
+    ],
+    "answer": "First-line Managers",
+    "explanation": "First-line managers need high technical skills because they manage the employees who produce the products or serve the customers directly."
+  },
+  {
+    "type": "mcq",
+    "question": "Which principle of Henry Fayol suggests that there should be only one plan and one head for a group of activities having the same objective?",
+    "options": [
+      "Unity of Command",
+      "Unity of Direction",
+      "Order",
+      "Equity"
+    ],
+    "answer": "Unity of Direction",
+    "explanation": "Unity of Direction ensures that all members of the organization work toward the same goals under a single plan."
+  },
+  {
+    "type": "mcq",
+    "question": "Which component of the business environment includes factors such as inflation rates, interest rates, and GDP trends?",
+    "options": [
+      "Political Environment",
+      "Technological Environment",
+      "Economic Environment",
+      "Socio-cultural Environment"
+    ],
+    "answer": "Economic Environment",
+    "explanation": "The economic environment consists of macro-economic factors that affect the purchasing power of consumers and the cost of capital for organizations."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of plan is specifically designed to meet the needs of a unique, non-recurring situation?",
+    "options": [
+      "Standing Plan",
+      "Single-use Plan",
+      "Strategic Plan",
+      "Directional Plan"
+    ],
+    "answer": "Single-use Plan",
+    "explanation": "Single-use plans, such as programs or budgets, are developed for activities that are not likely to be repeated in the same form."
+  },
+  {
+    "type": "mcq",
+    "question": "In a SWOT analysis, 'Technological Advancements' in the industry are generally classified as:",
+    "options": [
+      "Strengths",
+      "Weaknesses",
+      "Opportunities",
+      "Threats"
+    ],
+    "answer": "Opportunities",
+    "explanation": "Technological advancements represent external factors that an organization can exploit to improve its competitive position."
+  },
+  {
+    "type": "mcq",
+    "question": "Which principle of organizing suggests that every task should be traceable to a specific individual?",
+    "options": [
+      "Unity of Direction",
+      "Accountability",
+      "Scalar Chain",
+      "Span of Control"
+    ],
+    "answer": "Accountability",
+    "explanation": "Accountability ensures that individuals are answerable for the performance of the tasks assigned to them."
+  },
+  {
+    "type": "mcq",
+    "question": "Which organizational structure is most suitable for companies operating in highly dynamic and unstable environments?",
+    "options": [
+      "Mechanistic Structure",
+      "Organic Structure",
+      "Functional Structure",
+      "Centralized Structure"
+    ],
+    "answer": "Organic Structure",
+    "explanation": "Organic structures are characterized by low formalization and high flexibility, making them ideal for adapting to rapid environmental changes."
+  },
+  {
+    "type": "mcq",
+    "question": "A leader who involves employees in decision-making but retains the final authority is practicing which leadership style?",
+    "options": [
+      "Autocratic Style",
+      "Laissez-faire Style",
+      "Democratic Style",
+      "Paternalistic Style"
+    ],
+    "answer": "Democratic Style",
+    "explanation": "Democratic leadership emphasizes participation and consultation with subordinates while the leader maintains final accountability."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of conflict occurs between two different departments within the same organization?",
+    "options": [
+      "Intrapersonal Conflict",
+      "Intergroup Conflict",
+      "Intragroup Conflict",
+      "Individual Conflict"
+    ],
+    "answer": "Intergroup Conflict",
+    "explanation": "Intergroup conflict involves disagreements or friction between different functional units or teams."
+  },
+  {
+    "type": "mcq",
+    "question": "The social responsibility approach where an organization actively seeks to contribute to the well-being of society beyond legal requirements is the:",
+    "options": [
+      "Defensive approach",
+      "Accommodative approach",
+      "Proactive approach",
+      "Obstructionist approach"
+    ],
+    "answer": "Proactive approach",
+    "explanation": "A proactive approach involves anticipating social needs and taking the lead in addressing them before they become significant issues."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary objective of environmental scanning?",
+    "options": [
+      "To identify internal weaknesses",
+      "To monitor and interpret signals of change in the environment",
+      "To punish employees for ethical violations",
+      "To centralize all authority within the CEO"
+    ],
+    "answer": "To monitor and interpret signals of change in the environment",
+    "explanation": "Environmental scanning is the process of surveying the external environment to identify potential opportunities and threats."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ approach to management suggests that there is no 'one best way' to manage and that the effectiveness of a style depends on the situation.",
+    "answer": "Contingency",
+    "explanation": "Contingency theory emphasizes that management techniques should be tailored to specific internal and external circumstances."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "According to the Systems Theory, the transformation of raw materials into finished goods is known as the __________ process.",
+    "answer": "Processing",
+    "explanation": "In a system, inputs (resources) undergo processing (transformation) to become outputs (products/services)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ perspective of an organization views it as a rigid, stable, and rule-oriented structure, whereas modern perspectives view it as flexible and dynamic.",
+    "answer": "Traditional",
+    "explanation": "The traditional view emphasizes stability and hierarchy, while modern views focus on adaptability and innovation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "When a manager acts as a symbolic head of an organization and performs duties of a legal or social nature, they are playing the __________ role.",
+    "answer": "Figurehead",
+    "explanation": "The Figurehead role is one of Mintzberg's interpersonal roles involving ceremonial and symbolic duties."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ is the right to command and the power to make decisions.",
+    "answer": "Authority"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of grouping jobs into logical units is known as __________.",
+    "answer": "Departmentalization"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A(n) __________ decision is used for complex, unique, and non-routine problems that require a custom-made solution.",
+    "answer": "Non-programmed"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ approach to leadership suggests that a leader's effectiveness depends on matching their style to the situation.",
+    "answer": "Contingency"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ethical view that focuses on the greatest good for the greatest number of people is the __________ view.",
+    "answer": "Utilitarian"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ refers to the number of subordinates who report directly to a single manager.",
+    "answer": "Span of control"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is 'Goal Displacement' and why is it considered a problem?",
+    "answer": "Goal displacement occurs when the means to an end become the end itself (e.g., following rules becomes more important than achieving the goal). It is a problem because it leads to inefficiency and loss of the organization's primary purpose.",
+    "explanation": "This is a critical concept in Unit 1 regarding the pitfalls of goal formulation."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the two primary contributions of F.W. Taylor's Scientific Management.",
+    "answer": "1. Development of the 'one best way' for each job using time and motion studies. 2. Scientific selection and training of workers to ensure maximum efficiency.",
+    "explanation": "Taylor focused on individual worker productivity through scientific analysis."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain the 'Human Skill' required by a manager.",
+    "answer": "Human skill (or interpersonal skill) is the ability to work well with, understand, and motivate other people, both individually and in groups, to achieve organizational goals.",
+    "explanation": "Based on Robert Katz's model of managerial skills."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between an 'Open System' and a 'Closed System' in management.",
+    "answer": "An open system interacts actively with its external environment to receive inputs and deliver outputs. A closed system is self-contained and does not interact with or depend on its environment for survival.",
+    "explanation": "This relates to the System Theory covered in Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "Identify and briefly explain the four components of PEST analysis.",
+    "answer_key": "PEST analysis includes Political (laws and government policies), Economic (inflation and interest rates), Socio-cultural (demographics and lifestyle), and Technological (innovation and automation) factors."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the three levels in the hierarchy of planning?",
+    "answer_key": "The hierarchy consists of Strategic Planning (top level, long-term), Tactical Planning (middle level, intermediate-term), and Operational Planning (lower level, short-term)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention any two differences between Centralization and Decentralization.",
+    "answer_key": "Centralization keeps decision-making power at the top management level, whereas Decentralization distributes it throughout all levels. Centralization is better for small organizations, while Decentralization is essential for large, complex ones."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the 'Accommodative Approach' to social responsibility.",
+    "answer_key": "In an accommodative approach, a company meets its legal and ethical obligations but also goes slightly beyond by agreeing to participate in social programs if requested by stakeholders."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the two primary types of problems in the decision-making process.",
+    "answer_key": "The two types are Structured Problems (straightforward, familiar, and easily defined) and Unstructured Problems (new, unusual, and for which information is ambiguous or incomplete)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the significance of business ethics in the modern corporate world.",
+    "answer_key": "Business ethics are significant because they build trust with stakeholders, enhance the company's reputation, ensure legal compliance, and improve long-term sustainability and employee morale."
+  }
+]

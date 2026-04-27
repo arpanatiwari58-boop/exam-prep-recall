@@ -1,0 +1,323 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which specific purpose of organizational goals involves providing a standard against which the actual performance of the organization can be compared?",
+    "options": [
+      "Legitimacy",
+      "Guideline for action",
+      "Evaluation of performance",
+      "Resource allocation"
+    ],
+    "answer": "Evaluation of performance",
+    "explanation": "Goals serve as benchmarks or standards, allowing management to assess how well the organization is doing compared to its set targets."
+  },
+  {
+    "type": "mcq",
+    "question": "In the 'Bottom-Up' approach to goal formulation, the goals are primarily initiated by:",
+    "options": [
+      "Top-level executives",
+      "External stakeholders",
+      "Lower-level employees and supervisors",
+      "Government regulatory bodies"
+    ],
+    "answer": "Lower-level employees and supervisors",
+    "explanation": "The bottom-up approach involves subordinates in the goal-setting process, which are then integrated and approved by higher management."
+  },
+  {
+    "type": "mcq",
+    "question": "Which characteristic of management emphasizes that management is not visible but its presence can be felt through the orderliness and discipline in an organization?",
+    "options": [
+      "Universal process",
+      "Intangible force",
+      "Goal-oriented",
+      "Social process"
+    ],
+    "answer": "Intangible force",
+    "explanation": "Management is considered intangible because it cannot be seen or touched; its success is evidenced by the results and the smooth functioning of the entity."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of Fayol’s 14 principles suggests that similar activities in an organization should be grouped together under one manager and one plan?",
+    "options": [
+      "Unity of Command",
+      "Unity of Direction",
+      "Order",
+      "Division of Work"
+    ],
+    "answer": "Unity of Direction",
+    "explanation": "Unity of direction ensures that all activities with the same objective are directed by a single head using a single plan to avoid duplication."
+  },
+  {
+    "type": "mcq",
+    "question": "According to the Quantitative School of management, which technique is used to find the best way to distribute limited resources among competing activities?",
+    "options": [
+      "Linear Programming",
+      "Time and Motion Study",
+      "Hierarchy of Needs",
+      "The Scalar Chain"
+    ],
+    "answer": "Linear Programming",
+    "explanation": "Linear programming is a mathematical method used in management science for resource optimization and decision-making."
+  },
+  {
+    "type": "mcq",
+    "question": "A 'Learning Organization' is one that has developed the continuous capacity to:",
+    "options": [
+      "Increase its market share rapidly",
+      "Adapt and change through knowledge management",
+      "Maintain a strict bureaucratic hierarchy",
+      "Focus solely on scientific productivity"
+    ],
+    "answer": "Adapt and change through knowledge management",
+    "explanation": "Modern management views the learning organization as one that promotes continuous learning and information sharing to remain competitive."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a core component of an organization's internal environment?",
+    "options": [
+      "Government Regulations",
+      "Technological Trends",
+      "Organizational Culture",
+      "Economic Inflation"
+    ],
+    "answer": "Organizational Culture",
+    "explanation": "The internal environment consists of elements within the organization's boundaries, such as culture, employees, management, and physical assets."
+  },
+  {
+    "type": "mcq",
+    "question": "Which quantitative tool for planning is specifically used to determine the optimal allocation of scarce resources to achieve a maximum profit or minimum cost?",
+    "options": [
+      "Delphi Technique",
+      "Linear Programming",
+      "Brainstorming",
+      "Scenario Planning"
+    ],
+    "answer": "Linear Programming",
+    "explanation": "Linear programming is a mathematical method for determining a way to achieve the best outcome in a given mathematical model given some list of requirements represented as linear relationships."
+  },
+  {
+    "type": "mcq",
+    "question": "In modern organizational design, a structure that consists of a small central hub that coordinates relationships with external partners for core functions is a:",
+    "options": [
+      "Mechanistic Structure",
+      "Network Structure",
+      "Matrix Structure",
+      "Divisional Structure"
+    ],
+    "answer": "Network Structure",
+    "explanation": "The network structure (or virtual organization) outsources major business functions to outside companies and coordinates those activities from a small headquarters."
+  },
+  {
+    "type": "mcq",
+    "question": "In the study of groups, 'Group Cohesiveness' is primarily defined as:",
+    "options": [
+      "The tendency for members to disagree on goals",
+      "The degree to which members are attracted to the group and share its goals",
+      "The formal rules that govern member behavior",
+      "The social status hierarchy within the group"
+    ],
+    "answer": "The degree to which members are attracted to the group and share its goals",
+    "explanation": "Cohesiveness refers to the strength of the bond between members and their commitment to staying in the group."
+  },
+  {
+    "type": "mcq",
+    "question": "A company that invests in community hospitals and local infrastructure is focusing on which area of social responsibility?",
+    "options": [
+      "Responsibility towards the environment",
+      "Responsibility towards the general public/community",
+      "Responsibility towards investors",
+      "Responsibility towards employees"
+    ],
+    "answer": "Responsibility towards the general public/community",
+    "explanation": "Contributing to the social and physical infrastructure of the local area is an example of community-focused social responsibility."
+  },
+  {
+    "type": "mcq",
+    "question": "Which problem-solving strategy involves the use of 'rules of thumb' or mental shortcuts to find a solution quickly?",
+    "options": [
+      "Algorithms",
+      "Heuristics",
+      "Trial and Error",
+      "Root Cause Analysis"
+    ],
+    "answer": "Heuristics",
+    "explanation": "Heuristics are practical methods for problem-solving that are not guaranteed to be optimal but are sufficient for immediate goals."
+  },
+  {
+    "type": "mcq",
+    "question": "Which leadership function involves providing group members with a sense of purpose and measurable targets to achieve?",
+    "options": [
+      "Supervision",
+      "Goal Setting",
+      "Coordination",
+      "Performance Appraisal"
+    ],
+    "answer": "Goal Setting",
+    "explanation": "Goal setting is a fundamental function of leadership that aligns individual and group efforts toward specific outcomes."
+  },
+  {
+    "type": "mcq",
+    "question": "The 'Behavioral Approach' to organizing is distinct because it primarily emphasizes:",
+    "options": [
+      "Strict hierarchy and standardization",
+      "The human element and psychological needs of employees",
+      "Mathematical optimization of tasks",
+      "Legal and regulatory compliance"
+    ],
+    "answer": "The human element and psychological needs of employees",
+    "explanation": "The behavioral approach focuses on how individual attitudes and group processes impact organizational effectiveness, moving away from the rigid focus of classical theories."
+  },
+  {
+    "type": "mcq",
+    "question": "Regarding the business scenario in Nepal, which sector has seen the most significant growth in the 21st century?",
+    "options": [
+      "Heavy Steel Manufacturing",
+      "Export-oriented Agriculture",
+      "Service Sector (IT, Banking, Tourism)",
+      "Automobile Production"
+    ],
+    "answer": "Service Sector (IT, Banking, Tourism)",
+    "explanation": "Nepal's economy has transitioned significantly toward the service sector, particularly in finance, telecommunications, and tourism."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of determining the mission and objectives of the organization through a systematic series of steps is known as the __________ process.",
+    "answer": "Goal formulation",
+    "explanation": "Goal formulation is the structured process of identifying what the organization wants to achieve."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The principle of __________ suggests that employees should be treated with kindness and justice to ensure their loyalty and devotion.",
+    "answer": "Equity",
+    "explanation": "Equity is one of Fayol's 14 principles focusing on the fair treatment of all staff members."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a __________ perspective, organizations are viewed as flexible, flat, and highly responsive to environmental changes.",
+    "answer": "Modern",
+    "explanation": "The modern perspective contrasts with the traditional view by emphasizing adaptability over rigid structure."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The systematic gathering, documenting, and sharing of information within an organization to improve performance is known as __________ management.",
+    "answer": "Knowledge",
+    "explanation": "Knowledge management is an emerging concept focused on utilizing the intellectual capital of the workforce."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The first step in the formal planning process is the __________.",
+    "answer": "Establishment of goals"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ approach to organizing, led by figures like Taylor and Fayol, focuses on efficiency through specialization and hierarchy.",
+    "answer": "Classical"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Groups that emerge naturally in the workplace based on friendship or shared interests are known as __________ groups.",
+    "answer": "Informal"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A subordinate's fear of failure or lack of self-confidence acts as a major barrier to __________.",
+    "answer": "Delegation"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The stage of the strategic process where plans are converted into actions and operational results is called strategic __________.",
+    "answer": "Implementation"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ is defined as the process of identifying a gap between the actual and desired state and taking action to close it.",
+    "answer": "Problem solving"
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain the 'Top-Down' approach to goal formulation.",
+    "answer": "In this approach, top-level management defines the organizational goals and communicates them down to lower levels. It ensures high alignment with the company's mission but may lack employee participation.",
+    "explanation": "This is a direct topic from Unit 1 regarding goal formulation approaches."
+  },
+  {
+    "type": "short_answer",
+    "question": "List any four of Henry Fayol’s 14 Principles of Management.",
+    "answer": "1. Division of Work. 2. Authority and Responsibility. 3. Discipline. 4. Unity of Command.",
+    "explanation": "Fayol's principles are fundamental to the Administrative School of thought."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the three main components of an organization as a 'Social System'?",
+    "answer": "1. People (Human resource). 2. Structure (Hierarchy/Roles). 3. Technology (Tools/Methods).",
+    "explanation": "Unit 1 defines an organization as a system made of these interacting parts."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'Management as a Process'.",
+    "answer": "Management is a process because it involves a series of interrelated and continuous functions (Planning, Organizing, Leading, and Controlling) performed to achieve organizational objectives.",
+    "explanation": "This highlights the functional view of management found in Unit 2."
+  },
+  {
+    "type": "short_answer",
+    "question": "State two characteristics of Weber's 'Bureaucracy'.",
+    "answer": "1. A clear hierarchy of authority with defined positions. 2. Formal rules and procedures to ensure consistency and impersonality.",
+    "explanation": "These are the core pillars of Weber's model in Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is meant by 'Workforce Diversity' as an emerging challenge for managers?",
+    "answer": "Workforce diversity refers to the inclusion of people in an organization who vary in terms of gender, age, race, ethnicity, and physical abilities, requiring managers to be more inclusive and flexible.",
+    "explanation": "This is a modern challenge specified in the Unit 2 syllabus."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of 'Synergy' in System Theory.",
+    "answer": "Synergy suggests that the whole is greater than the sum of its parts. In management, it means that departments working together produce better results than they would if they worked independently.",
+    "explanation": "A key technical term from the System School in Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "List three specific elements that constitute an organization's internal environment.",
+    "answer_key": "Three elements are: 1. Organizational Culture (shared values), 2. Organizational Resources (Human, Financial, Physical), and 3. Management Structure/Hierarchy."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain one quantitative tool used for planning in modern management.",
+    "answer_key": "Linear Programming is a mathematical tool used by managers to allocate limited resources (like labor or capital) in the most efficient way to maximize output or minimize costs."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the first three steps of the planning process in correct order.",
+    "answer_key": "1. Establishing goals/objectives. 2. Developing planning premises (assumptions about the future). 3. Identifying and evaluating alternative courses of action."
+  },
+  {
+    "type": "short_answer",
+    "question": "Identify two primary reasons why employees join informal groups in a workplace.",
+    "answer_key": "Employees join informal groups to satisfy social needs for belonging and friendship, and for security by feeling part of a collective rather than being alone."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define the 'Network Structure' of organization.",
+    "answer_key": "A network structure is a lean organizational design that keeps a small core of permanent employees and outsources major business functions like manufacturing or distribution to external partners."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the 'Accommodation' strategy for managing organizational conflict.",
+    "answer_key": "Accommodation is a conflict management technique where one party neglects their own concerns to satisfy the concerns of the other party, typically to maintain a relationship or when the issue is of minor importance to them."
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention two essential functions of leadership according to the POM syllabus.",
+    "answer_key": "Two essential functions are: 1. Goal Setting (defining vision and direction) and 2. Influencing/Motivating (guiding and inspiring members toward organizational goals)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between strategic formulation and strategic implementation.",
+    "answer_key": "Strategic formulation is the conceptual process of designing plans and setting goals, while strategic implementation is the operational process of putting those plans into action through programs and resource allocation."
+  },
+  {
+    "type": "short_answer",
+    "question": "Identify two major problems currently faced by businesses in the Nepalese context.",
+    "answer_key": "Major problems include political instability affecting consistent policy-making and the lack of advanced technological infrastructure combined with high logistics costs."
+  }
+]

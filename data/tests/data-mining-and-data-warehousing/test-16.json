@@ -1,0 +1,344 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which OLAP operation allows viewing data at a higher level of abstraction by climbing up the concept hierarchy?",
+    "options": [
+      "Drill-down",
+      "Roll-up",
+      "Slice",
+      "Dice"
+    ],
+    "answer": "Roll-up",
+    "explanation": "Unit 1 + Book Ch. 4.2.5 (OLAP operations)"
+  },
+  {
+    "type": "mcq",
+    "question": "The 'dice' operation in OLAP is different from 'slice' because it:",
+    "options": [
+      "Selects a single dimension",
+      "Selects a sub-cube by fixing ranges on multiple dimensions",
+      "Changes the orientation of the cube",
+      "Aggregates data to a higher level"
+    ],
+    "answer": "Selects a sub-cube by fixing ranges on multiple dimensions",
+    "explanation": "Unit 1 (nuance between slice and dice)"
+  },
+  {
+    "type": "mcq",
+    "question": "In data warehouse architecture, the component that stores information about data sources, transformations, and business rules is:",
+    "options": [
+      "Fact table",
+      "Metadata repository",
+      "OLAP server",
+      "Data mart"
+    ],
+    "answer": "Metadata repository",
+    "explanation": "Unit 1 + Book Ch. 4.1.7"
+  },
+  {
+    "type": "mcq",
+    "question": "A major issue in data integration (as per syllabus and textbook) is the:",
+    "options": [
+      "Entity identification problem",
+      "Cube materialization problem",
+      "Frequent itemset generation problem",
+      "Overfitting problem"
+    ],
+    "answer": "Entity identification problem",
+    "explanation": "Unit 3 (tricky integration nuance)"
+  },
+  {
+    "type": "mcq",
+    "question": "Which data reduction technique is most prone to the 'curse of dimensionality' if not handled properly?",
+    "options": [
+      "Sampling",
+      "Dimensionality reduction (e.g., PCA)",
+      "Data cube aggregation",
+      "Concept hierarchy generation"
+    ],
+    "answer": "Dimensionality reduction (e.g., PCA)",
+    "explanation": "Unit 3 (edge case examiners love)"
+  },
+  {
+    "type": "mcq",
+    "question": "In data mining primitives, 'interestingness measures' are used to:",
+    "options": [
+      "Select task-relevant data",
+      "Filter out uninteresting or obvious patterns",
+      "Define concept hierarchies",
+      "Perform data cleaning"
+    ],
+    "answer": "Filter out uninteresting or obvious patterns",
+    "explanation": "Unit 3 (nuance in primitives)"
+  },
+  {
+    "type": "mcq",
+    "question": "BUC (Bottom-Up Computation) is an efficient method for computing:",
+    "options": [
+      "Full cube only",
+      "Iceberg cubes from the apex cuboid downward",
+      "Closed cubes only",
+      "Shell fragments only"
+    ],
+    "answer": "Iceberg cubes from the apex cuboid downward",
+    "explanation": "Unit 4 + Book Ch. 5.2.2 (specific efficient method)"
+  },
+  {
+    "type": "mcq",
+    "question": "Multilevel association rules are generated when items belong to:",
+    "options": [
+      "The same concept hierarchy level",
+      "Different levels of concept hierarchies",
+      "Only quantitative measures",
+      "Only single dimension"
+    ],
+    "answer": "Different levels of concept hierarchies",
+    "explanation": "Unit 5 (types of association rules)"
+  },
+  {
+    "type": "mcq",
+    "question": "Quantitative association rules differ from Boolean association rules because they:",
+    "options": [
+      "Deal only with categorical data",
+      "Involve numeric attributes and ranges in the rules",
+      "Are always single-dimensional",
+      "Do not require minimum support"
+    ],
+    "answer": "Involve numeric attributes and ranges in the rules",
+    "explanation": "Unit 5 (nuance in rule types)"
+  },
+  {
+    "type": "mcq",
+    "question": "In classification, 'learning and testing' phase is prone to overfitting when:",
+    "options": [
+      "The model is tested on the same data used for training",
+      "The test set is completely different from the training set",
+      "k-fold cross validation is used",
+      "McNemar’s test is applied"
+    ],
+    "answer": "The model is tested on the same data used for training",
+    "explanation": "Unit 6 (tricky examiner point)"
+  },
+  {
+    "type": "mcq",
+    "question": "Efficient rule simplification in rule-based classifiers is mainly done to:",
+    "options": [
+      "Increase the number of rules",
+      "Remove redundant or overlapping rules while preserving coverage and accuracy",
+      "Convert rules back to decision trees",
+      "Apply rules only on numerical data"
+    ],
+    "answer": "Remove redundant or overlapping rules while preserving coverage and accuracy",
+    "explanation": "Unit 6 + Book Ch. 8.4"
+  },
+  {
+    "type": "mcq",
+    "question": "One subtle limitation of the Apriori algorithm (not commonly asked) is that it:",
+    "options": [
+      "Cannot handle multilevel rules",
+      "May generate many candidate itemsets even after hash-based improvement",
+      "Cannot compute lift",
+      "Cannot be used with FP-Growth"
+    ],
+    "answer": "May generate many candidate itemsets even after hash-based improvement",
+    "explanation": "Unit 5 (edge-case limitation)"
+  },
+  {
+    "type": "mcq",
+    "question": "The 'curse of dimensionality' is most relevant in which preprocessing step?",
+    "options": [
+      "Data cleaning",
+      "Data reduction (dimensionality reduction)",
+      "Data discretization",
+      "Data integration"
+    ],
+    "answer": "Data reduction (dimensionality reduction)",
+    "explanation": "Unit 3 (examiner trick question)"
+  },
+  {
+    "type": "mcq",
+    "question": "In data warehouse implementation, the bottom-up approach usually starts with:",
+    "options": [
+      "Enterprise-wide warehouse",
+      "Building individual data marts",
+      "Only metadata repository",
+      "Full cube materialization"
+    ],
+    "answer": "Building individual data marts",
+    "explanation": "Unit 1 (implementation nuance)"
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is NOT considered a data mining functionality in the syllabus?",
+    "options": [
+      "Characterization and discrimination",
+      "Association and correlation analysis",
+      "Real-time transaction processing",
+      "Classification and prediction"
+    ],
+    "answer": "Real-time transaction processing",
+    "explanation": "Unit 2 (trick to differentiate OLTP vs mining)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between slice and dice operations in OLAP with one example each.",
+    "answer": "Slice selects one dimension and produces a 2D slice (e.g., sales for all items in 2025). Dice selects ranges on multiple dimensions and produces a sub-cube (e.g., sales of electronics in Kathmandu in Q1).",
+    "explanation": "Unit 1 (nuance examiners test)"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the entity identification problem in data integration? Why is it challenging?",
+    "answer": "It occurs when the same real-world entity is represented with different names or formats across sources (e.g., 'cust_id' vs 'customer_no'). It is challenging because it requires semantic matching, not just syntactic.",
+    "explanation": "Unit 3 (specific tricky point)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain why dimensionality reduction is necessary and mention one technique that helps with the curse of dimensionality.",
+    "answer": "High dimensions cause the curse of dimensionality (data becomes sparse, distance measures fail). PCA is one technique that reduces dimensions while preserving variance.",
+    "explanation": "Unit 3 (edge case examiners love)"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two specific techniques of data reduction mentioned in the textbook.",
+    "answer": "1. Wavelet transforms 2. Principal Components Analysis (PCA) 3. Regression and log-linear models 4. Histograms 5. Clustering 6. Sampling (any two).",
+    "explanation": "Unit 3 (detailed reduction)"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are data mining primitives? Why are they important?",
+    "answer": "Primitives are a set of specifications (task-relevant data, background knowledge, interestingness measures, presentation) that allow users to interactively guide the mining process. They make mining user-centric and efficient.",
+    "explanation": "Unit 3 (often missed nuance)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Compare BUC and Star-Cubing in terms of their approach for efficient cube computation.",
+    "answer": "BUC computes iceberg cubes bottom-up from apex cuboid. Star-Cubing uses a dynamic star-tree structure for faster computation on high-dimensional data with hierarchies.",
+    "explanation": "Unit 4 (specific methods)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Give one example each of single-dimensional, multilevel, and quantitative association rules.",
+    "answer": "Single-dim: buys(X, bread) → buys(X, milk). Multilevel: buys(X, milk) → buys(X, 2% milk). Quantitative: age(X, “20-29”) ∧ income(X, “high”) → buys(X, laptop).",
+    "explanation": "Unit 5 (types examiners ask)"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the main limitation of Apriori even after hash-based improvement?",
+    "answer": "It still generates a huge number of candidate itemsets in dense datasets, leading to high memory and time cost.",
+    "explanation": "Unit 5 (deeper limitation)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain rule coverage and rule accuracy in rule-based classifiers. Why is efficient rule simplification needed?",
+    "answer": "Coverage = % of training examples that satisfy the rule. Accuracy = % of those examples correctly classified. Simplification is needed to remove redundant/overlapping rules for a compact, understandable rule set.",
+    "explanation": "Unit 6 (nuance)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between classification and prediction with one example each.",
+    "answer": "Classification predicts discrete class labels (e.g., credit risk: good/bad). Prediction predicts continuous values (e.g., sales amount next month).",
+    "explanation": "Unit 6 (basic but tricky distinction)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is k-fold cross validation preferred over simple holdout method in classification evaluation?",
+    "answer": "It uses all data for both training and testing (each instance is tested exactly once), reducing bias and giving more reliable accuracy estimate.",
+    "explanation": "Unit 6 (examiner favourite)"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is McNemar’s test used for? When would you apply it?",
+    "answer": "It is a statistical test to compare accuracy of two classifiers on the same dataset to check if the difference is significant.",
+    "explanation": "Unit 6"
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention any two issues in classification (other than overfitting/underfitting).",
+    "answer": "1. Handling noisy or missing data 2. Class imbalance 3. Scalability with large datasets (any two).",
+    "explanation": "Unit 6 (deeper issues)"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the role of interestingness measures in data mining primitives with an example.",
+    "answer": "They filter uninteresting patterns. Example: A rule with very high support but lift ≈ 1 is not interesting because items are independent.",
+    "explanation": "Unit 3 (nuance)"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the four main characteristics of a data warehouse? Why is non-volatility important?",
+    "answer": "Subject-oriented, integrated, time-variant, non-volatile. Non-volatility ensures historical data is not deleted or updated, enabling trend analysis.",
+    "explanation": "Unit 1 (core but tricky)"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two trends in data warehousing.",
+    "answer": "1. Real-time data warehousing 2. Integration with big data and cloud platforms.",
+    "explanation": "Unit 1"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The OLAP operation that selects a sub-cube by specifying ranges on multiple dimensions is called ________.",
+    "answer": "dice",
+    "explanation": "Unit 1 (OLAP nuance)"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the problem in data integration where the same real-world entity is represented using different names.",
+    "answer": "entity identification",
+    "explanation": "Unit 3 (specific cleaning/integration issue)"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ reduction technique suffers from the curse of dimensionality if the number of dimensions remains high.",
+    "answer": "dimensionality",
+    "explanation": "Unit 3 (edge case)"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "BUC and Star-Cubing are examples of efficient methods for ________ computation.",
+    "answer": "data cube",
+    "explanation": "Unit 4"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Association rules that involve items from different levels of a concept hierarchy are called ________ association rules.",
+    "answer": "multilevel",
+    "explanation": "Unit 5"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In rule-based classifiers, ________ measures the fraction of training examples that satisfy the rule.",
+    "answer": "coverage",
+    "explanation": "Unit 6"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The measure used to identify misleading association rules is called ________.",
+    "answer": "lift",
+    "explanation": "Unit 5"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is a data transformation technique that converts continuous data into discrete intervals.",
+    "answer": "discretization",
+    "explanation": "Unit 3"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In data mining primitives, the user specifies background knowledge in the form of ________ hierarchies.",
+    "answer": "concept",
+    "explanation": "Unit 3"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The full materialization of a data cube that stores every possible cell is called ________ cube.",
+    "answer": "full",
+    "explanation": "Unit 4"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "One major issue in high-dimensional data is known as the ________ of dimensionality.",
+    "answer": "curse",
+    "explanation": "Unit 3 (edge case)"
+  }
+]

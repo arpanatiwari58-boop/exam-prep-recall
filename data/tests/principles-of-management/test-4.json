@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Goal displacement occurs when:",
+    "options": [
+      "Goals are replaced intentionally by new ones",
+      "Original goals are unintentionally replaced by means",
+      "Goals become too broad and unrealistic",
+      "Goals are achieved ahead of schedule"
+    ],
+    "answer": "Original goals are unintentionally replaced by means",
+    "explanation": "Goal displacement happens when means become ends themselves (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which approach to goal formulation emphasizes participation of all levels?",
+    "options": [
+      "Top-down approach",
+      "Bottom-up approach",
+      "Traditional approach",
+      "Authoritative approach"
+    ],
+    "answer": "Bottom-up approach",
+    "explanation": "Bottom-up approach involves lower-level participation for better acceptance (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Emerging challenge for managers today includes:",
+    "options": [
+      "Reducing use of technology",
+      "Handling workforce diversity and remote teams",
+      "Avoiding outsourcing",
+      "Limiting knowledge management"
+    ],
+    "answer": "Handling workforce diversity and remote teams",
+    "explanation": "Workforce diversity and virtual teams are key emerging challenges (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The informational role of manager as per Mintzberg includes:",
+    "options": [
+      "Entrepreneur",
+      "Monitor and disseminator",
+      "Resource allocator",
+      "Negotiator"
+    ],
+    "answer": "Monitor and disseminator",
+    "explanation": "Informational roles are monitor, disseminator and spokesperson (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "A major limitation of Behavioural science theory is:",
+    "options": [
+      "It completely ignores human factors",
+      "It is too complex for practical use",
+      "It over-emphasizes economic incentives only",
+      "It lacks universal applicability across cultures"
+    ],
+    "answer": "It lacks universal applicability across cultures",
+    "explanation": "Behavioural theories are culture-specific and not always universal (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Management Science theory is also known as:",
+    "options": [
+      "Human relations approach",
+      "Quantitative or operations research approach",
+      "Contingency approach",
+      "Classical theory"
+    ],
+    "answer": "Quantitative or operations research approach",
+    "explanation": "It uses mathematical models and scientific techniques (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following belongs to the socio-cultural component of business environment?",
+    "options": [
+      "Inflation rate",
+      "Government policies",
+      "Values, beliefs and lifestyle of people",
+      "New inventions in IT"
+    ],
+    "answer": "Values, beliefs and lifestyle of people",
+    "explanation": "Socio-cultural environment includes customs, values and demographics (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "The defensive approach to social responsibility means:",
+    "options": [
+      "Doing more than required by law",
+      "Doing only what is legally required",
+      "Actively seeking societal improvement",
+      "Ignoring social responsibility"
+    ],
+    "answer": "Doing only what is legally required",
+    "explanation": "Defensive approach meets only minimum legal obligations (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "In strategic planning, formulation of plans is followed by:",
+    "options": [
+      "Environmental scanning",
+      "Implementation and control",
+      "Goal displacement",
+      "Problem identification only"
+    ],
+    "answer": "Implementation and control",
+    "explanation": "Strategic plans must be implemented and then controlled (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Decision making under uncertainty is characterized by:",
+    "options": [
+      "Complete knowledge of outcomes",
+      "Partial or no knowledge of outcomes",
+      "Only routine decisions",
+      "Use of mathematical models only"
+    ],
+    "answer": "Partial or no knowledge of outcomes",
+    "explanation": "Risk and uncertainty make outcomes unpredictable (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "A major barrier to effective delegation of authority is:",
+    "options": [
+      "Too much trust in subordinates",
+      "Fear of losing control by superior",
+      "Clear job description",
+      "Proper training of subordinates"
+    ],
+    "answer": "Fear of losing control by superior",
+    "explanation": "Superior’s reluctance due to fear is a common barrier (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Organic organization structure is most suitable when:",
+    "options": [
+      "Environment is stable and predictable",
+      "Environment is dynamic and uncertain",
+      "Tasks are highly routine",
+      "Centralization is preferred"
+    ],
+    "answer": "Environment is dynamic and uncertain",
+    "explanation": "Organic structures are flexible and adaptive (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Team structure is a modern form of organization that emphasizes:",
+    "options": [
+      "Strict hierarchy",
+      "Cross-functional collaboration",
+      "Centralized decision making",
+      "Individual work only"
+    ],
+    "answer": "Cross-functional collaboration",
+    "explanation": "Team structure promotes horizontal coordination (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "The situational approach to leadership is also called:",
+    "options": [
+      "Trait approach",
+      "Contingency approach",
+      "Behavioral approach",
+      "Great man approach"
+    ],
+    "answer": "Contingency approach",
+    "explanation": "It believes leadership effectiveness is contingent on the situation (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "Managing conflict through compromise means:",
+    "options": [
+      "Forcing one party to accept the other’s view",
+      "Finding a middle ground acceptable to both",
+      "Ignoring the conflict completely",
+      "Using third-party mediation only"
+    ],
+    "answer": "Finding a middle ground acceptable to both",
+    "explanation": "Compromise involves mutual concessions (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "When one goal is substituted by a new goal due to changed circumstances, it is called goal ________.",
+    "answer": "succession",
+    "explanation": "Goal succession is deliberate replacement of goals (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "According to Mintzberg, the ________ role involves symbolic duties like signing documents.",
+    "answer": "figurehead",
+    "explanation": "Figurehead is an interpersonal role (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ theory emphasizes that there is no single best way to manage; it depends on the situation.",
+    "answer": "Contingency",
+    "explanation": "Contingency theory is a modern management approach (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ approach to social responsibility involves actively improving societal conditions beyond legal requirements.",
+    "answer": "proactive",
+    "explanation": "Proactive stance goes beyond obligations (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ planning is done by top management and covers a long time horizon.",
+    "answer": "Strategic",
+    "explanation": "Strategic planning is highest level in planning hierarchy (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of dividing work into manageable units is known as ________.",
+    "answer": "departmentalization",
+    "explanation": "Departmentalization is a key step in organizing (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a ________ structure, employees report to both functional and project managers.",
+    "answer": "matrix",
+    "explanation": "Matrix structure has dual authority lines (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ groups are created by the organization for achieving specific objectives.",
+    "answer": "Formal",
+    "explanation": "Formal groups are officially designed (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ style of leadership gives complete freedom to subordinates.",
+    "answer": "laissez-faire",
+    "explanation": "Laissez-faire is a hands-off leadership style (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the ability to understand how different parts of the organization interact as a whole.",
+    "answer": "Conceptual skill",
+    "explanation": "Conceptual skill is vital for top managers (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two problems of goal formulation with examples.",
+    "answer": "1. Conflicting goals – e.g., profit vs employee welfare. 2. Unrealistic goals – leads to demotivation. Problems arise due to multiple stakeholders and changing environment.",
+    "explanation": "Unit 1 – problems of goal formulation."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between programmed and non-programmed decisions.",
+    "answer": "Programmed decisions are routine and repetitive with established procedures. Non-programmed decisions are novel, unstructured and require creative problem solving.",
+    "explanation": "Types of decisions in Unit 5."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any four principles of organizing.",
+    "answer": "Unity of command, scalar chain, division of work, unity of direction, span of control. These ensure coordination and efficiency.",
+    "explanation": "Principles of organizing from Unit 6."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does environmental scanning help in strategic planning?",
+    "answer": "It identifies opportunities and threats. Managers can formulate better strategies by understanding external factors through SWOT and PEST analysis.",
+    "explanation": "Role in Unit 5."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain advantages and disadvantages of centralization.",
+    "answer": "Advantages: uniformity, quick top-level decisions, better control. Disadvantages: delays, demotivation of lower levels, overload on top management.",
+    "explanation": "Unit 6 – centralization vs decentralization."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the classical and behavioural approaches to organizing.",
+    "answer": "Classical focuses on structure, hierarchy and efficiency. Behavioural emphasizes people, motivation and informal relations.",
+    "explanation": "Approaches to organizing in Unit 6."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the difference between trait and behavioral approaches to leadership?",
+    "answer": "Trait approach believes leaders are born with qualities. Behavioral approach says leadership can be learned through specific actions and styles.",
+    "explanation": "Unit 7 – leadership approaches."
+  },
+  {
+    "type": "short_answer",
+    "question": "How can managers manage dysfunctional conflict effectively?",
+    "answer": "By using avoidance, accommodation, compromise, collaboration or forcing depending on situation. Focus on open communication and win-win solutions.",
+    "explanation": "Managing conflicts – Unit 7."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of learning organization as an emerging management concept.",
+    "answer": "A learning organization continuously acquires, shares and applies new knowledge to adapt to change. It promotes innovation and flexibility.",
+    "explanation": "Emerging concepts in Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is delegation of authority important in modern organizations?",
+    "answer": "It develops subordinates, speeds up decisions, reduces superior’s workload and increases motivation and job satisfaction.",
+    "explanation": "Advantages of delegation – Unit 6."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which schema is most commonly used for conceptual modeling of a data warehouse due to its simplicity and query efficiency?",
+    "options": [
+      "Snowflake schema",
+      "Star schema",
+      "Galaxy schema",
+      "Fact constellation schema"
+    ],
+    "answer": "Star schema",
+    "explanation": "Unit 1: Conceptual modeling of data warehouse prefers star schema."
+  },
+  {
+    "type": "mcq",
+    "question": "Data marts are best described as:",
+    "options": [
+      "Complete enterprise-wide data warehouses",
+      "Departmental or functional subsets of a data warehouse",
+      "Operational databases used for transaction processing",
+      "Temporary storage for raw data before ETL"
+    ],
+    "answer": "Departmental or functional subsets of a data warehouse",
+    "explanation": "Unit 1 explicitly distinguishes data marts from full data warehouse."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a descriptive data mining functionality?",
+    "options": [
+      "Classification",
+      "Prediction",
+      "Clustering",
+      "Association rule mining"
+    ],
+    "answer": "Clustering",
+    "explanation": "Unit 2: Data mining functionalities include description (clustering) and prediction."
+  },
+  {
+    "type": "mcq",
+    "question": "In data preprocessing, binning is a technique primarily used for:",
+    "options": [
+      "Data integration",
+      "Data reduction",
+      "Data discretization",
+      "Data cleaning"
+    ],
+    "answer": "Data discretization",
+    "explanation": "Unit 3: Data discretization and Concept Hierarchy Generation."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data reduction technique replaces original attribute values with smaller representations using concept hierarchies?",
+    "options": [
+      "Numerosity reduction",
+      "Dimensionality reduction",
+      "Data compression",
+      "Attribute-oriented induction"
+    ],
+    "answer": "Dimensionality reduction",
+    "explanation": "Unit 3 covers data reduction techniques including concept hierarchy generation."
+  },
+  {
+    "type": "mcq",
+    "question": "The data mining primitive that specifies the kind of knowledge to be mined is called:",
+    "options": [
+      "Task-relevant data",
+      "Background knowledge",
+      "Interestingness measure",
+      "Data mining query"
+    ],
+    "answer": "Data mining query",
+    "explanation": "Unit 3: Data mining primitives include task-relevant data, background knowledge, etc."
+  },
+  {
+    "type": "mcq",
+    "question": "Shell cube is a type of cube materialization that focuses on:",
+    "options": [
+      "All possible cuboids",
+      "Only a subset of dimensions and measures for faster computation",
+      "Cells above minimum support",
+      "Closed frequent cells only"
+    ],
+    "answer": "Only a subset of dimensions and measures for faster computation",
+    "explanation": "Unit 4: Cube materialization includes Shell cube."
+  },
+  {
+    "type": "mcq",
+    "question": "Multilevel association rules are generated when:",
+    "options": [
+      "Items are at the same conceptual level",
+      "Items belong to different concept hierarchy levels",
+      "Rules have quantitative measures only",
+      "Rules are single-dimensional only"
+    ],
+    "answer": "Items belong to different concept hierarchy levels",
+    "explanation": "Unit 5: Types of association rules include multilevel."
+  },
+  {
+    "type": "mcq",
+    "question": "Quantitative association rules deal with:",
+    "options": [
+      "Only categorical data",
+      "Numeric attributes and ranges in the rules",
+      "Only binary presence/absence of items",
+      "Only single-dimensional data"
+    ],
+    "answer": "Numeric attributes and ranges in the rules",
+    "explanation": "Unit 5: Types of association rules include quantitative."
+  },
+  {
+    "type": "mcq",
+    "question": "In classification, backpropagation is primarily used for training:",
+    "options": [
+      "Decision trees",
+      "Bayesian classifiers",
+      "Neural networks",
+      "Support vector machines"
+    ],
+    "answer": "Neural networks",
+    "explanation": "Unit 6: Classification by backpropagation (neural network based)."
+  },
+  {
+    "type": "mcq",
+    "question": "The margin in Support Vector Machine (SVM) refers to:",
+    "options": [
+      "Distance between two closest data points of same class",
+      "Distance between the separating hyperplane and the nearest data points of either class",
+      "Number of support vectors",
+      "Kernel function complexity"
+    ],
+    "answer": "Distance between the separating hyperplane and the nearest data points of either class",
+    "explanation": "Unit 6: Support vector machine concept."
+  },
+  {
+    "type": "mcq",
+    "question": "Rule coverage and accuracy in rule-based classifiers measure:",
+    "options": [
+      "How many training examples satisfy the rule and how correct the rule is",
+      "Only the support of the rule",
+      "Only the confidence of the rule",
+      "The complexity of the rule"
+    ],
+    "answer": "How many training examples satisfy the rule and how correct the rule is",
+    "explanation": "Unit 6: Rule-based classifier (rule coverage and accuracy)."
+  },
+  {
+    "type": "mcq",
+    "question": "Underfitting in classification typically occurs when:",
+    "options": [
+      "The model is too complex and captures noise",
+      "The model is too simple and fails to capture underlying patterns",
+      "The training data is perfectly classified",
+      "k-fold cross validation is used"
+    ],
+    "answer": "The model is too simple and fails to capture underlying patterns",
+    "explanation": "Unit 6: Issues in classification – overfitting and underfitting."
+  },
+  {
+    "type": "mcq",
+    "question": "Which OLAP operation allows viewing data from different perspectives by rotating the cube?",
+    "options": [
+      "Roll-up",
+      "Drill-down",
+      "Slice",
+      "Pivot"
+    ],
+    "answer": "Pivot",
+    "explanation": "Unit 1: OLAP operations in multidimensional data model."
+  },
+  {
+    "type": "mcq",
+    "question": "The main motivation for data warehousing is:",
+    "options": [
+      "Real-time transaction processing",
+      "To support decision making using integrated historical data",
+      "To store only current operational data",
+      "To replace operational databases completely"
+    ],
+    "answer": "To support decision making using integrated historical data",
+    "explanation": "Unit 1: Need for data warehousing."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ schema is a normalized form of star schema where dimension tables are further normalized.",
+    "answer": "Snowflake",
+    "explanation": "Unit 1 conceptual modeling."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the process of combining data from multiple heterogeneous sources into a coherent store.",
+    "answer": "data integration",
+    "explanation": "Unit 3 Data Preprocessing."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In data cube technology, ________ cube stores only the cells that are frequent and have no superset with the same measure.",
+    "answer": "closed",
+    "explanation": "Unit 4 Cube materialization."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The Apriori property states that all nonempty subsets of a frequent itemset must also be ________.",
+    "answer": "frequent",
+    "explanation": "Unit 5 Apriori algorithm."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ of an association rule is the percentage of transactions containing the rule’s consequent given the antecedent.",
+    "answer": "confidence",
+    "explanation": "Unit 5 association rules."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the measure used by ID3 to select the best splitting attribute.",
+    "answer": "information gain",
+    "explanation": "Unit 6 decision tree induction."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In neural network classification, the learning algorithm called ________ adjusts weights by propagating errors backward.",
+    "answer": "backpropagation",
+    "explanation": "Unit 6 Classification by backpropagation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A data warehouse architecture that uses ________ server stores pre-computed cubes for fast OLAP queries.",
+    "answer": "MOLAP",
+    "explanation": "Unit 1 data warehouse implementation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The f-measure is the harmonic mean of ________ and recall.",
+    "answer": "precision",
+    "explanation": "Unit 6 evaluating accuracy."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ mining primitives define how the discovered patterns should be presented to the user.",
+    "answer": "presentation",
+    "explanation": "Unit 3 data mining primitives."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between star schema and snowflake schema.",
+    "answer": "Star schema has denormalized dimension tables for simplicity and faster query performance. Snowflake schema normalizes dimension tables, reducing redundancy but increasing query complexity.",
+    "explanation": "Unit 1 conceptual modeling of data warehouse."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the major steps involved in the KDD process?",
+    "answer": "Data selection → Data preprocessing → Data transformation → Data mining → Pattern evaluation → Knowledge presentation.",
+    "explanation": "Unit 2 Introduction to KDD."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two strategies for efficient data cube computation.",
+    "answer": "1. Compute only necessary cuboids (partial materialization). 2. Use iceberg condition to prune low-support cells during computation.",
+    "explanation": "Unit 4 General strategies for cube computation."
+  },
+  {
+    "type": "short_answer",
+    "question": "State two advantages of FP-Growth over Apriori algorithm.",
+    "answer": "1. Avoids generation of candidate itemsets. 2. Requires only two database scans using compact FP-tree structure.",
+    "explanation": "Unit 5 Finding frequent itemset."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does a decision tree induction algorithm select the root attribute?",
+    "answer": "It selects the attribute with the highest information gain (or lowest entropy) using ID3 algorithm.",
+    "explanation": "Unit 6 Classification by decision tree induction and ID3."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the role of metadata in a data warehouse?",
+    "answer": "Metadata is data about data. It helps in data extraction, transformation, loading, and query optimization.",
+    "explanation": "Unit 1 Components of data warehouse."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between classification and prediction.",
+    "answer": "Classification predicts categorical class labels. Prediction predicts continuous-valued functions (numeric values).",
+    "explanation": "Unit 6 Definition (Classification, Prediction)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any two issues in classification.",
+    "answer": "1. Overfitting and underfitting. 2. Handling noisy or missing data.",
+    "explanation": "Unit 6 Issues in classification."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of attribute-oriented induction.",
+    "answer": "It generalizes data by replacing low-level attribute values with higher-level concepts using concept hierarchies for data characterization.",
+    "explanation": "Unit 4 (mentioned after cube technology, linked with characterization)."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of data discretization?",
+    "answer": "It converts continuous attributes into discrete intervals or concept hierarchies to simplify mining and reduce noise.",
+    "explanation": "Unit 3 Data discretization and Concept Hierarchy Generation."
+  }
+]

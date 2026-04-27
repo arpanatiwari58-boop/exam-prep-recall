@@ -23,12 +23,18 @@ export default async function TestPage({ params }: TestPageProps) {
   }
 
   return (
-    <>
-       <TestAttemptClient
-        subjectName={testData.subjectName}
-        testTitle={testData.testTitle}
-        questions={testData.questions}
-      />
-    </>
+    <div className="min-h-screen bg-[#f4f5f9] font-sans text-[#060b26] selection:bg-[#be89ff] selection:text-white flex flex-col">
+      {/* Top Navigation Bar */}
+
+      {/* Main Active Recall Area */}
+      <main className="flex-1 w-full mx-auto   ">
+        <TestAttemptClient
+        subjectSlug={resolvedParams.subject}
+          subjectName={testData.subjectName}
+          testTitle={testData.testTitle}
+          questions={testData.questions}
+        />
+      </main>
+    </div>
   );
 }

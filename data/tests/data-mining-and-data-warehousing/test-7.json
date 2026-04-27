@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which of the following is a key characteristic that distinguishes a data warehouse from an operational database?",
+    "options": [
+      "Data warehouses are volatile while operational databases are non-volatile",
+      "Data warehouses are subject-oriented, integrated, time-variant and non-volatile",
+      "Operational databases support OLAP while data warehouses support OLTP",
+      "Data warehouses store only current data while operational databases store historical data"
+    ],
+    "answer": "Data warehouses are subject-oriented, integrated, time-variant and non-volatile",
+    "explanation": "Unit 1 explicitly states these four characteristics of data warehouse vs operational database."
+  },
+  {
+    "type": "mcq",
+    "question": "What does OLAP stand for in the context of multidimensional data model?",
+    "options": [
+      "Online Analytical Processing",
+      "Offline Analytical Processing",
+      "Online Transaction Processing",
+      "Offline Transaction Processing"
+    ],
+    "answer": "Online Analytical Processing",
+    "explanation": "Unit 1 covers OLAP operations in the multidimensional data model."
+  },
+  {
+    "type": "mcq",
+    "question": "Which component of data warehouse architecture is responsible for extracting data from heterogeneous sources?",
+    "options": [
+      "Data mart",
+      "ETL (Extract, Transform, Load)",
+      "OLAP server",
+      "Metadata repository"
+    ],
+    "answer": "ETL (Extract, Transform, Load)",
+    "explanation": "Unit 1 describes data warehouse architecture and implementation including ETL."
+  },
+  {
+    "type": "mcq",
+    "question": "In KDD process, the step that involves selecting relevant data for analysis is called:",
+    "options": [
+      "Data mining",
+      "Data selection",
+      "Data transformation",
+      "Pattern evaluation"
+    ],
+    "answer": "Data selection",
+    "explanation": "Unit 2 introduces KDD process where data selection is a key initial step."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is NOT a data preprocessing task mentioned in the syllabus?",
+    "options": [
+      "Data cleaning",
+      "Data integration and transformation",
+      "Data visualization",
+      "Data reduction"
+    ],
+    "answer": "Data visualization",
+    "explanation": "Unit 3 lists data cleaning, integration, transformation, reduction, discretization and concept hierarchy generation."
+  },
+  {
+    "type": "mcq",
+    "question": "The full materialization of a data cube stores:",
+    "options": [
+      "Only cells above minimum support threshold",
+      "All possible cells of the cube",
+      "Only closed frequent cells",
+      "Only shell fragments of the cube"
+    ],
+    "answer": "All possible cells of the cube",
+    "explanation": "Unit 4 introduces full cube, iceberg cube, closed cube and shell cube."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data cube type stores only those cells whose measure values meet a minimum threshold?",
+    "options": [
+      "Full cube",
+      "Closed cube",
+      "Iceberg cube",
+      "Shell cube"
+    ],
+    "answer": "Iceberg cube",
+    "explanation": "Unit 4 specifically mentions Iceberg cube in cube materialization."
+  },
+  {
+    "type": "mcq",
+    "question": "In market basket analysis, the support of an itemset {A, B} is defined as:",
+    "options": [
+      "Number of transactions containing both A and B divided by total transactions",
+      "Probability that a transaction containing A also contains B",
+      "Number of transactions containing A or B",
+      "Confidence of rule A → B"
+    ],
+    "answer": "Number of transactions containing both A and B divided by total transactions",
+    "explanation": "Unit 5 covers frequent itemsets and market basket analysis."
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm uses a tree structure to compress the database and mine frequent itemsets without candidate generation?",
+    "options": [
+      "Apriori algorithm",
+      "FP-Growth",
+      "ID3",
+      "Naïve Bayes"
+    ],
+    "answer": "FP-Growth",
+    "explanation": "Unit 5 explicitly mentions FP-Growth as an alternative to Apriori."
+  },
+  {
+    "type": "mcq",
+    "question": "Lift in association rules measures:",
+    "options": [
+      "The support of the rule",
+      "How much more often the items occur together than expected if independent",
+      "The confidence of the rule",
+      "The number of frequent itemsets"
+    ],
+    "answer": "How much more often the items occur together than expected if independent",
+    "explanation": "Unit 5 covers Lift in correlation analysis after association mining."
+  },
+  {
+    "type": "mcq",
+    "question": "Which attribute selection algorithm is mentioned in the syllabus for decision tree induction?",
+    "options": [
+      "C4.5",
+      "ID3",
+      "CART",
+      "Random Forest"
+    ],
+    "answer": "ID3",
+    "explanation": "Unit 6 states ID3 as attribute selection algorithm for decision tree induction."
+  },
+  {
+    "type": "mcq",
+    "question": "Laplace smoothing is used in:",
+    "options": [
+      "Decision tree induction",
+      "Bayesian classification",
+      "Backpropagation neural network",
+      "Support Vector Machine"
+    ],
+    "answer": "Bayesian classification",
+    "explanation": "Unit 6 mentions Bayesian classification and Laplace smoothing."
+  },
+  {
+    "type": "mcq",
+    "question": "Which technique converts a decision tree into IF-THEN rules?",
+    "options": [
+      "Rule-based classifier",
+      "Support Vector Machine",
+      "k-fold cross validation",
+      "McNemar’s test"
+    ],
+    "answer": "Rule-based classifier",
+    "explanation": "Unit 6 covers rule-based classifier including decision tree to rules."
+  },
+  {
+    "type": "mcq",
+    "question": "Precision and recall are used for evaluating:",
+    "options": [
+      "Clustering quality",
+      "Classification accuracy",
+      "Frequent pattern mining",
+      "Data cube computation"
+    ],
+    "answer": "Classification accuracy",
+    "explanation": "Unit 6 covers evaluating accuracy using precision, recall and f-measure."
+  },
+  {
+    "type": "mcq",
+    "question": "McNemar’s test is used to:",
+    "options": [
+      "Compare two classification algorithms statistically",
+      "Compute support in association rules",
+      "Reduce data dimension",
+      "Generate concept hierarchies"
+    ],
+    "answer": "Compare two classification algorithms statistically",
+    "explanation": "Unit 6 explicitly mentions comparing two classifiers using McNemar’s test."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A data warehouse is a ________ collection of data that supports decision-making.",
+    "answer": "subject-oriented, integrated, time-variant and non-volatile",
+    "explanation": "Core definition from Unit 1."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of removing noise and inconsistent data is called ________.",
+    "answer": "data cleaning",
+    "explanation": "First step in Unit 3 Data Preprocessing."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ cube stores only those cells that satisfy a minimum support threshold.",
+    "answer": "Iceberg",
+    "explanation": "Unit 4 cube materialization techniques."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The two main algorithms for finding frequent itemsets are Apriori and ________.",
+    "answer": "FP-Growth",
+    "explanation": "Unit 5 Mining Frequent Patterns."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ measures how much more often two items occur together than expected if they were independent.",
+    "answer": "Lift",
+    "explanation": "Unit 5 From Association Mining to Correlation Analysis."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "ID3 uses ________ as the attribute selection measure for building decision trees.",
+    "answer": "information gain",
+    "explanation": "Unit 6 Classification by decision tree induction."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The technique used to prevent overfitting in classification is ________ cross validation.",
+    "answer": "k-fold",
+    "explanation": "Unit 6 Issues in classification."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Bayesian classification, ________ smoothing is applied to avoid zero probability.",
+    "answer": "Laplace",
+    "explanation": "Unit 6 Bayesian classification."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A data cube that stores all possible combinations of dimensions is called ________ cube.",
+    "answer": "full",
+    "explanation": "Unit 4 Cube materialization."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the process of finding interesting patterns and knowledge from large data.",
+    "answer": "data mining",
+    "explanation": "Unit 2 Introduction to Data Mining."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between full cube and iceberg cube.",
+    "answer": "Full cube materializes all possible cells of the data cube. Iceberg cube materializes only those cells whose measure value meets the minimum support threshold, reducing storage and computation.",
+    "explanation": "Important concept from Unit 4 for efficient cube computation."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is data preprocessing important before data mining?",
+    "answer": "Real-world data is incomplete, noisy and inconsistent. Preprocessing (cleaning, integration, reduction, discretization) improves data quality and mining results.",
+    "explanation": "Core idea from Unit 3."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two limitations of the Apriori algorithm.",
+    "answer": "1. Generates huge number of candidate itemsets. 2. Requires multiple database scans, making it costly for large datasets.",
+    "explanation": "Unit 5 discusses limitations and improving Apriori."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the role of Laplace smoothing in Bayesian classification?",
+    "answer": "It adds a small value to each probability count to avoid zero probability problem when a feature value is missing in training data.",
+    "explanation": "Directly mentioned in Unit 6."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of overfitting in classification.",
+    "answer": "Overfitting occurs when the model learns noise and details in the training data so well that it performs poorly on unseen test data.",
+    "explanation": "Unit 6 covers issues in classification including overfitting and underfitting."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is k-fold cross validation?",
+    "answer": "The dataset is divided into k equal parts. The model is trained k times, each time using k-1 parts for training and 1 part for testing. Average accuracy is taken.",
+    "explanation": "Unit 6 mentions k-fold cross validation for evaluating accuracy."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does FP-Growth algorithm overcome the limitations of Apriori?",
+    "answer": "It uses a compact FP-tree structure to compress the database and mines frequent itemsets without generating candidate itemsets or multiple database scans.",
+    "explanation": "Unit 5 compares both algorithms."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between precision and recall in classification evaluation.",
+    "answer": "Precision = TP / (TP + FP) measures correctness of positive predictions. Recall = TP / (TP + FN) measures ability to find all positive instances.",
+    "explanation": "Unit 6 evaluating accuracy metrics."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of McNemar’s test in classification?",
+    "answer": "It is a statistical test used to compare the performance of two different classification algorithms on the same dataset to check if their difference is significant.",
+    "explanation": "Unit 6 explicitly mentions comparing two classifiers using McNemar’s test."
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any two OLAP operations in multidimensional data model.",
+    "answer": "1. Roll-up (aggregation). 2. Drill-down (de-aggregation). Other operations include slice, dice, pivot.",
+    "explanation": "Unit 1 covers OLAP operations."
+  }
+]

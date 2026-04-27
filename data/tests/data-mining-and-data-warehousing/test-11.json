@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which Data Warehouse schema is characterized by a central fact table and normalized dimension tables that are further split into additional sub-tables?",
+    "options": [
+      "Star Schema",
+      "Snowflake Schema",
+      "Fact Constellation Schema",
+      "Galaxy Schema"
+    ],
+    "answer": "Snowflake Schema",
+    "explanation": "The snowflake schema is a variant of the star schema where some dimension tables are normalized, splitting the data into additional tables."
+  },
+  {
+    "type": "mcq",
+    "question": "Which OLAP operation navigates from less detailed data to more detailed data by descending a concept hierarchy?",
+    "options": [
+      "Roll-up",
+      "Slice",
+      "Dice",
+      "Drill-down"
+    ],
+    "answer": "Drill-down",
+    "explanation": "Drill-down navigates from less detailed data to more detailed data by descending a concept hierarchy or adding new dimensions."
+  },
+  {
+    "type": "mcq",
+    "question": "In the KDD process, which step involves combining multiple heterogeneous data sources into a unified repository?",
+    "options": [
+      "Data Cleaning",
+      "Data Integration",
+      "Data Transformation",
+      "Data Selection"
+    ],
+    "answer": "Data Integration",
+    "explanation": "Data integration combines data from multiple sources into a coherent data store, as in data warehousing."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data transformation technique scales attribute values to fit within a specific range like 0.0 to 1.0?",
+    "options": [
+      "Aggregation",
+      "Normalization",
+      "Smoothing",
+      "Generalization"
+    ],
+    "answer": "Normalization",
+    "explanation": "Normalization scales attribute data to fall within a smaller range, such as 0.0 to 1.0."
+  },
+  {
+    "type": "mcq",
+    "question": "The Apriori property states that if an itemset is frequent, then:",
+    "options": [
+      "All of its supersets must also be frequent",
+      "All of its subsets must also be frequent",
+      "It must satisfy a high confidence threshold",
+      "It cannot be pruned from the search space"
+    ],
+    "answer": "All of its subsets must also be frequent",
+    "explanation": "The Apriori property ensures that all nonempty subsets of a frequent itemset must also be frequent."
+  },
+  {
+    "type": "mcq",
+    "question": "Which frequent pattern mining algorithm finds frequent itemsets without the need for candidate generation?",
+    "options": [
+      "Apriori",
+      "ID3",
+      "FP-growth",
+      "CART"
+    ],
+    "answer": "FP-growth",
+    "explanation": "FP-growth transforms the problem of mining frequent patterns into mining an FP-tree, avoiding candidate generation."
+  },
+  {
+    "type": "mcq",
+    "question": "In an association rule A ⇒ B, what is the measure of certainty represented by P(B|A)?",
+    "options": [
+      "Support",
+      "Confidence",
+      "Lift",
+      "Cosine"
+    ],
+    "answer": "Confidence",
+    "explanation": "Confidence is the percentage of transactions containing A that also contain B, representing conditional probability P(B|A)."
+  },
+  {
+    "type": "mcq",
+    "question": "The ID3 algorithm uses which heuristic measure to select the splitting attribute in a decision tree?",
+    "options": [
+      "Gini Index",
+      "Gain Ratio",
+      "Information Gain",
+      "Misclassification Rate"
+    ],
+    "answer": "Information Gain",
+    "explanation": "ID3 uses Information Gain, based on the reduction of entropy after partitioning the data by an attribute."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the 'Naive' assumption in a Naive Bayesian Classifier?",
+    "options": [
+      "Data is free of noise",
+      "Attributes are class-conditionally independent",
+      "Training set is extremely large",
+      "Class labels are numeric"
+    ],
+    "answer": "Attributes are class-conditionally independent",
+    "explanation": "Naive Bayesian classification assumes class-conditional independence, meaning attribute values do not influence each other given the class."
+  },
+  {
+    "type": "mcq",
+    "question": "Why is the Laplacian correction (Laplace Smoothing) applied during probability estimation?",
+    "options": [
+      "To handle missing values",
+      "To avoid zero-probability values",
+      "To reduce overfitting",
+      "To normalize the counts"
+    ],
+    "answer": "To avoid zero-probability values",
+    "explanation": "Laplacian correction adds 1 to each count to ensure no probability is zero, which would nullify the calculation."
+  },
+  {
+    "type": "mcq",
+    "question": "In Support Vector Machines, which training tuples define the location and orientation of the maximum marginal hyperplane?",
+    "options": [
+      "Centroids",
+      "Noise points",
+      "Support Vectors",
+      "Kernel points"
+    ],
+    "answer": "Support Vectors",
+    "explanation": "Support vectors are the 'essential' training tuples that lie closest to the decision boundary."
+  },
+  {
+    "type": "mcq",
+    "question": "The harmonic mean of precision and recall is known as:",
+    "options": [
+      "Accuracy",
+      "Recognition Rate",
+      "F-measure",
+      "Sensitivity"
+    ],
+    "answer": "F-measure",
+    "explanation": "The F-measure (or F1 score) is the harmonic mean of precision and recall, providing a balanced evaluation."
+  },
+  {
+    "type": "mcq",
+    "question": "When a model is too complex and fits noise or outliers in the training data, the problem is called:",
+    "options": [
+      "Underfitting",
+      "Pruning",
+      "Overfitting",
+      "Smoothing"
+    ],
+    "answer": "Overfitting",
+    "explanation": "Overfitting occurs when a model fits noise or outliers in training data, resulting in poor performance on new data."
+  },
+  {
+    "type": "mcq",
+    "question": "Which statistical test is used to determine if the difference in accuracy between two classifiers is significant using only one test set?",
+    "options": [
+      "Z-test",
+      "McNemar’s test",
+      "T-test",
+      "Chi-square test"
+    ],
+    "answer": "McNemar’s test",
+    "explanation": "McNemar’s test is a statistical test recommended for comparing two classifiers when only one test set is available."
+  },
+  {
+    "type": "mcq",
+    "question": "In K-fold cross-validation, how is the final accuracy calculated?",
+    "options": [
+      "Sum of all iteration accuracies",
+      "Accuracy of the last fold",
+      "Average of the accuracies of the k iterations",
+      "Minimum accuracy across folds"
+    ],
+    "answer": "Average of the accuracies of the k iterations",
+    "explanation": "In k-fold cross-validation, the model is trained and tested k times, and the results are averaged."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A data warehouse is a subject-oriented, integrated, ________, and nonvolatile collection of data.",
+    "answer": "time-variant",
+    "explanation": "Data warehouses are time-variant as they store data over a historical perspective."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of extracting implicit knowledge and patterns from large data sets is called ________.",
+    "answer": "data mining",
+    "explanation": "Data mining is the automated extraction of patterns representing knowledge."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is a data smoothing technique that uses the neighborhood of a value to smooth it.",
+    "answer": "Binning",
+    "explanation": "Binning smoothed data by consulting its neighborhood."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In decision trees, the ________ nodes hold the class label predictions.",
+    "answer": "leaf",
+    "explanation": "Leaf nodes (or terminal nodes) hold the predicted class labels."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The assumption that all nonempty subsets of a frequent itemset must also be frequent is known as the ________ property.",
+    "answer": "Apriori",
+    "explanation": "This property is the foundation of the Apriori algorithm."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "explanation": "Tree pruning helps to address the problem of ________ in classification models.",
+    "answer": "overfitting",
+    "question": "Tree pruning removes unreliable branches to fix overfitting."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ matrix is used to summarize the number of true positives and false negatives for a classifier.",
+    "answer": "confusion",
+    "explanation": "A confusion matrix is a tool to analyze how well a classifier recognizes different classes."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Support Vector Machines, the algorithm searches for the ________ marginal hyperplane.",
+    "answer": "maximum",
+    "explanation": "SVM searches for the Maximum Marginal Hyperplane to separate data classes."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ratio of correctly predicted positive observations to the total predicted positives is ________.",
+    "answer": "precision",
+    "explanation": "Precision measures the exactness of the positive predictions."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Backpropagation is a ________ network learning algorithm that adjust weights using gradient descent.",
+    "answer": "neural",
+    "explanation": "Backpropagation is a core learning algorithm for feed-forward neural networks."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between OLTP and OLAP systems in terms of users and orientation.",
+    "answer": "OLTP systems are customer-oriented and used for day-to-day transaction processing by clerks. OLAP systems are market-oriented and used for data analysis by knowledge workers and managers.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the two-step process of data classification.",
+    "answer": "The first step is the learning step, where a model is built from a training set with known labels. The second step is testing, where the model's accuracy is estimated using an independent test set.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is 'Information Gain' biased toward attributes with many distinct values?",
+    "answer": "Information Gain prefers attributes like 'product_ID' because partitioning based on a unique identifier results in many 'pure' partitions with zero entropy, giving it the maximum possible gain.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of tree pruning in Decision Tree induction?",
+    "answer": "Tree pruning removes branches that reflect noise or outliers in the training data. This simplifies the tree to prevent overfitting and improves accuracy on unseen data.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define Support and Confidence for the association rule A ⇒ B.",
+    "answer": "Support is the probability P(A ∪ B), representing the percentage of transactions containing both A and B. Confidence is the conditional probability P(B|A), representing how often B occurs in transactions that contain A.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What are 'Support Vectors' in Support Vector Machines?",
+    "answer": "Support vectors are the training tuples that are closest to the decision boundary (hyperplane). They are the critical elements that define the location and orientation of the maximum marginal hyperplane.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "How does Laplace Smoothing (Laplacian correction) fix the zero-probability problem?",
+    "answer": "It adds a small constant (typically 1) to each count in the probability calculation and adjusts the denominator accordingly, ensuring that no probability value becomes zero and nullifies the product.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Contrast K-fold cross-validation with the holdout method.",
+    "answer": "The holdout method splits data once into training and test sets. K-fold cross-validation partitions data into k subsets and trains/tests the model k times, averaging the accuracy to provide a more reliable estimate.",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define Precision and Recall in the context of model evaluation.",
+    "answer": "Precision measures exactness (the percentage of positive predictions that are actually positive). Recall measures completeness (the percentage of actual positive tuples correctly identified by the classifier).",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain the role of 'Hidden Layers' in Backpropagation.",
+    "answer": "Hidden layers allow the neural network to model complex, nonlinear relationships by transforming input data into intermediate features. They represent neurons between the input and output layers where weights are adjusted.",
+    "explanation": ""
+  }
+]

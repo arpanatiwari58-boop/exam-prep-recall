@@ -1,0 +1,317 @@
+[
+  {
+    "type": "mcq",
+    "question": "According to the textbook, the lifecycle of data in a data warehouse typically follows which sequence?",
+    "options": [
+      "Operational systems → Data warehouse → Archive/Deletion",
+      "Data warehouse → Operational systems → Archive",
+      "Operational systems → Archive → Data warehouse",
+      "Data warehouse → Archive → Operational systems"
+    ],
+    "answer": "Operational systems → Data warehouse → Archive/Deletion"
+  },
+  {
+    "type": "mcq",
+    "question": "Which data warehouse model is designed for a specific department or functional area?",
+    "options": [
+      "Virtual warehouse",
+      "Data mart",
+      "Enterprise warehouse",
+      "Cloud warehouse"
+    ],
+    "answer": "Data mart"
+  },
+  {
+    "type": "mcq",
+    "question": "In a 3-tier data warehouse architecture, what is the primary role of the middle tier?",
+    "options": [
+      "Storing metadata",
+      "Acting as an OLAP server",
+      "Performing ETL",
+      "Providing front-end tools"
+    ],
+    "answer": "Acting as an OLAP server"
+  },
+  {
+    "type": "mcq",
+    "question": "In the textbook, metadata repository primarily stores:",
+    "options": [
+      "Fact tables only",
+      "Data about data (schema, ETL, rules)",
+      "OLAP queries",
+      "Source data only"
+    ],
+    "answer": "Data about data (schema, ETL, rules)"
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following describes disguised missing data?",
+    "options": [
+      "Physically missing values",
+      "Filtered values",
+      "Incorrect values entered intentionally",
+      "Duplicate values"
+    ],
+    "answer": "Incorrect values entered intentionally"
+  },
+  {
+    "type": "mcq",
+    "question": "Which attribute type has a true zero-point allowing ratio comparison?",
+    "options": [
+      "Interval",
+      "Ordinal",
+      "Ratio",
+      "Nominal"
+    ],
+    "answer": "Ratio"
+  },
+  {
+    "type": "mcq",
+    "question": "Data smoothing is mainly used in:",
+    "options": [
+      "Data cleaning",
+      "Data transformation",
+      "Data reduction",
+      "Discretization"
+    ],
+    "answer": "Data transformation"
+  },
+  {
+    "type": "mcq",
+    "question": "Concept hierarchy generation is used for:",
+    "options": [
+      "Removing noise",
+      "Providing multiple abstraction levels",
+      "Reducing tuples",
+      "Frequent itemsets"
+    ],
+    "answer": "Providing multiple abstraction levels"
+  },
+  {
+    "type": "mcq",
+    "question": "Attribute-oriented induction is mainly used for:",
+    "options": [
+      "Frequent patterns",
+      "Data characterization",
+      "Clustering",
+      "Outlier detection"
+    ],
+    "answer": "Data characterization"
+  },
+  {
+    "type": "mcq",
+    "question": "Closed itemsets are defined as:",
+    "options": [
+      "No superset with same support",
+      "100% confidence",
+      "Single item",
+      "FP-Growth only"
+    ],
+    "answer": "No superset with same support"
+  },
+  {
+    "type": "mcq",
+    "question": "Difference between closed and maximal frequent itemsets?",
+    "options": [
+      "Closed are lossy",
+      "Maximal do not preserve subset support",
+      "Closed require higher support",
+      "Maximal cannot be closed"
+    ],
+    "answer": "Maximal do not preserve subset support"
+  },
+  {
+    "type": "mcq",
+    "question": "Improving Apriori efficiency can be done using:",
+    "options": [
+      "Increase support",
+      "Hash-based techniques",
+      "Remove confidence",
+      "Vertical format only"
+    ],
+    "answer": "Hash-based techniques"
+  },
+  {
+    "type": "mcq",
+    "question": "Correlation analysis is used to:",
+    "options": [
+      "Replace support",
+      "Find relationships beyond support/confidence",
+      "Generate itemsets",
+      "Classification"
+    ],
+    "answer": "Find relationships beyond support/confidence"
+  },
+  {
+    "type": "mcq",
+    "question": "Which issue exists in Information Gain?",
+    "options": [
+      "Prefers binary",
+      "Expensive",
+      "Biased toward many distinct values",
+      "Cannot handle categorical"
+    ],
+    "answer": "Biased toward many distinct values"
+  },
+  {
+    "type": "mcq",
+    "question": "Sensitivity is equal to:",
+    "options": [
+      "Precision",
+      "Recall",
+      "Accuracy",
+      "F-measure"
+    ],
+    "answer": "Recall"
+  },
+  {
+    "type": "mcq",
+    "question": "Which schema is common for Data Marts?",
+    "options": [
+      "Fact constellation",
+      "Snowflake",
+      "Star schema",
+      "Relational"
+    ],
+    "answer": "Star schema"
+  },
+  {
+    "type": "mcq",
+    "question": "In SVM, for non-linear data:",
+    "options": [
+      "Fails",
+      "Uses slack variables",
+      "Reduces dimension",
+      "Uses clustering"
+    ],
+    "answer": "Uses slack variables"
+  },
+  {
+    "type": "mcq",
+    "question": "PCA is used for:",
+    "options": [
+      "Regression",
+      "Wavelet",
+      "Dimensionality reduction",
+      "Sampling"
+    ],
+    "answer": "Dimensionality reduction"
+  },
+  {
+    "type": "mcq",
+    "question": "In AOI, attribute with many values and no hierarchy:",
+    "options": [
+      "Generalize",
+      "Keep",
+      "Remove",
+      "Duplicate"
+    ],
+    "answer": "Remove"
+  },
+  {
+    "type": "mcq",
+    "question": "In negatively skewed distribution:",
+    "options": [
+      "Mean > Median",
+      "Mean = Median",
+      "Mean < Median",
+      "Mean = Mode"
+    ],
+    "answer": "Mean < Median"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The data mining process is known as __________.",
+    "answer": "KDD"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Binary attribute is __________ if both values are equally important.",
+    "answer": "symmetric"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Smoothing using middle bin value is called __________.",
+    "answer": "bin medians"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Impurity measure in CART is __________ index.",
+    "answer": "Gini"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Apriori candidate generation step is called __________.",
+    "answer": "join"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "SVM boundary points are called __________.",
+    "answer": "support vectors"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Accuracy estimation using two splits is __________ method.",
+    "answer": "holdout"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Harmonic mean of precision and recall is __________.",
+    "answer": "F-measure"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Data warehouses are __________ (store historical data).",
+    "answer": "time-variant"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Central table in star schema is __________ table.",
+    "answer": "fact"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between data characterization and discrimination.",
+    "answer": "Characterization summarizes a class; discrimination compares with other classes."
+  },
+  {
+    "type": "short_answer",
+    "question": "Prepruning vs Postpruning.",
+    "answer": "Prepruning stops early; postpruning removes branches after full tree."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define entropy.",
+    "answer": "Measure of impurity used in information gain."
+  },
+  {
+    "type": "short_answer",
+    "question": "Advantage of FP-growth over Apriori.",
+    "answer": "No candidate generation using FP-tree."
+  },
+  {
+    "type": "short_answer",
+    "question": "Classification vs numeric prediction.",
+    "answer": "Classification predicts categories; prediction predicts numeric values."
+  },
+  {
+    "type": "short_answer",
+    "question": "Entity identification problem.",
+    "answer": "Matching same entities across different databases."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is correlation analysis performed after association rule mining?",
+    "answer": "To remove misleading rules and find true relationships beyond support and confidence."
+  },
+  {
+    "type": "short_answer",
+    "question": "Laplacian correction.",
+    "answer": "Adds constant to avoid zero probabilities."
+  },
+  {
+    "type": "short_answer",
+    "question": "Multidimensional association rule.",
+    "answer": "Rule involving multiple predicates (e.g., age & income → buy)."
+  }
+]

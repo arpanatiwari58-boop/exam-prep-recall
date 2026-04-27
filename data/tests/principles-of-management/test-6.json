@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Changing perspectives of organization view modern organizations as:",
+    "options": [
+      "Closed systems with rigid hierarchy",
+      "Open systems interacting with environment",
+      "Only profit-oriented entities",
+      "Static structures without goals"
+    ],
+    "answer": "Open systems interacting with environment",
+    "explanation": "Modern view treats organizations as open systems (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "The three basic managerial roles identified by Mintzberg are:",
+    "options": [
+      "Technical, human, conceptual",
+      "Interpersonal, informational, decisional",
+      "Planning, organizing, controlling",
+      "Classical, behavioural, contingency"
+    ],
+    "answer": "Interpersonal, informational, decisional",
+    "explanation": "Mintzberg’s managerial roles framework (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which theory introduced the concept of 'learning organization'?",
+    "options": [
+      "Classical theory",
+      "Contingency theory",
+      "Emerging management concepts",
+      "Decision theory"
+    ],
+    "answer": "Emerging management concepts",
+    "explanation": "Learning organization is a modern emerging concept (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "The proactive approach to social responsibility involves:",
+    "options": [
+      "Meeting only legal requirements",
+      "Actively promoting social welfare beyond law",
+      "Defending against criticism",
+      "Ignoring societal expectations"
+    ],
+    "answer": "Actively promoting social welfare beyond law",
+    "explanation": "Proactive stance in social responsibility (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which quantitative tool for planning uses mathematical models to optimize resource allocation?",
+    "options": [
+      "SWOT analysis",
+      "Linear programming",
+      "Environmental scanning",
+      "Goal succession"
+    ],
+    "answer": "Linear programming",
+    "explanation": "Quantitative tools in planning (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Non-programmed decisions are best handled by:",
+    "options": [
+      "Routine procedures",
+      "Creative judgment and intuition",
+      "Standard operating procedures",
+      "Mathematical formulas only"
+    ],
+    "answer": "Creative judgment and intuition",
+    "explanation": "Non-programmed decisions under uncertainty (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Mechanistic organization structure is most appropriate when:",
+    "options": [
+      "Environment is highly dynamic",
+      "Tasks are stable and repetitive",
+      "High employee creativity is needed",
+      "Decentralization is preferred"
+    ],
+    "answer": "Tasks are stable and repetitive",
+    "explanation": "Mechanistic vs organic views (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Network organizational structure primarily relies on:",
+    "options": [
+      "Strict vertical hierarchy",
+      "External partnerships and technology",
+      "Functional departmentalization only",
+      "Centralized authority"
+    ],
+    "answer": "External partnerships and technology",
+    "explanation": "Modern network structure (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Democratic leadership style is most effective when:",
+    "options": [
+      "Subordinates are inexperienced",
+      "Quick decisions are critical",
+      "Team members are skilled and motivated",
+      "Crisis situation exists"
+    ],
+    "answer": "Team members are skilled and motivated",
+    "explanation": "Leadership styles and situations (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "Informal groups in organizations are formed due to:",
+    "options": [
+      "Official orders from management",
+      "Social needs and personal relationships",
+      "Departmentalization rules",
+      "Strategic planning requirements"
+    ],
+    "answer": "Social needs and personal relationships",
+    "explanation": "Types of groups (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "A key feature of effective organizational goals is that they must be:",
+    "options": [
+      "Vague to allow flexibility",
+      "Measurable and time-bound",
+      "Set only by top management",
+      "Changed frequently without reason"
+    ],
+    "answer": "Measurable and time-bound",
+    "explanation": "Features of effective goals (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which managerial skill becomes increasingly important as one moves up the hierarchy?",
+    "options": [
+      "Technical skill",
+      "Human skill",
+      "Conceptual skill",
+      "Operational skill"
+    ],
+    "answer": "Conceptual skill",
+    "explanation": "Managerial skills and hierarchy (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The main contribution of Human Relations theory was:",
+    "options": [
+      "Focus on efficiency and structure",
+      "Emphasis on social and psychological factors",
+      "Use of mathematical models",
+      "Contingency-based decisions"
+    ],
+    "answer": "Emphasis on social and psychological factors",
+    "explanation": "Human Relations vs Classical (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Business ethics becomes significant because it:",
+    "options": [
+      "Increases short-term profit only",
+      "Helps in legal compliance and long-term trust",
+      "Reduces all social responsibilities",
+      "Focuses only on shareholders"
+    ],
+    "answer": "Helps in legal compliance and long-term trust",
+    "explanation": "Business ethics significance (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Problem-solving strategies in decision making include:",
+    "options": [
+      "Only quantitative techniques",
+      "Brainstorming and root-cause analysis",
+      "Goal displacement only",
+      "Centralization of authority"
+    ],
+    "answer": "Brainstorming and root-cause analysis",
+    "explanation": "Problem solving concepts (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process by which old goals are deliberately replaced by new ones is called goal ________.",
+    "answer": "succession",
+    "explanation": "Goal succession (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ skill is the ability to understand complex interrelationships of the entire organization.",
+    "answer": "Conceptual",
+    "explanation": "Managerial skills (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ theory uses mathematical and statistical techniques for decision making.",
+    "answer": "Management science",
+    "explanation": "Management science theory (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ component of external environment includes inflation, GDP growth and interest rates.",
+    "answer": "economic",
+    "explanation": "Environmental components (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ analysis is a systematic method of environmental scanning.",
+    "answer": "SWOT",
+    "explanation": "Environmental scanning tool (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ organization structure is rigid and suitable for stable environments.",
+    "answer": "Mechanistic",
+    "explanation": "Organic vs mechanistic (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the process of grouping activities into departments based on functions or products.",
+    "answer": "Departmentalization",
+    "explanation": "Organizing process (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ leadership style is also known as participative leadership.",
+    "answer": "Democratic",
+    "explanation": "Leadership styles (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Dysfunctional conflict is also called ________ conflict.",
+    "answer": "destructive",
+    "explanation": "Types of conflict (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Mintzberg’s ________ role involves handling disturbances and crises.",
+    "answer": "disturbance handler",
+    "explanation": "Decisional roles (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three problems of goal formulation and their impact on organization.",
+    "answer": "1. Conflicting goals (confusion), 2. Unrealistic goals (demotivation), 3. Goal displacement (loss of direction).",
+    "explanation": "Problems of goal formulation (Unit 1)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between interpersonal and decisional roles of managers.",
+    "answer": "Interpersonal roles involve people and relationships (figurehead, leader, liaison). Decisional roles involve choices and action (entrepreneur, disturbance handler, etc.).",
+    "explanation": "Mintzberg roles (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is Contingency theory considered more practical than Classical theory?",
+    "answer": "Contingency says 'it depends' on situation; Classical assumes one best way for all situations.",
+    "explanation": "Comparison of theories (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two approaches to social responsibility of business.",
+    "answer": "Obligatory (only legal), Proactive (beyond legal, active welfare).",
+    "explanation": "Social responsibility approaches (Unit 4)."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does strategic planning differ from operational planning?",
+    "answer": "Strategic is long-term, done by top management, focuses on overall direction. Operational is short-term, middle/lower level, focuses on daily activities.",
+    "explanation": "Hierarchy of planning (Unit 5)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any four principles of organizing.",
+    "answer": "Unity of command, scalar chain, span of control, division of labour, unity of direction.",
+    "explanation": "Principles of organizing (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain advantages of matrix organizational structure.",
+    "answer": "Combines functional expertise with project flexibility, improves coordination, faster response to change, better resource utilization.",
+    "explanation": "Modern structures (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "How do group characteristics influence conflict in organizations?",
+    "answer": "Group size, cohesion, norms and status affect conflict level. Highly cohesive groups may have less dysfunctional conflict but more groupthink.",
+    "explanation": "Groups and conflict (Unit 7)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain any two leadership styles with their suitability.",
+    "answer": "Autocratic: quick decisions in crisis. Democratic: high motivation when employees are skilled.",
+    "explanation": "Leadership styles (Unit 7)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is delegation of authority essential in large organizations?",
+    "answer": "Reduces top management workload, develops subordinates, speeds up decisions, increases motivation.",
+    "explanation": "Delegation in organizing (Unit 6)."
+  }
+]

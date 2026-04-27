@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Book, BrainCircuit, ChevronRight, User, Plus, Check, FileText, Activity, Award, GraduationCap } from "lucide-react";
+import HeroSection from "./_hompage/HeroSection";
+import MotivationSection from "./_hompage/MotivationSection";
 
 const subjects = [
   {
@@ -22,7 +24,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white font-sans text-[#1E1A3C] selection:bg-[#6BB3C0] selection:text-white">
       {/* 1. Nav/Header (Floating Pill Style) */}
-      <div className="fixed top-4 w-full z-50 flex justify-center px-4">
+      {/* <div className="fixed top-4 w-full z-50 flex justify-center px-4">
         <header className="w-full max-w-6xl bg-white/95 backdrop-blur-sm rounded-full shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] px-6 md:px-8 py-3.5 flex justify-between items-center transition-all">
           <div className="flex items-center gap-4">
             <div className="w-[30px] h-[30px] rounded-lg bg-[#6BB3C0] flex items-center justify-center text-white">
@@ -48,10 +50,10 @@ export default function HomePage() {
             </button>
           </div>
         </header>
-      </div>
+      </div> */}
 
       {/* 2. Hero Section */}
-      <section className="relative w-full h-[90vh] min-h-[650px] flex flex-col justify-center">
+      {/* <section className="relative w-full h-[90vh] min-h-[650px] flex flex-col justify-center">
         <div className="absolute inset-0">
           <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop" className="w-full h-full object-cover object-center" alt="Students learning" />
         </div>
@@ -71,160 +73,63 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+      <HeroSection />
 
-      {/* 3. Pastel Subject Cards */}
-      <section id="pastel-subjects" className="py-16 md:py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {subjects.map((subject, index) => {
-            const bgColors = [
-              "bg-[#FCEBA3]/80 border-[#FCEBA3]",
-              "bg-[#FBD6C2]/80 border-[#FDD9C3]",
-              "bg-[#F4CACD]/80 border-[#F4CACD]",
-              "bg-[#D2DDFA]/80 border-[#D2DDFA]"
-            ];
-            const colorClass = bgColors[index % bgColors.length];
-            
-            return (
-              <Link key={subject.slug} href={`/subjects/${subject.slug}`} className="group outline-none block h-full">
-                <div className={`p-8 rounded-[16px] border transition-transform hover:-translate-y-1 hover:shadow-[0_8px_20px_-4px_rgba(0,0,0,0.1)] h-full flex flex-col ${colorClass}`}>
-                   <h3 className="text-[20px] font-bold mb-3 text-[#1E1A3C]">{subject.name}</h3>
-                   <p className="text-sm text-[#1E1A3C]/80 leading-relaxed font-medium mb-6 flex-1">{subject.description}</p>
-                   <div className="font-bold text-[12px] uppercase tracking-widest text-[#1E1A3C] flex items-center justify-between">
-                     <span>{subject.testsCount} {subject.testsCount === 1 ? 'Test' : 'Tests'} Ready</span>
-                     <ChevronRight size={16} strokeWidth={3} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all"/>
-                   </div>
-                </div>
-              </Link>
-            );
-          })}
-          
-          <Link href="/create-test" className="group outline-none block h-full min-h-[220px]">
-            <div className="p-8 rounded-[16px] border-2 border-dashed border-gray-200 transition-all hover:border-[#6BB3C0] hover:bg-[#E7F3F5]/30 h-full flex flex-col items-center justify-center text-center bg-gray-50">
-               <div className="w-[48px] h-[48px] bg-white rounded-full flex items-center justify-center text-gray-400 group-hover:text-[#6BB3C0] group-hover:shadow-sm border border-gray-100 transition-all mb-4">
-                 <Plus size={24} strokeWidth={2.5}/>
-               </div>
-               <h3 className="text-[18px] font-bold text-[#1E1A3C] transition-colors mb-1">Add Subject</h3>
-            </div>
-          </Link>
-        </div>
-      </section>
-
-      {/* 4. Knowing is Better (Info text block) */}
-      <section id="knowing" className="bg-[#F7F3EA] py-32 text-center px-6">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-[46px] font-light mb-6 text-[#1E1A3C] tracking-tight">Active Recall is <span className="font-bold">better.</span></h2>
-          <p className="text-lg md:text-[20px] text-[#1E1A3C]/70 mb-10 font-medium">
-            Your syllabus is full of crucial concepts. CSITRecall is your key.
-          </p>
-          <p className="text-xl md:text-[22px] font-medium mb-12 text-[#6BB3C0] leading-snug">
-            When you know your weak points in Data Mining, <br className="hidden md:block"/>
-            You can <span className="font-bold">target them before the board exams.</span>
-          </p>
-          <Link href="/create-test">
-             <button className="bg-[#1E1A3C] text-white px-8 py-[18px] rounded-full font-bold text-sm hover:bg-[#2A2552] transition-colors inline-flex items-center gap-2 shadow-lg">
-               Learn About Creating Tests <ChevronRight size={18} strokeWidth={3}/>
-             </button>
-          </Link>
-        </div>
-      </section>
-
-      {/* 5. How It Works (Timeline section) */}
-      <section id="how-it-works" className="bg-[#FCEBA3]/80 py-32 px-6 relative">
-         <div className="max-w-5xl mx-auto text-center">
-            <h4 className="text-[#6BB3C0] font-bold tracking-widest uppercase text-[13px] mb-4">HOW IT WORKS</h4>
-            <h2 className="text-4xl md:text-[46px] font-light text-[#1E1A3C] mb-24 tracking-tight">
-              Effortless generation and <span className="font-bold">expert practice.</span>
+      {/* Subjects Section (Minimal Sleek List instead of bulky cards) */}
+      <section id="pastel-subjects" className="py-16 md:py-24 bg-[#fdfbfb]">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="flex flex-col items-center text-center mb-12">
+            <h2 className="text-3xl md:text-[38px] font-extrabold text-[#060b26] tracking-tight mb-4">
+              Select Your <span className="text-[#a072ff]">Semester Subject</span>
             </h2>
+            <p className="text-[17px] text-[#060b26]/50 font-medium max-w-xl">
+              Don't waste time on passive reading. Instantly take active-recall tests generated specifically for your CSIT syllabus.
+            </p>
+          </div>
 
-            <div className="grid md:grid-cols-3 gap-16 md:gap-8 relative max-w-4xl mx-auto">
-               {/* Dotted connecting line for desktop */}
-               <div className="hidden md:block absolute top-[52px] left-[16%] right-[16%] h-[2px] border-t-[3px] border-dotted border-black/10 z-0"></div>
-               
-               <div className="relative z-10 flex flex-col items-center">
-                 <div className="w-[104px] h-[104px] bg-[#6BB3C0] rounded-full flex items-center justify-center text-white mb-6 shadow-[0_0_0_8px_#FBE384] border-[4px] border-white">
-                   <FileText size={36} strokeWidth={2.5}/>
-                 </div>
-                 <h3 className="text-[22px] font-bold mb-3 text-[#1E1A3C]">1. Generate</h3>
-                 <p className="text-[16px] font-medium text-[#1E1A3C]/70 leading-relaxed max-w-[260px]">
-                   Use AI to generate a JSON payload of questions from your university notes and paste it to create a test.
-                 </p>
-               </div>
+          <div className="flex flex-col gap-4">
+             {subjects.map((subject) => (
+                <Link key={subject.slug} href={`/subjects/${subject.slug}`} className="group outline-none block">
+                   <div className="bg-white p-5 md:p-6 rounded-[16px] border border-gray-100 hover:border-[#a072ff]/40 shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_30px_rgba(160,114,255,0.08)] transition-all duration-300 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 overflow-hidden">
+                      
+                      <div className="flex items-center gap-5">
+                         <div className="w-12 h-12 rounded-xl bg-[#ffb433]/10 border border-[#ffb433]/20 flex items-center justify-center text-[#e69b19] group-hover:bg-[#ffb433] group-hover:text-white transition-colors duration-300">
+                            {subject.name.includes("Mining") ? <BrainCircuit size={22} strokeWidth={2.5}/> : <Book size={22} strokeWidth={2.5}/>}
+                         </div>
+                         <div>
+                            <h3 className="text-[18px] md:text-[20px] font-bold text-[#060b26] mb-1.5 group-hover:text-[#a072ff] transition-colors">{subject.name}</h3>
+                            <p className="text-[14px] font-medium text-[#060b26]/50 line-clamp-1">{subject.description}</p>
+                         </div>
+                      </div>
 
-               <div className="relative z-10 flex flex-col items-center">
-                 <div className="w-[104px] h-[104px] bg-[#6BB3C0] rounded-full flex items-center justify-center text-white mb-6 shadow-[0_0_0_8px_#FBE384] border-[4px] border-white">
-                   <Activity size={36} strokeWidth={2.5}/>
-                 </div>
-                 <h3 className="text-[22px] font-bold mb-3 text-[#1E1A3C]">2. Practice</h3>
-                 <p className="text-[16px] font-medium text-[#1E1A3C]/70 leading-relaxed max-w-[260px]">
-                   Take the exam on our tailored platform featuring interactive formats like MCQs, True/False, and blanks.
-                 </p>
-               </div>
+                      <div className="flex items-center gap-6 w-full md:w-auto justify-between md:justify-end border-t md:border-none border-gray-50 pt-4 md:pt-0">
+                         <span className="bg-gray-50 px-3 py-1.5 rounded-[8px] text-[12px] font-bold text-[#060b26]/60 uppercase tracking-widest border border-gray-100 whitespace-nowrap">
+                            {subject.testsCount} {subject.testsCount === 1 ? 'Test' : 'Tests'}
+                         </span>
+                         <button className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-400 group-hover:bg-[#a072ff] group-hover:border-[#a072ff] group-hover:text-white transition-all duration-300 shadow-sm shrink-0">
+                            <ChevronRight size={18} strokeWidth={2.5} className="group-hover:translate-x-0.5 transition-transform"/>
+                         </button>
+                      </div>
 
-               <div className="relative z-10 flex flex-col items-center">
-                 <div className="w-[104px] h-[104px] bg-[#6BB3C0] rounded-full flex items-center justify-center text-white mb-6 shadow-[0_0_0_8px_#FBE384] border-[4px] border-white">
-                   <Award size={36} strokeWidth={2.5}/>
-                 </div>
-                 <h3 className="text-[22px] font-bold mb-3 text-[#1E1A3C]">3. Master</h3>
-                 <p className="text-[16px] font-medium text-[#1E1A3C]/70 leading-relaxed max-w-[260px]">
-                   Review your results, read in-depth explanations, and master the material completely before exam day.
-                 </p>
-               </div>
-            </div>
+                   </div>
+                </Link>
+             ))}
 
-            <div className="mt-20">
-              <Link href="#subjects-section">
-                <button className="bg-[#1E1A3C] text-white px-8 py-[18px] rounded-full font-bold text-[15px] hover:bg-[#2A2552] transition-colors inline-flex items-center gap-2 shadow-lg">
-                  See How We Recall Each Step <ChevronRight size={18} strokeWidth={3}/>
-                </button>
-              </Link>
-            </div>
-         </div>
-      </section>
-
-      {/* 6. Rooted In Science / Subjects */}
-      <section id="subjects-section" className="bg-gradient-to-b from-[#E7F3F5] to-white py-32 px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl md:text-[46px] font-light text-[#1E1A3C] mb-4 tracking-tight">
-            Rooted In Science And Designed <br className="hidden md:block"/> 
-            <span className="font-bold">For Peace Of Mind.</span>
-          </h2>
-          <p className="text-[20px] text-[#1E1A3C]/70 font-medium mb-16">Select a subject below to begin practicing what's unique to your semester.</p>
-
+             <Link href="/create-test" className="group outline-none block mt-2">
+                <div className="bg-transparent p-5 md:p-6 rounded-[16px] border-2 border-dashed border-gray-200 hover:border-[#ffb433]/50 hover:bg-[#ffb433]/[0.02] transition-all duration-300 flex items-center justify-center gap-3">
+                   <Plus size={20} className="text-gray-400 group-hover:text-[#e69b19]" strokeWidth={2.5}/>
+                   <span className="text-[16px] font-semibold text-[#060b26]/60 group-hover:text-[#e69b19]">Add A Custom Subject</span>
+                </div>
+             </Link>
+          </div>
         </div>
       </section>
 
-      {/* 7. Footer / Newsletter section */}
-      <footer className="bg-[#1E1A3C] text-white pt-32 pb-16">
-         <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-3xl md:text-[34px] font-light mb-12 tracking-wide">Sign Up To Our Study Newsletter</h2>
-            
-            <div className="relative max-w-[650px] mx-auto mb-20 bg-white rounded-full p-[6px] shadow-lg flex">
-               <input 
-                  type="email" 
-                  placeholder="Enter your email" 
-                  className="flex-1 bg-transparent text-[#1E1A3C] py-4 px-8 outline-none font-bold placeholder-gray-400 text-lg" 
-               />
-               <button className="bg-[#6BB3C0] text-white px-10 rounded-full font-bold hover:bg-[#5AA1AE] transition-colors text-[17px]">
-                 Submit
-               </button>
-            </div>
+      {/* 4. Motivation Section */}
+      <MotivationSection />
 
-            <div className="flex flex-wrap justify-center gap-x-12 gap-y-4 text-[13px] font-bold uppercase tracking-widest mb-12 text-white">
-              <Link href="#" className="hover:text-[#6BB3C0] transition-colors">Home</Link>
-              <Link href="#knowing" className="hover:text-[#6BB3C0] transition-colors">What We Do</Link>
-              <Link href="#subjects-section" className="hover:text-[#6BB3C0] transition-colors">Subjects</Link>
-            </div>
 
-            <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-[11px] font-bold uppercase tracking-[0.2em] mb-12 text-white/50">
-              <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-              <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
-              <Link href="#" className="hover:text-white transition-colors">Refund Policy</Link>
-            </div>
-
-            <p className="text-[13px] font-medium text-white/40">&copy;Copyright 2026 CSITRecall | All Rights Reserved</p>
-         </div>
-      </footer>
     </div>
   );
 }

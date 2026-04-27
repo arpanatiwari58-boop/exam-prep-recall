@@ -1,0 +1,296 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which of the following is the correct sequence in the goal formulation process?",
+    "options": [
+      "Analysis of resources → Goal setting → Environmental scanning → Implementation",
+      "Environmental scanning → Analysis of resources → Goal setting → Evaluation",
+      "Goal setting → Environmental scanning → Resource analysis → Review",
+      "Implementation → Goal setting → Resource analysis → Scanning"
+    ],
+    "answer": "Environmental scanning → Analysis of resources → Goal setting → Evaluation",
+    "explanation": "Logical steps in goal formulation process (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Operational goals are mainly set at which level of management?",
+    "options": [
+      "Top management",
+      "Middle management",
+      "First-line management",
+      "Board of directors"
+    ],
+    "answer": "First-line management",
+    "explanation": "Types of organizational goals and hierarchy (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "A key principle of management states that there should be only one boss for each subordinate. This is known as:",
+    "options": [
+      "Unity of direction",
+      "Unity of command",
+      "Scalar chain",
+      "Division of work"
+    ],
+    "answer": "Unity of command",
+    "explanation": "Principles of management (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Middle-level managers are mainly responsible for:",
+    "options": [
+      "Day-to-day supervision of workers",
+      "Formulating long-term vision and mission",
+      "Implementing policies and coordinating departments",
+      "Dealing with external political environment only"
+    ],
+    "answer": "Implementing policies and coordinating departments",
+    "explanation": "Managerial hierarchy and types of managers (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The major contribution of Management Science theory lies in:",
+    "options": [
+      "Understanding human emotions",
+      "Application of mathematical models and statistics for decision making",
+      "Focus on social relationships",
+      "Emphasizing contingency factors"
+    ],
+    "answer": "Application of mathematical models and statistics for decision making",
+    "explanation": "Contribution of Management Science theory (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Outsourcing as an emerging management concept mainly helps organizations to:",
+    "options": [
+      "Increase in-house workforce size",
+      "Focus on core competencies by contracting non-core activities",
+      "Reduce the use of technology",
+      "Avoid knowledge management"
+    ],
+    "answer": "Focus on core competencies by contracting non-core activities",
+    "explanation": "Emerging management concepts – outsourcing (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which area of social responsibility is most directly related to environmental protection?",
+    "options": [
+      "Responsibility towards employees",
+      "Responsibility towards consumers",
+      "Responsibility towards community and ecology",
+      "Responsibility towards government"
+    ],
+    "answer": "Responsibility towards community and ecology",
+    "explanation": "Areas of social responsibility (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Business ethics is best described as:",
+    "options": [
+      "Legal rules that must be followed",
+      "Moral principles that guide managerial decision-making beyond legal requirements",
+      "Only profit maximization strategies",
+      "Government regulations only"
+    ],
+    "answer": "Moral principles that guide managerial decision-making beyond legal requirements",
+    "explanation": "Meaning of business ethics (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "The final step in the planning process is:",
+    "options": [
+      "Setting objectives",
+      "Evaluating and controlling the plan",
+      "Identifying alternatives",
+      "Environmental scanning"
+    ],
+    "answer": "Evaluating and controlling the plan",
+    "explanation": "Process of planning (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which quantitative planning tool is used to determine the point where total revenue equals total cost?",
+    "options": [
+      "Linear programming",
+      "Break-even analysis",
+      "SWOT analysis",
+      "Decision tree"
+    ],
+    "answer": "Break-even analysis",
+    "explanation": "Quantitative tools for planning (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "The contingency approach to organizing suggests that:",
+    "options": [
+      "One universal structure is best for all organizations",
+      "Structure should be designed according to the environment and task",
+      "Only classical principles should be followed",
+      "Human relations should be completely ignored"
+    ],
+    "answer": "Structure should be designed according to the environment and task",
+    "explanation": "Approaches to organizing (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Geographic departmentalization is most appropriate when:",
+    "options": [
+      "Products are highly standardized",
+      "Markets are spread across different regions with unique needs",
+      "Customers belong to one single group",
+      "Functions are the main basis"
+    ],
+    "answer": "Markets are spread across different regions with unique needs",
+    "explanation": "Types of departmentalization (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "The last step in the process of structuring an organization is:",
+    "options": [
+      "Departmentalization",
+      "Delegation of authority",
+      "Establishing coordinating mechanisms",
+      "Identifying required tasks"
+    ],
+    "answer": "Establishing coordinating mechanisms",
+    "explanation": "Process of structuring an organization (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Group formation in organizations usually passes through the stages of forming, storming, norming and:",
+    "options": [
+      "Performing",
+      "Adjourning",
+      "Cooperating",
+      "Evaluating"
+    ],
+    "answer": "Performing",
+    "explanation": "Group formation process (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "A major characteristic of informal groups is that they:",
+    "options": [
+      "Are created by official orders",
+      "Have rigid rules and hierarchy",
+      "Satisfy social and psychological needs of members",
+      "Always support organizational goals"
+    ],
+    "answer": "Satisfy social and psychological needs of members",
+    "explanation": "Characteristics of groups (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "When goals are formulated starting from the top level and moving downward, it is called ________ approach.",
+    "answer": "top-down",
+    "explanation": "Goal formulation approaches (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Management is a ________ process because it involves continuous planning, organizing, leading and controlling.",
+    "answer": "continuous",
+    "explanation": "Characteristics of management (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is an emerging management concept that emphasizes continuous adaptation through knowledge creation and sharing.",
+    "answer": "learning organization",
+    "explanation": "Emerging concepts – learning organization (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ environment of business includes factors like culture, values and lifestyle of people.",
+    "answer": "socio-cultural",
+    "explanation": "Components of external environment (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of planning starts with ________ of objectives.",
+    "answer": "setting",
+    "explanation": "Process of planning (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ departmentalization groups jobs according to the type of customer served.",
+    "answer": "Customer",
+    "explanation": "Types of departmentalization (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the fourth stage in Tuckman’s model of group development.",
+    "answer": "Performing",
+    "explanation": "Group formation (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The principle of ________ states that authority and responsibility should flow in a clear unbroken line.",
+    "answer": "scalar chain",
+    "explanation": "Principles of organizing (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "One main function of leadership is to create a sense of ________ among team members.",
+    "answer": "cohesion",
+    "explanation": "Functions of leadership (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Workforce ________ is an emerging challenge that requires managers to handle people from different backgrounds.",
+    "answer": "diversity",
+    "explanation": "Emerging concepts (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between goal succession and goal displacement.",
+    "answer": "Goal succession is deliberate replacement of old goals with new ones. Goal displacement is unintentional shifting where means become ends.",
+    "explanation": "Unit 1 – Goal succession and displacement."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three principles of management.",
+    "answer": "Unity of command, scalar chain, division of work, unity of direction, span of control.",
+    "explanation": "Principles of management (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any two contributions of Human Relations theory.",
+    "answer": "1. Highlighted importance of social and psychological factors. 2. Showed that worker productivity increases with attention and good relations.",
+    "explanation": "Contribution of Human Relations theory (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any three areas of social responsibility of business.",
+    "answer": "Towards employees (fair wages, safety), consumers (quality products), community and environment (CSR activities).",
+    "explanation": "Areas of social responsibility (Unit 4)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe any three quantitative tools used in planning.",
+    "answer": "Break-even analysis, linear programming, decision tree, Gantt chart.",
+    "explanation": "Quantitative tools for planning (Unit 5)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the classical and contingency approaches to organizing.",
+    "answer": "Classical emphasizes hierarchy, rules and efficiency. Contingency says structure must fit the situation and environment.",
+    "explanation": "Approaches to organizing (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three characteristics of effective groups.",
+    "answer": "Clear goals, good communication, high cohesion, defined roles, mutual trust.",
+    "explanation": "Characteristics of groups (Unit 7)."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does workforce diversity create challenges for managers?",
+    "answer": "It requires managing different cultures, values, expectations and communication styles while maintaining harmony and productivity.",
+    "explanation": "Emerging challenge – workforce diversity (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two functions of leadership in detail.",
+    "answer": "1. Motivating – inspiring people to achieve goals. 2. Conflict resolution – managing disagreements within the team.",
+    "explanation": "Functions of leadership (Unit 7)."
+  }
+]

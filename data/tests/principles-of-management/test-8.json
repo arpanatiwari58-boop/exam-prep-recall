@@ -1,0 +1,296 @@
+[
+  {
+    "type": "mcq",
+    "question": "The bottom-up approach to goal formulation is also known as:",
+    "options": [
+      "Authoritative approach",
+      "Participative approach",
+      "Traditional approach",
+      "Top-down approach"
+    ],
+    "answer": "Participative approach",
+    "explanation": "Unit 1 – Goal formulation processes and approaches."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of organizational goal is set for the entire organization and guides all other goals?",
+    "options": [
+      "Operational goals",
+      "Tactical goals",
+      "Strategic goals",
+      "Short-term goals"
+    ],
+    "answer": "Strategic goals",
+    "explanation": "Types of organizational goals (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "The process and functions of management are best described as:",
+    "options": [
+      "Only planning and controlling",
+      "A continuous cycle of planning, organizing, leading and controlling",
+      "Only decision making",
+      "Only coordination"
+    ],
+    "answer": "A continuous cycle of planning, organizing, leading and controlling",
+    "explanation": "Process and functions of management (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "First-line managers are primarily responsible for:",
+    "options": [
+      "Long-term strategic planning",
+      "Supervising day-to-day operations of workers",
+      "Setting organizational policies",
+      "Dealing with external stakeholders only"
+    ],
+    "answer": "Supervising day-to-day operations of workers",
+    "explanation": "Types of managers & managerial hierarchy (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The main contribution of System theory is that it:",
+    "options": [
+      "Focuses only on individual behaviour",
+      "Views the organization as a unified whole of interrelated parts",
+      "Uses only mathematical models",
+      "Ignores environmental factors"
+    ],
+    "answer": "Views the organization as a unified whole of interrelated parts",
+    "explanation": "System theory contribution (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Knowledge management as an emerging concept mainly focuses on:",
+    "options": [
+      "Reducing employee numbers",
+      "Capturing, sharing and using organizational knowledge effectively",
+      "Only outsourcing activities",
+      "Ignoring technology"
+    ],
+    "answer": "Capturing, sharing and using organizational knowledge effectively",
+    "explanation": "Emerging management concepts (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Areas of social responsibility of business include all EXCEPT:",
+    "options": [
+      "Responsibility towards employees",
+      "Responsibility towards consumers",
+      "Responsibility towards competitors only",
+      "Responsibility towards community and environment"
+    ],
+    "answer": "Responsibility towards competitors only",
+    "explanation": "Areas of social responsibility (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Business ethics is significant because it:",
+    "options": [
+      "Guarantees immediate profit increase",
+      "Builds long-term trust and protects company reputation",
+      "Eliminates all legal requirements",
+      "Focuses only on shareholder wealth"
+    ],
+    "answer": "Builds long-term trust and protects company reputation",
+    "explanation": "Meaning and significance of business ethics (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "The first step in the planning process is:",
+    "options": [
+      "Selecting the best alternative",
+      "Setting objectives",
+      "Implementing the plan",
+      "Evaluating results"
+    ],
+    "answer": "Setting objectives",
+    "explanation": "Process of planning (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a type of problem in problem-solving?",
+    "options": [
+      "Only structured problems",
+      "Well-structured and ill-structured problems",
+      "Only routine problems",
+      "Only strategic problems"
+    ],
+    "answer": "Well-structured and ill-structured problems",
+    "explanation": "Problem solving – concepts and types of problem (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "The classical approach to organizing is mainly based on:",
+    "options": [
+      "Human emotions and motivation",
+      "Scientific principles, hierarchy and efficiency",
+      "Situational factors",
+      "Employee participation"
+    ],
+    "answer": "Scientific principles, hierarchy and efficiency",
+    "explanation": "Approaches to organizing (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Departmentalization by ‘customer’ is most suitable when:",
+    "options": [
+      "Products are identical",
+      "Services differ greatly according to customer groups",
+      "Geography is the main factor",
+      "Functions are similar"
+    ],
+    "answer": "Services differ greatly according to customer groups",
+    "explanation": "Types of departmentalization (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "The process of structuring an organization ends with:",
+    "options": [
+      "Identifying tasks only",
+      "Establishing coordination mechanisms",
+      "Setting goals",
+      "Delegation of authority only"
+    ],
+    "answer": "Establishing coordination mechanisms",
+    "explanation": "Process of structuring an organization (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which leadership style gives complete freedom to subordinates and is also called free-rein style?",
+    "options": [
+      "Autocratic",
+      "Democratic",
+      "Laissez-faire",
+      "Transformational"
+    ],
+    "answer": "Laissez-faire",
+    "explanation": "Leadership styles (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "One important strategy for managing conflict is:",
+    "options": [
+      "Avoidance only",
+      "Collaboration for win-win solution",
+      "Forcing in every situation",
+      "Ignoring the conflict permanently"
+    ],
+    "answer": "Collaboration for win-win solution",
+    "explanation": "Managing conflicts in organization (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ approach to goal formulation starts from lower levels and moves upward.",
+    "answer": "bottom-up",
+    "explanation": "Goal formulation approaches (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ managers are responsible for implementing plans made by top management.",
+    "answer": "Middle",
+    "explanation": "Types of managers (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ organization continuously creates, acquires and transfers knowledge.",
+    "answer": "learning",
+    "explanation": "Learning organization (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ environment consists of factors within the organization such as culture and resources.",
+    "answer": "Internal",
+    "explanation": "Internal vs external environment (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The importance of planning lies in providing ________ and reducing uncertainty.",
+    "answer": "direction",
+    "explanation": "Importance of planning (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the grouping of activities on the basis of products, functions, customers or territory.",
+    "answer": "Departmentalization",
+    "explanation": "Departmentalization – meaning and types (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ style of leadership is suitable when subordinates are highly skilled and experienced.",
+    "answer": "Democratic",
+    "explanation": "Leadership styles (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ groups develop naturally on the basis of social relations.",
+    "answer": "Informal",
+    "explanation": "Types of groups (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "One key function of leadership is to ________ and inspire employees.",
+    "answer": "motivate",
+    "explanation": "Functions of leadership (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The contingency approach to organizing says that structure should match the ________.",
+    "answer": "situation",
+    "explanation": "Approaches to organizing (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two approaches to goal formulation.",
+    "answer": "Top-down (authoritative) starts from top management. Bottom-up (participative) involves lower levels for better acceptance and commitment.",
+    "explanation": "Goal formulation – processes and approaches (Unit 1)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three characteristics of management.",
+    "answer": "Management is goal-oriented, continuous process, universal, multi-dimensional and a group activity.",
+    "explanation": "Characteristics of management (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any two contributions of Decision theory.",
+    "answer": "1. Focuses on rational decision-making process. 2. Emphasizes information and alternatives before choosing.",
+    "explanation": "Decision theory contribution (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between internal and external business environment.",
+    "answer": "Internal is controllable (culture, resources). External is uncontrollable (economic, political, socio-cultural, technological factors).",
+    "explanation": "Types of business environment (Unit 4)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the importance of planning with any three points.",
+    "answer": "1. Provides direction. 2. Reduces risk and uncertainty. 3. Minimizes waste of resources and improves coordination.",
+    "explanation": "Importance of planning (Unit 5)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three principles of organizing.",
+    "answer": "Unity of command, scalar chain, span of control, division of work, unity of direction.",
+    "explanation": "Principles of organizing (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain any two types of departmentalization.",
+    "answer": "Functional – by functions (marketing, finance). Product – by product lines. Customer – by customer groups.",
+    "explanation": "Departmentalization – types (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the main functions of leadership.",
+    "answer": "Guiding and directing, motivating employees, influencing behaviour, resolving conflicts and representing the group.",
+    "explanation": "Functions of leadership (Unit 7)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two strategies for managing conflict.",
+    "answer": "Collaboration (win-win), Compromise (give-and-take), Avoidance, Accommodation.",
+    "explanation": "Managing conflicts in organization (Unit 7)."
+  }
+]

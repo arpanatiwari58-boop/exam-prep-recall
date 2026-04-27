@@ -1,0 +1,350 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which step in the Knowledge Discovery from Data (KDD) process is responsible for removing noise and inconsistent data?",
+    "options": [
+      "Data Integration",
+      "Data Cleaning",
+      "Data Selection",
+      "Data Transformation"
+    ],
+    "answer": "Data Cleaning",
+    "explanation": "Data cleaning is a form of data preprocessing where noise is removed and inconsistencies are resolved to ensure data quality."
+  },
+  {
+    "type": "mcq",
+    "question": "In a data warehouse, which schema is considered a variant of the star model where dimension tables are normalized to reduce redundancy?",
+    "options": [
+      "Fact Constellation Schema",
+      "Snowflake Schema",
+      "Galaxy Schema",
+      "Star Schema"
+    ],
+    "answer": "Snowflake Schema",
+    "explanation": "The snowflake schema normalizes dimension tables, which further splits data into additional tables, resembling a snowflake shape."
+  },
+  {
+    "type": "mcq",
+    "question": "Which OLAP operation reduces the number of dimensions or moves up a concept hierarchy to provide a more generalized view of the data?",
+    "options": [
+      "Drill-down",
+      "Roll-up",
+      "Slice",
+      "Dice"
+    ],
+    "answer": "Roll-up",
+    "explanation": "Roll-up performs aggregation on a data cube either by climbing up a concept hierarchy or by dimension reduction."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data transformation method scales attribute values to fit into a specific range, such as 0.0 to 1.0?",
+    "options": [
+      "Aggregation",
+      "Smoothing",
+      "Normalization",
+      "Discretization"
+    ],
+    "answer": "Normalization",
+    "explanation": "Normalization transforms numeric data to fall within a smaller or common range, ensuring attributes with large ranges do not dominate the analysis."
+  },
+  {
+    "type": "mcq",
+    "question": "According to the Apriori property, if an itemset is frequent, what must be true about all of its nonempty subsets?",
+    "options": [
+      "They must be infrequent",
+      "They must also be frequent",
+      "They must have higher support",
+      "They must be closed itemsets"
+    ],
+    "answer": "They must also be frequent",
+    "explanation": "The Apriori property states that all nonempty subsets of a frequent itemset must also be frequent, a property used for pruning search space."
+  },
+  {
+    "type": "mcq",
+    "question": "The ID3 algorithm utilizes which attribute selection measure to find the best splitting attribute at each node?",
+    "options": [
+      "Gini Index",
+      "Gain Ratio",
+      "Information Gain",
+      "Misclassification Error"
+    ],
+    "answer": "Information Gain",
+    "explanation": "ID3 uses information gain, which is based on the reduction of entropy (impurity) after partitioning the data by an attribute."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary purpose of applying the Laplacian correction (Laplace Smoothing) in Naive Bayesian classification?",
+    "options": [
+      "To handle missing values",
+      "To avoid zero-probability results",
+      "To normalize numeric attributes",
+      "To reduce the model complexity"
+    ],
+    "answer": "To avoid zero-probability results",
+    "explanation": "Laplacian correction adds 1 to each count so that no probability value is zero, preventing the entire conditional probability from becoming zero."
+  },
+  {
+    "type": "mcq",
+    "question": "In Support Vector Machines (SVM), what are the 'essential' training tuples that lie closest to the decision boundary?",
+    "options": [
+      "Centroids",
+      "Support Vectors",
+      "Hyperplanes",
+      "Kernel Points"
+    ],
+    "answer": "Support Vectors",
+    "explanation": "Support vectors are the training tuples that define the location and orientation of the maximum marginal hyperplane."
+  },
+  {
+    "type": "mcq",
+    "question": "In classification evaluation, which metric is defined as the harmonic mean of precision and recall?",
+    "options": [
+      "Accuracy",
+      "Sensitivity",
+      "F-measure",
+      "Specificity"
+    ],
+    "answer": "F-measure",
+    "explanation": "The F-measure (or F1 score) provides a single balanced score by taking the harmonic mean of precision and recall."
+  },
+  {
+    "type": "mcq",
+    "question": "Which phenomenon occurs when a classification model is too complex and fits the noise or outliers in the training data?",
+    "options": [
+      "Underfitting",
+      "Smoothing",
+      "Overfitting",
+      "Normalization"
+    ],
+    "answer": "Overfitting",
+    "explanation": "Overfitting occurs when a model 'memorizes' the training data, leading to poor performance on new, unseen test data."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data structure is often used to store a collection of proximities for all pairs of objects in a dataset?",
+    "options": [
+      "Data Matrix",
+      "Dissimilarity Matrix",
+      "Fact Table",
+      "Inverted Index"
+    ],
+    "answer": "Dissimilarity Matrix",
+    "explanation": "A dissimilarity matrix stores the measured differences between all pairs of objects, often used in nearest-neighbor algorithms."
+  },
+  {
+    "type": "mcq",
+    "question": "Association rule mining is generally considered a two-step process. What is the first step?",
+    "options": [
+      "Generate association rules",
+      "Find all frequent itemsets",
+      "Calculate the confidence",
+      "Prune the infrequent rules"
+    ],
+    "answer": "Find all frequent itemsets",
+    "explanation": "The first step is finding all itemsets that satisfy the minimum support threshold; the second step is generating strong rules from them."
+  },
+  {
+    "type": "mcq",
+    "question": "In a decision tree, what do the leaf nodes represent?",
+    "options": [
+      "Attribute tests",
+      "Outcome of tests",
+      "Class labels",
+      "Splitting criteria"
+    ],
+    "answer": "Class labels",
+    "explanation": "Leaf nodes hold the predicted class labels, while internal nodes represent tests on attributes."
+  },
+  {
+    "type": "mcq",
+    "question": "The Backpropagation algorithm adjusts which parameters during the backward phase to minimize error?",
+    "options": [
+      "Attributes and values",
+      "Weights and biases",
+      "Bins and intervals",
+      "Clusters and centroids"
+    ],
+    "answer": "Weights and biases",
+    "explanation": "Backpropagation modifies the weights and biases of the connections between units to minimize the mean-squared error."
+  },
+  {
+    "type": "mcq",
+    "question": "Which statistical test is specifically recommended for comparing the performance of two classifiers when only one test set is available?",
+    "options": [
+      "Z-test",
+      "Chi-square test",
+      "McNemar’s test",
+      "T-test"
+    ],
+    "answer": "McNemar’s test",
+    "explanation": "McNemar’s test is a statistical test used to determine if the difference in performance between two models is significant."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a repository of information stored under a unified schema, usually residing at a single site, that is subject-oriented, integrated, and nonvolatile?",
+    "options": [
+      "Relational Database",
+      "Data Warehouse",
+      "Data Mart",
+      "Operational Database"
+    ],
+    "answer": "Data Warehouse",
+    "explanation": "A data warehouse collects data from multiple sources for historical analysis and decision support."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data smoothing method partitions sorted data values into 'buckets' or 'bins'?",
+    "options": [
+      "Regression",
+      "Outlier Analysis",
+      "Binning",
+      "Normalization"
+    ],
+    "answer": "Binning",
+    "explanation": "Smoothing by bin means replaces values with the average of their neighborhood to reduce noise."
+  },
+  {
+    "type": "mcq",
+    "question": "What does mining 'frequent patterns' primarily lead to in data mining?",
+    "options": [
+      "Data Cleaning",
+      "Association and Correlation Discovery",
+      "Dimension Reduction",
+      "Normalization"
+    ],
+    "answer": "Association and Correlation Discovery",
+    "explanation": "Frequent patterns are itemsets or substructures that occur frequently, forming the basis for association rules."
+  },
+  {
+    "type": "mcq",
+    "question": "The ratio of true positives to the total number of actual positive tuples is known as:",
+    "options": [
+      "Precision",
+      "Accuracy",
+      "Sensitivity",
+      "Specificity"
+    ],
+    "answer": "Sensitivity",
+    "explanation": "Sensitivity is also known as the true positive recognition rate or recall."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary functional difference between OLTP and OLAP systems?",
+    "options": [
+      "OLTP is for analysis; OLAP is for daily transactions",
+      "OLTP is for day-to-day transactions; OLAP is for historical data analysis",
+      "OLTP handles more data than OLAP",
+      "OLAP is clerk-oriented; OLTP is manager-oriented"
+    ],
+    "answer": "OLTP is for day-to-day transactions; OLAP is for historical data analysis",
+    "explanation": "OLTP systems focus on efficiency for current transactions, while OLAP systems focus on decision-making through historical data."
+  },
+  {
+    "type": "mcq",
+    "question": "Which statement best describes the two-step process of data classification?",
+    "options": [
+      "Step 1: Data Mining; Step 2: Visualization",
+      "Step 1: Learning a model; Step 2: Testing accuracy",
+      "Step 1: Cleaning; Step 2: Transformation",
+      "Step 1: Selection; Step 2: Integration"
+    ],
+    "answer": "Step 1: Learning a model; Step 2: Testing accuracy",
+    "explanation": "The process involves an initial training phase followed by a testing phase to estimate generalizability."
+  },
+  {
+    "type": "mcq",
+    "question": "Why is using an independent test set critical for model evaluation?",
+    "options": [
+      "It makes the computation faster",
+      "It provides a realistic measure of how the model generalizes to unseen data",
+      "It ensures the model fits the training data perfectly",
+      "It is only required for neural networks"
+    ],
+    "answer": "It provides a realistic measure of how the model generalizes to unseen data",
+    "explanation": "Evaluating on the training set leads to overoptimistic accuracy estimates because the model has already 'memorized' those labels."
+  },
+  {
+    "type": "mcq",
+    "question": "In the ID3 algorithm, what is 'Entropy' used to measure?",
+    "options": [
+      "Algorithm execution time",
+      "The impurity or uncertainty of a data partition",
+      "The size of the decision tree",
+      "The number of classes"
+    ],
+    "answer": "The impurity or uncertainty of a data partition",
+    "explanation": "ID3 calculates entropy to find the split that maximizes information gain by reducing uncertainty."
+  },
+  {
+    "type": "mcq",
+    "question": "What are the two common approaches to tree pruning?",
+    "options": [
+      "Prepruning and Postpruning",
+      "Top-down and Bottom-up",
+      "Manual and Automatic",
+      "Binary and Multi-way"
+    ],
+    "answer": "Prepruning and Postpruning",
+    "explanation": "Prepruning stops tree growth early, while postpruning removes subtrees after the tree is fully grown."
+  },
+  {
+    "type": "mcq",
+    "question": "How are IF-THEN rules typically extracted from a decision tree?",
+    "options": [
+      "By looking at the leaves only",
+      "By creating one rule for every path from the root to a leaf",
+      "By counting the number of internal nodes",
+      "By reversing the weights of the edges"
+    ],
+    "answer": "By creating one rule for every path from the root to a leaf",
+    "explanation": "Path tests form the IF (antecedent) part and the leaf label forms the THEN (consequent) part."
+  },
+  {
+    "type": "mcq",
+    "question": "In SVM, why are 'Support Vectors' considered critical?",
+    "options": [
+      "They represent the average of all data points",
+      "If they were moved, the decision boundary would shift",
+      "They are the largest data points in the set",
+      "They help in data cleaning"
+    ],
+    "answer": "If they were moved, the decision boundary would shift",
+    "explanation": "Support vectors are the essential tuples that define the location and orientation of the maximum marginal hyperplane."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the distinction between data cleaning and data transformation?",
+    "options": [
+      "Cleaning fixes 'dirty' data; Transformation changes format or scale",
+      "Cleaning is for experts; Transformation is for beginners",
+      "Cleaning occurs after mining; Transformation occurs before",
+      "They are the same process"
+    ],
+    "answer": "Cleaning fixes 'dirty' data; Transformation changes format or scale",
+    "explanation": "Cleaning deals with missing values and noise; Transformation ensures the data is in an appropriate form for mining algorithms."
+  },
+  {
+    "type": "mcq",
+    "question": "What is a major benefit of the 'Naive' assumption in Bayesian classification?",
+    "options": [
+      "It makes the model more complex",
+      "It makes the classifier highly efficient for large datasets",
+      "It eliminates the need for training data",
+      "It ensures 100% accuracy"
+    ],
+    "answer": "It makes the classifier highly efficient for large datasets",
+    "explanation": "The class-conditional independence assumption simplifies calculations significantly, allowing it to handle high-dimensional data efficiently."
+  },
+  {
+    "type": "mcq",
+    "question": "In a fraud detection system, what would 'Recall' represent?",
+    "options": [
+      "The percentage of flagged transactions that were actual fraud",
+      "The percentage of all actual fraudulent transactions that were caught",
+      "The total number of transactions processed",
+      "The speed at which fraud is detected"
+    ],
+    "answer": "The percentage of all actual fraudulent transactions that were caught",
+    "explanation": "Recall measures completeness—how many of the actual positive cases were successfully identified."
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "type": "mcq",
+    "question": "A major problem of goal formulation is that goals may be:",
+    "options": [
+      "Too few in number",
+      "Mutually conflicting and inconsistent",
+      "Always short-term only",
+      "Completely independent of resources"
+    ],
+    "answer": "Mutually conflicting and inconsistent",
+    "explanation": "Problems of goal formulation (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Changing perspectives of organization treat organizations today as:",
+    "options": [
+      "Rigid and closed systems",
+      "Dynamic and open systems interacting with the environment",
+      "Only profit-making machines",
+      "Static structures with fixed goals"
+    ],
+    "answer": "Dynamic and open systems interacting with the environment",
+    "explanation": "Changing perspectives of organization (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is NOT a characteristic of management?",
+    "options": [
+      "Goal-oriented",
+      "Continuous process",
+      "Intangible",
+      "Can be performed only by one person"
+    ],
+    "answer": "Can be performed only by one person",
+    "explanation": "Characteristics of management (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "The decisional role of 'negotiator' is performed when a manager:",
+    "options": [
+      "Monitors information",
+      "Represents the organization in legal matters",
+      "Bargains with external parties or unions",
+      "Motivates subordinates"
+    ],
+    "answer": "Bargains with external parties or unions",
+    "explanation": "Mintzberg’s decisional roles (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Behavioural science theory is different from Human Relations theory because it:",
+    "options": [
+      "Focuses only on economic incentives",
+      "Uses scientific research methods to study human behaviour",
+      "Ignores social factors",
+      "Is based on classical principles"
+    ],
+    "answer": "Uses scientific research methods to study human behaviour",
+    "explanation": "Behavioural science theory (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Emerging business environment in Nepal is mainly characterized by:",
+    "options": [
+      "Complete political stability and no competition",
+      "Increasing globalization, liberalization and use of digital technology",
+      "Total ban on foreign investment",
+      "Decline of service sector"
+    ],
+    "answer": "Increasing globalization, liberalization and use of digital technology",
+    "explanation": "Emerging business environment in Nepal (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "Formulation of strategic plans is mainly the responsibility of:",
+    "options": [
+      "First-line managers",
+      "Middle-level managers",
+      "Top-level managers",
+      "Supervisors"
+    ],
+    "answer": "Top-level managers",
+    "explanation": "Strategic planning (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Decision making under conditions of risk means:",
+    "options": [
+      "No information is available",
+      "Probabilities of different outcomes are known",
+      "All outcomes are certain",
+      "Only programmed decisions are possible"
+    ],
+    "answer": "Probabilities of different outcomes are known",
+    "explanation": "Decision making under risk (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "A key advantage of delegation of authority is:",
+    "options": [
+      "Increased workload on superiors",
+      "Development of subordinates and faster decisions",
+      "Complete centralization of power",
+      "Reduction in employee motivation"
+    ],
+    "answer": "Development of subordinates and faster decisions",
+    "explanation": "Advantages of delegation (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Network organizational structure is most suitable for organizations that:",
+    "options": [
+      "Operate in stable environments only",
+      "Rely heavily on outsourcing and digital connectivity",
+      "Prefer high centralization",
+      "Have only one product line"
+    ],
+    "answer": "Rely heavily on outsourcing and digital connectivity",
+    "explanation": "Modern organizational structures – network (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Autocratic leadership style is most effective when:",
+    "options": [
+      "Subordinates are highly skilled",
+      "Quick decisions are needed in crisis situations",
+      "Employees want participation",
+      "Environment is highly stable"
+    ],
+    "answer": "Quick decisions are needed in crisis situations",
+    "explanation": "Leadership styles and their suitability (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "Task conflict is a type of conflict that:",
+    "options": [
+      "Involves personal disagreements",
+      "Focuses on disagreement about the content of the work",
+      "Is always harmful",
+      "Only occurs in informal groups"
+    ],
+    "answer": "Focuses on disagreement about the content of the work",
+    "explanation": "Types of conflict (Unit 7)."
+  },
+  {
+    "type": "mcq",
+    "question": "The main purpose of establishing coordination mechanisms in organizing is to:",
+    "options": [
+      "Increase centralization",
+      "Ensure different departments work towards common goals",
+      "Reduce delegation",
+      "Limit communication"
+    ],
+    "answer": "Ensure different departments work towards common goals",
+    "explanation": "Process of structuring an organization (Unit 6)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which theory views management as a system of interrelated parts?",
+    "options": [
+      "Classical theory",
+      "Human Relations theory",
+      "System theory",
+      "Management Science theory"
+    ],
+    "answer": "System theory",
+    "explanation": "System theory (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Internal business environment includes:",
+    "options": [
+      "Government policies and regulations",
+      "Organizational culture, resources and structure",
+      "Technological changes",
+      "Socio-cultural values"
+    ],
+    "answer": "Organizational culture, resources and structure",
+    "explanation": "Internal vs external environment (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "When goals are set by top management without much lower-level participation, it is called ________ approach.",
+    "answer": "top-down",
+    "explanation": "Goal formulation approaches (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Management is ________ because it cannot be seen but its results can be felt.",
+    "answer": "intangible",
+    "explanation": "Characteristics of management (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ theory emphasizes the use of scientific methods to study group behaviour.",
+    "answer": "Behavioural science",
+    "explanation": "Behavioural science theory (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is the final step in the planning process.",
+    "answer": "control",
+    "explanation": "Process of planning (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The advantage of ________ is that it develops initiative and confidence in subordinates.",
+    "answer": "delegation",
+    "explanation": "Delegation of authority (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ departmentalization is based on the location or region of operations.",
+    "answer": "Geographic",
+    "explanation": "Types of departmentalization (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ leadership style is also known as free-rein or hands-off style.",
+    "answer": "laissez-faire",
+    "explanation": "Leadership styles (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ conflict arises due to differences in personalities or values.",
+    "answer": "Relationship",
+    "explanation": "Types of conflict (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ approach to organizing says there is no single best structure.",
+    "answer": "contingency",
+    "explanation": "Approaches to organizing (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "One emerging challenge for management is ________ management.",
+    "answer": "knowledge",
+    "explanation": "Emerging management concepts (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three problems of goal formulation.",
+    "answer": "Conflicting goals, unrealistic goals, goal displacement, difficulty in measuring some goals.",
+    "explanation": "Problems of goal formulation (Unit 1)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any three functions of management.",
+    "answer": "Planning, Organizing, Leading, Controlling.",
+    "explanation": "Functions of management (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any two limitations of Contingency theory.",
+    "answer": "It does not provide clear guidelines, and it is difficult to identify all situational factors.",
+    "explanation": "Limitations of Contingency theory (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the meaning and significance of business ethics.",
+    "answer": "Business ethics are moral principles guiding decisions beyond law. It builds trust, reputation and long-term success.",
+    "explanation": "Business ethics (Unit 4)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between programmed and non-programmed decisions.",
+    "answer": "Programmed: routine, repetitive, have standard procedures. Non-programmed: unique, unstructured, require creativity.",
+    "explanation": "Types of decisions (Unit 5)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three advantages of centralization.",
+    "answer": "Uniformity of policies, better control, quicker top-level decisions.",
+    "explanation": "Centralization advantages (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly explain any two modern organizational structures.",
+    "answer": "Matrix: dual authority (function + project). Team: cross-functional collaboration.",
+    "explanation": "Modern organizational structures (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two strategies for managing conflict.",
+    "answer": "Collaboration (win-win solution), Compromise (mutual give-and-take).",
+    "explanation": "Managing conflicts (Unit 7)."
+  }
+]

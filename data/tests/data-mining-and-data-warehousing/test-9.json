@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "Which of the following best describes the 'lifecycle of data' in the context of data warehousing?",
+    "options": [
+      "Data is created, used only once and immediately deleted",
+      "Data moves from operational systems → data warehouse → archived or deleted over time",
+      "Data remains only in operational databases forever",
+      "Data is generated only during data mining phase"
+    ],
+    "answer": "Data moves from operational systems → data warehouse → archived or deleted over time",
+    "explanation": "Unit 1: Lifecycle of data"
+  },
+  {
+    "type": "mcq",
+    "question": "In data warehousing, 'types of data' primarily refer to:",
+    "options": [
+      "Only structured data",
+      "Structured, semi-structured and unstructured data",
+      "Only transactional data",
+      "Only historical data"
+    ],
+    "answer": "Structured, semi-structured and unstructured data",
+    "explanation": "Unit 1: Types of data"
+  },
+  {
+    "type": "mcq",
+    "question": "The main motivation for data mining is:",
+    "options": [
+      "To replace traditional databases",
+      "To discover hidden patterns and knowledge from large volumes of data",
+      "To perform real-time transaction processing",
+      "To store data in normalized form"
+    ],
+    "answer": "To discover hidden patterns and knowledge from large volumes of data",
+    "explanation": "Unit 2: Motivation for data mining"
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is an example of a nominal attribute?",
+    "options": [
+      "Age in years",
+      "Customer ID number",
+      "Blood group (A, B, AB, O)",
+      "Salary in rupees"
+    ],
+    "answer": "Blood group (A, B, AB, O)",
+    "explanation": "Unit 2: Data object and attribute types"
+  },
+  {
+    "type": "mcq",
+    "question": "Data cleaning mainly focuses on:",
+    "options": [
+      "Removing duplicate records only",
+      "Handling missing values, noisy data and inconsistencies",
+      "Reducing the number of attributes",
+      "Converting data into concept hierarchies"
+    ],
+    "answer": "Handling missing values, noisy data and inconsistencies",
+    "explanation": "Unit 3: Data cleaning"
+  },
+  {
+    "type": "mcq",
+    "question": "Which data reduction technique uses sampling or clustering to reduce data volume?",
+    "options": [
+      "Dimensionality reduction",
+      "Numerosity reduction",
+      "Data discretization",
+      "Data transformation"
+    ],
+    "answer": "Numerosity reduction",
+    "explanation": "Unit 3: Data reduction"
+  },
+  {
+    "type": "mcq",
+    "question": "Attribute-oriented induction is primarily used for:",
+    "options": [
+      "Frequent pattern mining",
+      "Data characterization and generalization",
+      "Clustering analysis",
+      "Classification by decision tree"
+    ],
+    "answer": "Data characterization and generalization",
+    "explanation": "Unit 4: Attribute oriented induction for data characterization"
+  },
+  {
+    "type": "mcq",
+    "question": "Mining class comparison is useful when we want to:",
+    "options": [
+      "Find frequent itemsets",
+      "Compare characteristics of objects from different classes",
+      "Build decision trees",
+      "Compute data cubes"
+    ],
+    "answer": "Compare characteristics of objects from different classes",
+    "explanation": "Unit 4: Mining class comparison"
+  },
+  {
+    "type": "mcq",
+    "question": "In association rule mining, generating rules from frequent itemsets involves:",
+    "options": [
+      "Applying minimum support threshold again",
+      "Calculating confidence for all possible rules from frequent itemsets",
+      "Using FP-tree only",
+      "Applying Apriori property again"
+    ],
+    "answer": "Calculating confidence for all possible rules from frequent itemsets",
+    "explanation": "Unit 5: Generating association rules from frequent itemset"
+  },
+  {
+    "type": "mcq",
+    "question": "Closed itemsets are important because they:",
+    "options": [
+      "Contain all possible items",
+      "Are frequent itemsets that have no proper superset with the same support",
+      "Always have 100% confidence",
+      "Are used only in FP-Growth"
+    ],
+    "answer": "Are frequent itemsets that have no proper superset with the same support",
+    "explanation": "Unit 5: Closed itemsets"
+  },
+  {
+    "type": "mcq",
+    "question": "In classification, the 'learning and testing' phase typically uses:",
+    "options": [
+      "Only training data for both learning and testing",
+      "Separate training set for learning and test set for evaluation",
+      "Only the full dataset without splitting",
+      "k-fold cross validation exclusively"
+    ],
+    "answer": "Separate training set for learning and test set for evaluation",
+    "explanation": "Unit 6: Learning and testing of classification"
+  },
+  {
+    "type": "mcq",
+    "question": "Efficient rule simplification in rule-based classifiers aims to:",
+    "options": [
+      "Increase the number of rules",
+      "Remove redundant or less accurate rules while maintaining coverage",
+      "Convert rules into decision trees",
+      "Apply only to numerical data"
+    ],
+    "answer": "Remove redundant or less accurate rules while maintaining coverage",
+    "explanation": "Unit 6: Rule based classifier (efficient of rule simplification)"
+  },
+  {
+    "type": "mcq",
+    "question": "Statistical description of data in data mining includes:",
+    "options": [
+      "Only mean and variance",
+      "Measures of central tendency, dispersion and graphical displays",
+      "Only correlation analysis",
+      "Only frequent patterns"
+    ],
+    "answer": "Measures of central tendency, dispersion and graphical displays",
+    "explanation": "Unit 2: Statistical description of data"
+  },
+  {
+    "type": "mcq",
+    "question": "One major trend in data warehousing is:",
+    "options": [
+      "Moving away from cloud-based solutions",
+      "Integration with big data technologies and real-time data warehousing",
+      "Complete replacement of relational databases",
+      "Focus only on structured data"
+    ],
+    "answer": "Integration with big data technologies and real-time data warehousing",
+    "explanation": "Unit 1: Trends in data warehousing"
+  },
+  {
+    "type": "mcq",
+    "question": "Discriminating between different classes is a form of:",
+    "options": [
+      "Descriptive data mining",
+      "Predictive data mining",
+      "Class comparison",
+      "Frequent pattern mining"
+    ],
+    "answer": "Class comparison",
+    "explanation": "Unit 4: Discriminating between different classes"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The four important characteristics of a data warehouse are subject-oriented, integrated, time-variant and ________.",
+    "answer": "non-volatile",
+    "explanation": "Unit 1"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ attribute has a meaningful order but the differences between values are not meaningful.",
+    "answer": "ordinal",
+    "explanation": "Unit 2: Data object and attribute types"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Smoothing, aggregation and generalization are techniques used in ________.",
+    "answer": "data transformation",
+    "explanation": "Unit 3: Data integration and transformation"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ reduction technique reduces the volume of data by using parametric models or sampling.",
+    "answer": "numerosity",
+    "explanation": "Unit 3: Data reduction"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In data mining primitives, the user specifies ________ to define what kind of knowledge is to be mined.",
+    "answer": "data mining query",
+    "explanation": "Unit 3: Data mining primitives"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ itemsets are those frequent itemsets that have no superset with the same support count.",
+    "answer": "closed",
+    "explanation": "Unit 5: Closed itemsets"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of dividing data into training and testing sets is part of ________ of classification.",
+    "answer": "learning and testing",
+    "explanation": "Unit 6"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is a major issue in classification where the model performs well on training data but poorly on unseen data.",
+    "answer": "overfitting",
+    "explanation": "Unit 6: Issues in classification"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ description of data includes mean, median, mode, variance and standard deviation.",
+    "answer": "statistical",
+    "explanation": "Unit 2"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "One important component of data warehouse architecture is the ________ repository.",
+    "answer": "metadata",
+    "explanation": "Unit 1: Components of data warehouse"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between operational database and data warehouse with any two points.",
+    "answer": "Operational DB is subject to frequent updates and is volatile; Data warehouse is non-volatile and mainly used for analysis. Operational DB supports OLTP; Data warehouse supports OLAP.",
+    "explanation": "Unit 1"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the role of background knowledge in data mining primitives?",
+    "answer": "Background knowledge (concept hierarchies, user constraints) helps guide the mining process and makes discovered patterns more meaningful.",
+    "explanation": "Unit 3: Data mining primitives"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two issues in data mining.",
+    "answer": "1. Handling noisy or incomplete data. 2. Mining different kinds of knowledge from heterogeneous data sources.",
+    "explanation": "Unit 2: Issues and Applications"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is market basket analysis? Give one real-life example.",
+    "answer": "Market basket analysis finds associations between items frequently purchased together. Example: Customers who buy bread often buy butter (used in retail).",
+    "explanation": "Unit 5: Market basket analysis"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two applications of data mining.",
+    "answer": "1. Market basket analysis in retail. 2. Fraud detection in banking.",
+    "explanation": "Unit 2: Issues and Applications"
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is data transformation needed in preprocessing?",
+    "answer": "To convert data into suitable forms for mining by smoothing noisy data, aggregating, generalizing or normalizing values.",
+    "explanation": "Unit 3: Data integration and transformation"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between attribute-oriented induction and class comparison.",
+    "answer": "Attribute-oriented induction generalizes data for characterization of one class. Class comparison compares characteristics between two or more classes.",
+    "explanation": "Unit 4"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of interestingness measures in data mining primitives?",
+    "answer": "They help filter out uninteresting patterns so that only useful and surprising knowledge is presented to the user.",
+    "explanation": "Unit 3: Data mining primitives"
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention any two trends in data warehousing.",
+    "answer": "1. Cloud-based data warehousing. 2. Real-time and big data integration.",
+    "explanation": "Unit 1: Trends in data warehousing"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain rule coverage and rule accuracy in rule-based classifiers.",
+    "answer": "Rule coverage = percentage of training examples that satisfy the rule. Rule accuracy = percentage of examples correctly classified by the rule.",
+    "explanation": "Unit 6: Rule based classifier"
+  }
+]

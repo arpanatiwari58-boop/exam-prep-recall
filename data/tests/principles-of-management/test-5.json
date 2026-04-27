@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "The concept of organization as a social system primarily emphasizes:",
+    "options": [
+      "Only profit-making activities",
+      "Coordinated human efforts to achieve common goals",
+      "Rigid bureaucratic rules only",
+      "Mechanical processes without people"
+    ],
+    "answer": "Coordinated human efforts to achieve common goals",
+    "explanation": "Organization is a structured social system of people working together (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of organizational goal focuses on survival and growth rather than profit?",
+    "options": [
+      "Official goals",
+      "Operative goals",
+      "Secondary goals",
+      "Financial goals"
+    ],
+    "answer": "Operative goals",
+    "explanation": "Operative goals are the actual day-to-day goals for survival and growth (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "Changing perspectives of organization in modern times view it as:",
+    "options": [
+      "A closed rigid system",
+      "A dynamic open system interacting with environment",
+      "Only a profit machine",
+      "A static hierarchical structure"
+    ],
+    "answer": "A dynamic open system interacting with environment",
+    "explanation": "Modern view sees organizations as open systems (Unit 1)."
+  },
+  {
+    "type": "mcq",
+    "question": "The management process is best described as:",
+    "options": [
+      "A one-time activity",
+      "Continuous cycle of planning, organizing, leading and controlling",
+      "Only decision making",
+      "Staffing and directing only"
+    ],
+    "answer": "Continuous cycle of planning, organizing, leading and controlling",
+    "explanation": "Management is a continuous process of POLC functions (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Top-level managers are primarily responsible for:",
+    "options": [
+      "Day-to-day operations",
+      "Setting long-term strategic direction",
+      "Supervising first-line workers",
+      "Handling customer complaints"
+    ],
+    "answer": "Setting long-term strategic direction",
+    "explanation": "Top managers focus on overall goals and strategy (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "A line manager differs from a staff manager in that line managers:",
+    "options": [
+      "Provide advice only",
+      "Have direct authority over subordinates",
+      "Handle only financial matters",
+      "Focus solely on training"
+    ],
+    "answer": "Have direct authority over subordinates",
+    "explanation": "Line managers have direct chain-of-command authority (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which principle of management states that there should be only one boss for each subordinate?",
+    "options": [
+      "Unity of direction",
+      "Scalar chain",
+      "Unity of command",
+      "Division of work"
+    ],
+    "answer": "Unity of command",
+    "explanation": "Unity of command avoids confusion from multiple superiors (Unit 2)."
+  },
+  {
+    "type": "mcq",
+    "question": "Decision theory in management thought mainly focuses on:",
+    "options": [
+      "Human emotions",
+      "How managers make choices under risk and uncertainty",
+      "Scientific measurements only",
+      "Social needs of workers"
+    ],
+    "answer": "How managers make choices under risk and uncertainty",
+    "explanation": "Decision theory emphasizes rational choice processes (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Knowledge management as an emerging concept primarily involves:",
+    "options": [
+      "Reducing employee training",
+      "Capturing, sharing and using organizational knowledge effectively",
+      "Outsourcing all IT work",
+      "Limiting access to information"
+    ],
+    "answer": "Capturing, sharing and using organizational knowledge effectively",
+    "explanation": "Knowledge management creates learning and competitive advantage (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "Outsourcing as a modern management practice is mainly used to:",
+    "options": [
+      "Increase in-house costs",
+      "Focus on core competencies by contracting non-core activities",
+      "Reduce workforce diversity",
+      "Centralize all operations"
+    ],
+    "answer": "Focus on core competencies by contracting non-core activities",
+    "explanation": "Outsourcing helps organizations concentrate on what they do best (Unit 3)."
+  },
+  {
+    "type": "mcq",
+    "question": "The economic component of the external business environment includes:",
+    "options": [
+      "Government regulations and stability",
+      "Inflation, interest rates and economic growth",
+      "Cultural values and lifestyle",
+      "New technological inventions"
+    ],
+    "answer": "Inflation, interest rates and economic growth",
+    "explanation": "Economic factors directly affect purchasing power and costs (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "One major area of social responsibility of business is:",
+    "options": [
+      "Maximizing profit only for shareholders",
+      "Protecting the natural environment",
+      "Ignoring employee welfare",
+      "Avoiding community development"
+    ],
+    "answer": "Protecting the natural environment",
+    "explanation": "Environmental protection is a key area of social responsibility (Unit 4)."
+  },
+  {
+    "type": "mcq",
+    "question": "In the hierarchy of planning, tactical planning is done by:",
+    "options": [
+      "Top management only",
+      "Middle-level managers",
+      "First-line supervisors only",
+      "External consultants"
+    ],
+    "answer": "Middle-level managers",
+    "explanation": "Tactical plans support strategic plans at middle level (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a quantitative tool used in planning?",
+    "options": [
+      "SWOT analysis",
+      "Break-even analysis",
+      "Group discussion",
+      "Brainstorming"
+    ],
+    "answer": "Break-even analysis",
+    "explanation": "Quantitative tools include break-even, linear programming, etc. (Unit 5)."
+  },
+  {
+    "type": "mcq",
+    "question": "Problem-solving strategies in management under uncertainty often rely on:",
+    "options": [
+      "Only past experience and intuition",
+      "Complete data and mathematical models only",
+      "Ignoring alternatives",
+      "Avoiding decisions completely"
+    ],
+    "answer": "Only past experience and intuition",
+    "explanation": "Under uncertainty, managers use judgment and heuristics (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "An organization is a group of people working together in a ________ manner to achieve common objectives.",
+    "answer": "coordinated",
+    "explanation": "Core concept of organization (Unit 1)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ managers are responsible for implementing policies made by top management.",
+    "answer": "Middle",
+    "explanation": "Managerial hierarchy – middle level (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The principle of ________ suggests that each employee should receive orders from only one superior.",
+    "answer": "unity of command",
+    "explanation": "Important principle of management (Unit 2)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ theory focuses on how decisions are made in organizations under conditions of risk.",
+    "answer": "Decision",
+    "explanation": "Decision theory in evolution of management thought (Unit 3)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ component of business environment includes factors like inflation and unemployment.",
+    "answer": "economic",
+    "explanation": "Basic components of external environment (Unit 4)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In planning hierarchy, ________ planning is the broadest and is done by top management.",
+    "answer": "strategic",
+    "explanation": "Hierarchy of planning (Unit 5)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ views of organization emphasize flexibility, low hierarchy and adaptability.",
+    "answer": "Organic",
+    "explanation": "Organic vs mechanistic views (Unit 6)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A major function of leadership is to ________ and inspire subordinates towards organizational goals.",
+    "answer": "motivate",
+    "explanation": "Functions of leadership (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ groups are formed by employees themselves based on common interests.",
+    "answer": "Informal",
+    "explanation": "Types of groups in organization (Unit 7)."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of ________ an organization includes dividing tasks and assigning authority.",
+    "answer": "structuring",
+    "explanation": "Process of structuring an organization (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State any three purposes of organizational goals.",
+    "answer": "Provide direction, serve as standards for performance measurement, and help in resource allocation.",
+    "explanation": "Purposes of organizational goals (Unit 1 – not covered earlier)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the process of management with key functions.",
+    "answer": "Management process is continuous: Planning → Organizing → Leading → Controlling (POLC). It is a cycle to achieve goals efficiently.",
+    "explanation": "Process and functions of management (Unit 2)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between line managers and staff managers.",
+    "answer": "Line managers have direct authority and are responsible for core operations. Staff managers provide specialized advice and support without direct authority.",
+    "explanation": "Types of managers (Unit 2 – missed earlier)."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the contribution of Human Relations theory?",
+    "answer": "It highlighted the importance of social factors, employee morale and informal groups in increasing productivity (Hawthorne studies).",
+    "explanation": "Contribution of Human Relations theory (Unit 3)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two basic components of the political environment.",
+    "answer": "Government policies, political stability and legal framework. They affect business regulations and operations.",
+    "explanation": "Political environment component (Unit 4)."
+  },
+  {
+    "type": "short_answer",
+    "question": "What are quantitative tools for planning? Give two examples.",
+    "answer": "Tools that use mathematical and statistical methods. Examples: Break-even analysis and linear programming.",
+    "explanation": "Quantitative tools for planning (Unit 5 – never asked before)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Describe the concept and types of problems in problem solving.",
+    "answer": "Problem solving is identifying gaps and finding solutions. Types: Structured (routine) and unstructured (novel) problems.",
+    "explanation": "Problem solving concepts and types (Unit 5)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two features of effective delegation of authority.",
+    "answer": "1. Clarity of tasks and authority. 2. Parity of authority and responsibility. It ensures accountability.",
+    "explanation": "Features of delegation (Unit 6)."
+  },
+  {
+    "type": "short_answer",
+    "question": "State the process of group formation in organizations.",
+    "answer": "Forming → Storming → Norming → Performing → Adjourning (Tuckman’s model). Groups move through these stages.",
+    "explanation": "Group formation (Unit 7 – completely missed earlier)."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between mechanistic and organic organizational views.",
+    "answer": "Mechanistic: rigid, hierarchical, stable environment. Organic: flexible, decentralized, suitable for dynamic environment.",
+    "explanation": "Organic and mechanistic views (Unit 6)."
+  }
+]

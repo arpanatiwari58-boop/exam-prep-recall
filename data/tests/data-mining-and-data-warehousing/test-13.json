@@ -1,0 +1,596 @@
+[
+  {
+    "type": "mcq",
+    "question": "According to the textbook, the lifecycle of data in a data warehouse typically follows which sequence?",
+    "options": [
+      "Operational systems → Data warehouse → Archive/Deletion",
+      "Data warehouse → Operational systems → Archive",
+      "Operational systems → Archive → Data warehouse",
+      "Data warehouse → Archive → Operational systems"
+    ],
+    "answer": "Operational systems → Data warehouse → Archive/Deletion",
+    "explanation": "Unit 1 + Book Ch. 4.1.1 (lifecycle of data)"
+  },
+  {
+    "type": "mcq",
+    "question": "Which data warehouse model is designed for a specific department or functional area and is smaller in scope than an enterprise warehouse?",
+    "options": [
+      "Virtual warehouse",
+      "Data mart",
+      "Enterprise warehouse",
+      "Cloud warehouse"
+    ],
+    "answer": "Data mart",
+    "explanation": "Unit 1 + Book Ch. 4.1.5"
+  },
+  {
+    "type": "mcq",
+    "question": "In the textbook, metadata repository in a data warehouse primarily stores:",
+    "options": [
+      "Only the fact and dimension tables",
+      "Data about data, including schema, ETL process, and business rules",
+      "Only the OLAP queries",
+      "Only the source transactional data"
+    ],
+    "answer": "Data about data, including schema, ETL process, and business rules",
+    "explanation": "Unit 1 + Book Ch. 4.1.7"
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is an example of a ratio-scale attribute as described in the book?",
+    "options": [
+      "Temperature in Celsius",
+      "Customer satisfaction rating (1-5)",
+      "Weight in kilograms",
+      "Calendar date"
+    ],
+    "answer": "Weight in kilograms",
+    "explanation": "Unit 2 + Book Ch. 2.1.6"
+  },
+  {
+    "type": "mcq",
+    "question": "The textbook describes data smoothing as a technique mainly used in:",
+    "options": [
+      "Data cleaning",
+      "Data transformation",
+      "Data reduction",
+      "Data discretization"
+    ],
+    "answer": "Data transformation",
+    "explanation": "Unit 3 + Book Ch. 3.5.2"
+  },
+  {
+    "type": "mcq",
+    "question": "Concept hierarchy generation is primarily used for:",
+    "options": [
+      "Removing noise from data",
+      "Providing multiple levels of abstraction for attributes",
+      "Reducing the number of tuples",
+      "Computing frequent itemsets"
+    ],
+    "answer": "Providing multiple levels of abstraction for attributes",
+    "explanation": "Unit 3 + Book Ch. 3.5.6"
+  },
+  {
+    "type": "mcq",
+    "question": "Attribute-oriented induction is mainly used for:",
+    "options": [
+      "Frequent pattern mining",
+      "Data characterization and generalization of a class",
+      "Clustering analysis",
+      "Outlier detection"
+    ],
+    "answer": "Data characterization and generalization of a class",
+    "explanation": "Unit 4 + Book Ch. 4.5.1"
+  },
+  {
+    "type": "mcq",
+    "question": "In the textbook, generating association rules from frequent itemsets involves calculating:",
+    "options": [
+      "Only support for each possible rule",
+      "Confidence for each possible rule above minimum confidence threshold",
+      "Only lift for each rule",
+      "Only the Apriori property again"
+    ],
+    "answer": "Confidence for each possible rule above minimum confidence threshold",
+    "explanation": "Unit 5 + Book Ch. 6.2.2"
+  },
+  {
+    "type": "mcq",
+    "question": "Closed itemsets are defined in the book as frequent itemsets that:",
+    "options": [
+      "Have no superset with the same support",
+      "Have 100% confidence",
+      "Are generated only by FP-Growth",
+      "Contain only one item"
+    ],
+    "answer": "Have no superset with the same support",
+    "explanation": "Unit 5 + Book Ch. 6.2.6"
+  },
+  {
+    "type": "mcq",
+    "question": "According to the textbook, one major way to improve the efficiency of the Apriori algorithm is:",
+    "options": [
+      "Increasing minimum support",
+      "Using hash-based techniques to reduce candidate generation",
+      "Removing the confidence measure",
+      "Using only vertical data format"
+    ],
+    "answer": "Using hash-based techniques to reduce candidate generation",
+    "explanation": "Unit 5 + Book Ch. 6.2.3"
+  },
+  {
+    "type": "mcq",
+    "question": "In classification, the holdout method (learning and testing) typically uses:",
+    "options": [
+      "The entire dataset for both training and testing",
+      "A portion of data for training and the remaining unseen portion for testing",
+      "Only k-fold cross validation",
+      "Only bootstrap sampling"
+    ],
+    "answer": "A portion of data for training and the remaining unseen portion for testing",
+    "explanation": "Unit 6 + Book Ch. 8.5.2"
+  },
+  {
+    "type": "mcq",
+    "question": "Rule coverage and rule accuracy in rule-based classifiers measure:",
+    "options": [
+      "Only the support of the rule",
+      "How many training examples the rule covers and how many of them are correctly classified",
+      "Only the confidence of the rule",
+      "The length of the rule"
+    ],
+    "answer": "How many training examples the rule covers and how many of them are correctly classified",
+    "explanation": "Unit 6 + Book Ch. 8.4"
+  },
+  {
+    "type": "mcq",
+    "question": "The textbook states that one major trend in data warehousing is:",
+    "options": [
+      "Moving completely away from OLAP",
+      "Integration with big data and real-time data warehousing",
+      "Storing only current data",
+      "Eliminating metadata repository"
+    ],
+    "answer": "Integration with big data and real-time data warehousing",
+    "explanation": "Unit 1 + Book Ch. 4.1"
+  },
+  {
+    "type": "mcq",
+    "question": "Discriminating between different classes using attribute-oriented induction is called:",
+    "options": [
+      "Data characterization",
+      "Class comparison",
+      "Frequent pattern mining",
+      "Clustering"
+    ],
+    "answer": "Class comparison",
+    "explanation": "Unit 4 + Book Ch. 4.5.3"
+  },
+  {
+    "type": "mcq",
+    "question": "In the book, correlation analysis after association mining is done to:",
+    "options": [
+      "Replace support and confidence",
+      "Identify interesting relationships beyond support and confidence (e.g., using lift)",
+      "Generate new frequent itemsets",
+      "Perform classification"
+    ],
+    "answer": "Identify interesting relationships beyond support and confidence (e.g., using lift)",
+    "explanation": "Unit 5 + Book Ch. 6.3.2"
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following describes 'disguised missing data' in the context of data quality?",
+    "options": [
+      "Values that are physically missing from the database",
+      "Correct values that are filtered out during integration",
+      "Incorrect values submitted by users to protect privacy, like a default birthday",
+      "Redundant data points that appear multiple times"
+    ],
+    "answer": "Incorrect values submitted by users to protect privacy, like a default birthday",
+    "explanation": "Disguised missing data occurs when users purposely submit incorrect values (e.g., choosing January 1) to mandatory fields to avoid sharing personal info [1, 2]."
+  },
+  {
+    "type": "mcq",
+    "question": "In a 3-tier data warehouse architecture, what is the primary role of the middle tier?",
+    "options": [
+      "Storing the metadata repository",
+      "Acting as an OLAP server for multidimensional data operations",
+      "Performing the ETL (Extraction, Transformation, and Loading) process",
+      "Providing front-end tools like reporting and data mining"
+    ],
+    "answer": "Acting as an OLAP server for multidimensional data operations",
+    "explanation": "The middle tier is typically an OLAP server (ROLAP or MOLAP) that provides a multidimensional view of data to users [3]."
+  },
+  {
+    "type": "mcq",
+    "question": "Which attribute type is quantitative and has a true zero-point, allowing for the calculation of multiples or ratios?",
+    "options": [
+      "Interval-scaled",
+      "Ordinal",
+      "Ratio-scaled",
+      "Nominal"
+    ],
+    "answer": "Ratio-scaled",
+    "explanation": "Ratio-scaled attributes are numeric with an inherent zero-point, meaning we can say one value is a multiple of another [4]."
+  },
+  {
+    "type": "mcq",
+    "question": "A partial materialization strategy that precomputes only cuboids involving a small number of dimensions (e.g., 3 to 5) is called:",
+    "options": [
+      "Iceberg Cube",
+      "Closed Cube",
+      "Full Cube",
+      "Cube Shell"
+    ],
+    "answer": "Cube Shell",
+    "explanation": "A cube shell refers to the precomputation of a subset of cuboids, typically those involving a few dimensions, in a high-dimensional space [5]."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary difference between a closed frequent itemset and a maximal frequent itemset?",
+    "options": [
+      "Closed itemsets are lossy, whereas maximal itemsets are lossless",
+      "Maximal itemsets do not preserve support information of their subsets",
+      "Closed itemsets must satisfy a higher minimum support threshold",
+      "A maximal itemset cannot be a closed itemset"
+    ],
+    "answer": "Maximal itemsets do not preserve support information of their subsets",
+    "explanation": "Closed frequent itemsets provide lossless compression of frequent itemsets, whereas maximal frequent itemsets do not register subset support [6, 7]."
+  },
+  {
+    "type": "mcq",
+    "question": "Which issue is a known drawback of the Information Gain measure used in ID3?",
+    "options": [
+      "It prefers attributes with only two possible values",
+      "It is computationally expensive due to square roots",
+      "It is biased toward attributes with many distinct values like 'customer_ID'",
+      "It cannot handle categorical data"
+    ],
+    "answer": "It is biased toward attributes with many distinct values like 'customer_ID'",
+    "explanation": "Information gain tends to prefer attributes that partition data into many small, pure partitions, often resulting in a high gain for unique identifiers [8]."
+  },
+  {
+    "type": "mcq",
+    "question": "Which neural network activation function is commonly used in Backpropagation to map input values into a range of 0.0 to 1.0?",
+    "options": [
+      "Step function",
+      "Sigmoid (Logistic) function",
+      "Linear function",
+      "Relu function"
+    ],
+    "answer": "Sigmoid (Logistic) function",
+    "explanation": "The sigmoid function is the squashing function used in backpropagation to map a unit's net input to its output [9, 10]."
+  },
+  {
+    "type": "mcq",
+    "question": "In data integration, the 'Entity Identification Problem' refers to the challenge of:",
+    "options": [
+      "Identifying which attributes have missing values",
+      "Determining if 'cust_id' in one database refers to 'customer_no' in another",
+      "Identifying outliers that do not follow the general data model",
+      "Detecting duplicate tuples after integration is complete"
+    ],
+    "answer": "Determining if 'cust_id' in one database refers to 'customer_no' in another",
+    "explanation": "Entity identification involves matching equivalent real-world entities from multiple sources, often complicated by different naming conventions [11]."
+  },
+  {
+    "type": "mcq",
+    "question": "The 'Sensitivity' metric of a classifier is identical to which other common metric?",
+    "options": [
+      "Precision",
+      "F-measure",
+      "Recall",
+      "Accuracy"
+    ],
+    "answer": "Recall",
+    "explanation": "Sensitivity is referred to as the true positive recognition rate, which is the same as Recall in classification context [12, 13]."
+  },
+  {
+    "type": "mcq",
+    "question": "Which schema is most common for departmental data stores known as 'Data Marts' due to its efficiency and single-subject focus?",
+    "options": [
+      "Fact Constellation",
+      "Snowflake Schema",
+      "Star Schema",
+      "Relational Schema"
+    ],
+    "answer": "Star Schema",
+    "explanation": "The star schema is popular for data marts because it is geared toward modeling single subjects and is more efficient for browsing [14]."
+  },
+  {
+    "type": "mcq",
+    "question": "A multilevel association rule is considered 'redundant' if:",
+    "options": [
+      "It has the same support as its descendant rule",
+      "Its support and confidence are close to the 'expected' values based on its ancestor",
+      "It contains more than three items in its antecedent",
+      "It is mined at the lowest conceptual level"
+    ],
+    "answer": "Its support and confidence are close to the 'expected' values based on its ancestor",
+    "explanation": "A rule is redundant if it offers no novel information beyond what is already implied by its more general ancestor rule [15]."
+  },
+  {
+    "type": "mcq",
+    "question": "In SVM, what happens if the training data is linearly inseparable?",
+    "options": [
+      "The algorithm fails to converge",
+      "It uses a slack variable to allow some misclassification",
+      "It reduces the number of dimensions in the data",
+      "It uses the k-means algorithm to group the data first"
+    ],
+    "answer": "It uses a slack variable to allow some misclassification",
+    "explanation": "For linearly inseparable data, SVMs are extended to find a hyperplane that minimizes error while maximizing the margin, often using slack variables [16]."
+  },
+  {
+    "type": "mcq",
+    "question": "Which data reduction technique identifies a set of k orthogonal vectors that can best represent the data?",
+    "options": [
+      "Regression Analysis",
+      "Wavelet Transforms",
+      "Principal Components Analysis (PCA)",
+      "Sampling"
+    ],
+    "answer": "Principal Components Analysis (PCA)",
+    "explanation": "PCA is a dimensionality reduction method that searches for k orthogonal vectors (principal components) to represent the data [17]."
+  },
+  {
+    "type": "mcq",
+    "question": "Under Attribute-Oriented Induction (AOI), if an attribute has a large number of distinct values and no defined concept hierarchy, it should be:",
+    "options": [
+      "Generalized by binning",
+      "Retained as it is",
+      "Removed from the working relation",
+      "Duplicated to other dimensions"
+    ],
+    "answer": "Removed from the working relation",
+    "explanation": "AOI rules state that an attribute with too many distinct values and no generalization path should be removed to avoid complex results [18, 19]."
+  },
+  {
+    "type": "mcq",
+    "question": "In a negatively skewed data distribution, where is the mean located relative to the median?",
+    "options": [
+      "The mean is greater than the median",
+      "The mean is equal to the median",
+      "The mean is less than the median",
+      "The mean is at the highest peak (mode)"
+    ],
+    "answer": "The mean is less than the median",
+    "explanation": "In negatively skewed data, the tail is on the left, and the mean is typically pulled 'down' to a value less than the median [20]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________ warehouse contains data from multiple subject areas and serves the entire organization.",
+    "answer": "enterprise",
+    "explanation": "Unit 1 + Book Ch. 4.1.5"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ scale attributes have a true zero point and allow meaningful ratio comparisons.",
+    "answer": "ratio",
+    "explanation": "Unit 2 + Book Ch. 2.1.6"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is a data reduction technique that replaces original data with smaller representations using concept hierarchies.",
+    "answer": "data discretization",
+    "explanation": "Unit 3 + Book Ch. 3.5"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________-oriented induction is used for data characterization by generalizing task-relevant data.",
+    "answer": "attribute",
+    "explanation": "Unit 4 + Book Ch. 4.5.1"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A frequent itemset that has no proper superset with the same support is called a ________ itemset.",
+    "answer": "closed",
+    "explanation": "Unit 5 + Book Ch. 6.2.6"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of dividing the dataset into training and test sets is part of the ________ and testing phase of classification.",
+    "answer": "learning",
+    "explanation": "Unit 6 + Book Ch. 8.5.2"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ is a data transformation technique that removes noise by binning or regression.",
+    "answer": "smoothing",
+    "explanation": "Unit 3 + Book Ch. 3.5.2"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In rule-based classification, rule ________ measures the percentage of training examples that satisfy the rule.",
+    "answer": "coverage",
+    "explanation": "Unit 6 + Book Ch. 8.4.1"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________ analysis measures the strength and direction of association between items beyond support and confidence.",
+    "answer": "correlation",
+    "explanation": "Unit 5 + Book Ch. 6.3.2"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The ________ repository stores information about the data warehouse structure and ETL process.",
+    "answer": "metadata",
+    "explanation": "Unit 1 + Book Ch. 4.1.7"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The iterative process of extracting patterns from data, involving cleaning, integration, selection, and transformation, is popularly known as __________.",
+    "answer": "Knowledge Discovery from Data (or KDD)",
+    "explanation": "Data mining is an essential step in the larger KDD process [21, 22]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A binary attribute is __________ if both of its states are equally valuable and carry the same weight (e.g., gender).",
+    "answer": "symmetric",
+    "explanation": "Symmetric binary attributes have no preference on which outcome is coded as 0 or 1 [23]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ is a data smoothing technique that uses the middle value of a sorted bin to replace all values in that bin.",
+    "answer": "Smoothing by bin medians",
+    "explanation": "Smoothing by bin medians is one of the three standard binning methods for noise removal [24]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ index, used in the CART algorithm, measures the impurity of a data partition based on the probability of class labels.",
+    "answer": "Gini",
+    "explanation": "The Gini index is the standard attribute selection measure for CART [25]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the Apriori algorithm, the __________ step involves scanning the previous frequent itemsets Lk-1 to generate candidate itemsets Ck.",
+    "answer": "join",
+    "explanation": "The join step generates potential candidates by joining Lk-1 with itself [26, 27]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Training tuples that lie closest to the decision boundary in Support Vector Machines are known as __________.",
+    "answer": "support vectors",
+    "explanation": "These essential tuples define the location and margin of the separating hyperplane [28]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the __________ method of accuracy estimation, data is randomly partitioned into two sets: one for training and one for testing.",
+    "answer": "holdout",
+    "explanation": "The holdout method is the simplest approach for estimating classifier accuracy [29]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The harmonic mean of precision and recall is the __________.",
+    "answer": "F-measure (or F1-score)",
+    "explanation": "F-measure provides a balanced score when precision and recall are both important [30]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Data warehouses are __________, meaning they provide a historical perspective by keeping records over long periods.",
+    "answer": "time-variant",
+    "explanation": "This is one of the four defining characteristics of a data warehouse [31]."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In a Star Schema, the __________ table contains the numeric measures and keys to the surrounding dimension tables.",
+    "answer": "fact",
+    "explanation": "The fact table is the central table in a multidimensional schema [32]."
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between data mart and enterprise warehouse.",
+    "answer": "Enterprise warehouse collects all information about subjects spanning the entire organization. Data mart is a subset focused on a specific department or functional area.",
+    "explanation": "Unit 1 + Book Ch. 4.1.5"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of background knowledge in data mining primitives?",
+    "answer": "Background knowledge (such as concept hierarchies and user constraints) guides the mining process and helps make discovered patterns more meaningful.",
+    "explanation": "Unit 3 + Book Ch. 3"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two techniques of data reduction mentioned in the textbook.",
+    "answer": "1. Numerosity reduction (e.g., sampling, clustering). 2. Dimensionality reduction (e.g., attribute subset selection).",
+    "explanation": "Unit 3 + Book Ch. 3.4"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain attribute-oriented induction for class comparison.",
+    "answer": "It compares the generalized characteristics of objects from different classes by generalizing task-relevant data using concept hierarchies.",
+    "explanation": "Unit 4 + Book Ch. 4.5.3"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the difference between learning and testing in classification?",
+    "answer": "Learning builds the model from the training set. Testing evaluates the model on a separate unseen test set to measure its performance.",
+    "explanation": "Unit 6 + Book Ch. 8.5"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any two applications of data mining from the textbook.",
+    "answer": "1. Market basket analysis. 2. Fraud detection.",
+    "explanation": "Unit 2 + Book Ch. 1.6"
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is correlation analysis performed after association rule mining?",
+    "answer": "To identify interesting relationships and remove misleading rules that may have high support and confidence but are actually independent (using measures like lift).",
+    "explanation": "Unit 5 + Book Ch. 6.3.2"
+  },
+  {
+    "type": "short_answer",
+    "question": "Mention any two trends in data warehousing.",
+    "answer": "1. Integration with big data technologies. 2. Real-time data warehousing.",
+    "explanation": "Unit 1 + Book Ch. 4"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is efficient rule simplification in rule-based classifiers?",
+    "answer": "It merges or removes redundant and less accurate rules to produce a smaller, more understandable rule set while maintaining good coverage.",
+    "explanation": "Unit 6 + Book Ch. 8.4.3"
+  },
+  {
+    "type": "short_answer",
+    "question": "Distinguish between data characterization and data discrimination.",
+    "answer": "Data characterization summarizes the general features of a target class of data (e.g., 'Science Students'). Data discrimination compares the target class against one or more contrasting classes (e.g., 'Science' vs. 'Arts' students) [11, 33].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the difference between prepruning and postpruning in decision tree construction?",
+    "answer": "Prepruning halts tree construction early by deciding not to split a node if it won't improve accuracy. Postpruning removes branches from a fully grown tree by replacing subtrees with leaves based on error estimates [34, 35].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define the term 'Entropy' as it relates to Data Mining.",
+    "answer": "Entropy is a measure of the 'impurity' or uncertainty within a set of data. It is used to calculate Information Gain by determining how much information is needed to classify a tuple [36, 37].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain one significant advantage of the FP-growth algorithm over the Apriori algorithm.",
+    "answer": "FP-growth finds frequent itemsets without candidate generation. It compresses the database into an FP-tree and uses a divide-and-conquer approach, avoiding the costly candidate-generation step of Apriori [38, 39].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is 'Numeric Prediction' and how does it differ from Classification?",
+    "answer": "Classification predicts discrete, categorical labels (e.g., 'safe' or 'risky'). Numeric prediction models continuous-valued functions to predict missing or unavailable numerical values (e.g., predicting an exact salary) [40, 41].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Briefly describe the 'Entity Identification Problem' in data integration.",
+    "answer": "It is the problem of matching equivalent real-world entities from different data sources, such as identifying that 'ID' in Database A and 'Serial_No' in Database B refer to the same object [11, 42].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Give an example of a total order concept hierarchy for the 'Time' dimension.",
+    "answer": "A total order hierarchy for time would be: day < month < quarter < year. This defines a clear sequence from the most specific to the most general concept [43, 44].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the purpose of McNemar’s test in model evaluation?",
+    "answer": "McNemar’s test is a statistical test used to determine if there is a significant difference between the performance of two classifiers when only one test set is available [45, 46].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "How does 'Laplacian Correction' ensure that Bayesian probabilities never result in zero?",
+    "answer": "It adds a small constant (usually 1) to each count in the probability calculation, ensuring that even if an attribute-class pair was never seen in training, its probability is non-zero [47, 48].",
+    "explanation": ""
+  },
+  {
+    "type": "short_answer",
+    "question": "Define a 'Multidimensional Association Rule' with an example.",
+    "answer": "It is an association rule that involves two or more distinct predicates (dimensions). Example: age(X, '20..29') ^ income(X, 'high') => buys(X, 'laptop') [49, 50].",
+    "explanation": ""
+  }
+]
