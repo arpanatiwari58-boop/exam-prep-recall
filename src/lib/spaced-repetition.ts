@@ -38,7 +38,9 @@ export interface StudySession {
 
 export const TRACKED_SUBJECTS = [
   { id: "pom", name: "Principles of Management", color: "text-[#a072ff]", bg: "bg-[#a072ff]/10" },
-  { id: "dwdm", name: "Data Mining and Data Warehousing", color: "text-[#ffb433]", bg: "bg-[#ffb433]/10" }
+  { id: "dwdm", name: "Data Mining and Data Warehousing", color: "text-[#ffb433]", bg: "bg-[#ffb433]/10" },
+  { id: "advance-java", name: "Advance Java", color: "text-[#6BB3C0]", bg: "bg-[#6BB3C0]/10" },
+  { id: "pom-last-units", name: "POM (Last Units)", color: "text-[#ef4444]", bg: "bg-[#ef4444]/10" }
 ];
 
 // ==========================================
@@ -107,7 +109,14 @@ export const mockStudySessions: StudySession[] = [
 
 // Helper functions for UI formatting
 export function getReviewStatus(nextReviewDate: number): "due" | "upcoming" {
-  return nextReviewDate <= Date.now() ? "due" : "upcoming";
+  const now = new Date();
+  const next = new Date(nextReviewDate);
+  
+  // Normalize both dates to midnight to check if the recall calendar day has arrived
+  now.setHours(0, 0, 0, 0);
+  next.setHours(0, 0, 0, 0);
+  
+  return next.getTime() <= now.getTime() ? "due" : "upcoming";
 }
 
 export function formatNextReviewDate(nextReviewDate: number): string {

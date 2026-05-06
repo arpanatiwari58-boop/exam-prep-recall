@@ -82,6 +82,11 @@
           "id": 16,
           "title": "Test 16",
           "path": "data-mining-and-data-warehousing\\test-16.json"
+        },
+        {
+          "id": 17,
+          "title": "Test 17",
+          "path": "data-mining-and-data-warehousing\\test-17.json"
         }
       ]
     },
@@ -147,8 +152,36 @@
           "id": 12,
           "title": "Test 12",
           "path": "principles-of-management\\test-12.json"
+        },
+        {
+          "id": 13,
+          "title": "Test 13",
+          "path": "principles-of-management\\test-13.json"
+        },
+        {
+          "id": 14,
+          "title": "Test 14",
+          "path": "principles-of-management\\test-14.json"
+        },
+        {
+          "id": 15,
+          "title": "Test 15",
+          "path": "principles-of-management\\test-15.json"
+        },
+        {
+          "id": 16,
+          "title": "Test 16",
+          "path": "principles-of-management\\test-16.json"
         }
       ]
+    },
+    "advance-java": {
+      "name": "Advance Java",
+      "tests": []
+    },
+    "pom-last-units": {
+      "name": "POM (Last Units)",
+      "tests": []
     }
   }
 }

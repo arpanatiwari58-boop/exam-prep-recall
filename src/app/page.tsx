@@ -18,6 +18,20 @@ const subjects = [
     icon: <Book size={28} className="text-white" />,
     testsCount: 1,
   },
+  {
+    name: "Advance Java",
+    slug: "advance-java",
+    description: "Master enterprise Java development, Spring, and modern frameworks.",
+    icon: <FileText size={28} className="text-white" />,
+    testsCount: 0,
+  },
+  {
+    name: "POM (Last Units)",
+    slug: "pom-last-units",
+    description: "Final core principles of effective management and related topics.",
+    icon: <Book size={28} className="text-white" />,
+    testsCount: 0,
+  },
 ];
 
 export default function HomePage() {

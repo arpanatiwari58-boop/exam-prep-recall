@@ -1,0 +1,242 @@
+[
+  {
+    "type": "mcq",
+    "question": "According to Herzberg's Motivation-Hygiene theory, which of the following is categorized as a motivation factor rather than a hygiene factor?",
+    "options": [
+      "Job security and salary",
+      "Interpersonal relationships with peers",
+      "Recognition for achievements",
+      "Working conditions and environment"
+    ],
+    "answer": "Recognition for achievements",
+    "explanation": "Motivation factors (satisfiers) are intrinsic to the job, such as achievement and recognition, whereas hygiene factors (dissatisfiers) like salary and working conditions only prevent dissatisfaction."
+  },
+  {
+    "type": "mcq",
+    "question": "In the communication process, what is the specific term for the receiver's conversion of symbols back into a meaningful message?",
+    "options": [
+      "Encoding",
+      "Decoding",
+      "Feedback",
+      "Transmission"
+    ],
+    "answer": "Decoding",
+    "explanation": "Decoding is the process where the receiver interprets the sender's message into a meaningful form."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of control system focuses on preventing anticipated problems before they actually occur?",
+    "options": [
+      "Feedback Control",
+      "Concurrent Control",
+      "Feedforward Control",
+      "Corrective Control"
+    ],
+    "answer": "Feedforward Control",
+    "explanation": "Feedforward control is proactive; it monitors inputs and anticipates deviations before the operation is completed."
+  },
+  {
+    "type": "mcq",
+    "question": "Which globalization method involves an organization giving another firm the right to use its brand name, operating systems, or trademarks for a fee?",
+    "options": [
+      "Exporting",
+      "Strategic Alliance",
+      "Franchising",
+      "Joint Venture"
+    ],
+    "answer": "Franchising",
+    "explanation": "Franchising is a common method in the service sector where a parent company provides its brand and system to another party."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of Maslow's needs is addressed when an organization provides a collaborative team-based environment and social gatherings?",
+    "options": [
+      "Physiological needs",
+      "Esteem needs",
+      "Social needs",
+      "Safety needs"
+    ],
+    "answer": "Social needs",
+    "explanation": "Social needs involve the desire for belongingness, friendship, and affection, which are met through interpersonal interactions."
+  },
+  {
+    "type": "mcq",
+    "question": "Which barrier to communication is specifically related to the varying interpretations of words or symbols by different individuals?",
+    "options": [
+      "Physical barrier",
+      "Semantic barrier",
+      "Psychological barrier",
+      "Organizational barrier"
+    ],
+    "answer": "Semantic barrier",
+    "explanation": "Semantic barriers arise from language complexities, jargon, or symbols that have different meanings to the sender and receiver."
+  },
+  {
+    "type": "mcq",
+    "question": "Total Quality Management (TQM) emphasizes 'Continuous Improvement.' Which specific concept refers to this ongoing incremental change?",
+    "options": [
+      "Kaizen",
+      "Six Sigma",
+      "Benchmarking",
+      "Quality Circle"
+    ],
+    "answer": "Kaizen",
+    "explanation": "Kaizen is a Japanese philosophy of continuous improvement involving every employee in an organization."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary advantage of a Polycentric approach in a Multinational Company (MNC)?",
+    "options": [
+      "Consistency in global operations",
+      "Stronger control from the home headquarters",
+      "Effective adaptation to the local host-country environment",
+      "Uniform corporate culture across all branches"
+    ],
+    "answer": "Effective adaptation to the local host-country environment",
+    "explanation": "A polycentric approach treats each subsidiary as a distinct entity and hires local managers who understand the local market better."
+  },
+  {
+    "type": "mcq",
+    "question": "Which characteristic is essential for an 'Effective Control System' to ensure it does not cost more than the benefits it provides?",
+    "options": [
+      "Flexibility",
+      "Accuracy",
+      "Economy",
+      "Timeliness"
+    ],
+    "answer": "Economy",
+    "explanation": "Economy ensures that the control system is cost-effective and justifiable in terms of its expense."
+  },
+  {
+    "type": "mcq",
+    "question": "A 'Self-Managed Team' is a tool for motivation that primarily functions through which mechanism?",
+    "options": [
+      "External supervision",
+      "Employee participation and empowerment",
+      "Strict financial rewards",
+      "Job specialization"
+    ],
+    "answer": "Employee participation and empowerment",
+    "explanation": "Self-managed teams motivate employees by giving them the autonomy and authority to manage their own tasks."
+  },
+  {
+    "type": "mcq",
+    "question": "In the context of communication, 'Grapevine' is a term used to describe which type of structure?",
+    "options": [
+      "Downward communication",
+      "Formal communication",
+      "Informal communication",
+      "Horizontal communication"
+    ],
+    "answer": "Informal communication",
+    "explanation": "The grapevine is the unofficial communication network that exists in every organization outside formal channels."
+  },
+  {
+    "type": "mcq",
+    "question": "According to Deming, the 'Plan-Do-Check-Act' (PDCA) cycle is primarily used for:",
+    "options": [
+      "Strategic planning",
+      "Financial auditing",
+      "Process improvement and problem solving",
+      "Employee recruitment"
+    ],
+    "answer": "Process improvement and problem solving",
+    "explanation": "The PDCA cycle is a four-step model for carrying out change and continuous improvement in quality management."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is 'Decoding' considered a critical step in the communication process?",
+    "answer": "Decoding is critical because if the receiver interprets the symbols differently than the sender intended (due to noise or bias), the communication fails. Accurate decoding ensures the 'meaning' is successfully transferred.",
+    "explanation": "Focuses on the interpretation aspect of the communication loop."
+  },
+  {
+    "type": "short_answer",
+    "question": "Distinguish between 'Licensing' and 'Franchising' in the global context.",
+    "answer": "Licensing involves giving a foreign firm the right to manufacture a product (usually in manufacturing), while Franchising involves providing a complete brand and operating system (usually in services like fast food).",
+    "explanation": "Highlights the industry and scope differences."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of 'Reward System' as a motivator for performance.",
+    "answer": "A reward system motivates performance by linking organizational outcomes (like bonuses or recognition) to specific behaviors or results. It reinforces desired actions through positive reinforcement.",
+    "explanation": "Relates behavioral reinforcement to motivation."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does 'Concurrent Control' differ from 'Feedback Control'?",
+    "answer": "Concurrent control occurs during the action to correct problems in real-time, whereas feedback control occurs after the action is completed to prevent future errors based on past results.",
+    "explanation": "Focuses on the timing of the intervention."
+  },
+  {
+    "type": "short_answer",
+    "question": "Identify two major 'Barriers to Effective Communication' in a technical team.",
+    "answer": "1. Semantic Barriers: Use of overly complex technical jargon that non-specialists can't understand. 2. Information Overload: Sending too much data at once, leading to critical details being ignored.",
+    "explanation": "Practical application of theory to a technical environment."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the core philosophy of 'Total Quality Management' (TQM)?",
+    "answer": "The core philosophy is a organization-wide commitment to continuous improvement (Kaizen) and meeting customer needs through the active participation of all employees in the quality process.",
+    "explanation": "Identifies the two pillars: Customer focus and Employee involvement."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain 'Quality of Work Life' (QWL) as a modern motivation strategy.",
+    "answer": "QWL improves employee motivation by enhancing the overall work environment, including flexible hours, safe conditions, and job enrichment, making the workplace more human-centric.",
+    "explanation": "Links environmental factors to employee psychological well-being."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'MNC' and list one disadvantage it may bring to a host country like Nepal.",
+    "answer": "An MNC is a firm that operates in multiple countries with a centralized or decentralized management. A disadvantage is 'Profit Repatriation,' where the wealth generated in Nepal is sent back to the home country.",
+    "explanation": "Defines the entity and notes a specific economic impact."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Maslow's Hierarchy of Needs, the drive to become what one is capable of becoming is called __________.",
+    "answer": "Self-actualization",
+    "explanation": "Self-actualization is the highest level in the hierarchy, focusing on personal growth and potential."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of monitoring activities to ensure they are being accomplished as planned and correcting significant deviations is known as __________.",
+    "answer": "Control",
+    "explanation": "Control is the managerial function that ensures organizational goals are met by tracking performance."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A barrier to communication that occurs when the sender purposely manipulates information so it will be seen more favorably by the receiver is called __________.",
+    "answer": "Filtering",
+    "explanation": "Filtering involves selectively presenting information to make it appear positive to superiors."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The __________ approach to globalization involves a firm maintaining its production facilities at home and selling products in foreign markets.",
+    "answer": "Exporting",
+    "explanation": "Exporting is usually the first and simplest step toward internationalization."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Herzberg referred to factors such as salary and company policy that do not motivate but prevent dissatisfaction as __________ factors.",
+    "answer": "Hygiene",
+    "explanation": "Hygiene factors are extrinsic to the work itself and are necessary to avoid worker unhappiness."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A type of control that takes place while an activity is in progress is called __________ control.",
+    "answer": "Concurrent",
+    "explanation": "Concurrent control allows managers to correct problems as they happen, such as real-time monitoring of software performance."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Non-verbal communication through body movement and gestures is technically known as __________.",
+    "answer": "Kinesics",
+    "explanation": "Kinesics is the study of body language, including facial expressions and posture, as a form of communication."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The Japanese term for continuous improvement used in Total Quality Management is __________.",
+    "answer": "Kaizen",
+    "explanation": "Kaizen is a core principle of TQM focusing on small, continuous improvements rather than radical change."
+  }
+]

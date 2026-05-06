@@ -1,0 +1,158 @@
+[
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of motivation.",
+    "answer": "Motivation is the inner drive that energizes, directs and sustains human behavior towards achieving goals.",
+    "explanation": "Core concept - Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between motivators and hygiene factors as given by Herzberg.",
+    "answer": "Motivators (recognition, achievement, responsibility) create satisfaction. Hygiene factors (salary, security, working conditions) only prevent dissatisfaction.",
+    "explanation": "Important distinction - Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "How can quality of work life (QWL) be used to motivate employees?",
+    "answer": "By improving working conditions, giving autonomy, and involving employees in decision making, QWL increases job satisfaction and motivation.",
+    "explanation": "Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "Describe the communication process with its key elements.",
+    "answer": "The communication process includes sender, encoding, message, channel, receiver, decoding and feedback.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "short_answer",
+    "question": "State the types of communication and explain any one.",
+    "answer": "Types: Formal and Informal. Formal communication follows official hierarchy while informal (grapevine) spreads spontaneously.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the major barriers to effective communication?",
+    "answer": "Physical barriers, semantic barriers, psychological barriers, organizational barriers and cultural barriers.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "short_answer",
+    "question": "Define control and explain its process.",
+    "answer": "Control is the process of monitoring performance, comparing it with standards and taking corrective action. Process: Setting standards, measuring performance, comparing and taking action.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is Total Quality Management (TQM)? Mention its main focus.",
+    "answer": "TQM is a management philosophy that aims at long-term success through customer satisfaction by continuously improving quality involving all members of the organization.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "Write any four principles of Deming’s management.",
+    "answer": "Create constancy of purpose, adopt new philosophy, cease dependence on mass inspection, improve constantly and forever.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "Define globalization and mention any two methods of globalization.",
+    "answer": "Globalization is the integration of national economies into a global economy. Methods: Exporting, Licensing, Franchising, Joint venture, FDI.",
+    "explanation": "Unit 11"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the advantages and disadvantages of Multinational Companies?",
+    "answer": "Advantages: Technology transfer, employment generation, access to global markets. Disadvantages: Cultural conflict, exploitation of resources, profit repatriation.",
+    "explanation": "Unit 11"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the effects of globalization on Nepalese business.",
+    "answer": "Globalization has increased competition, brought new technology and management practices, but also created challenges for local industries.",
+    "explanation": "Unit 11"
+  },
+  {
+    "type": "short_answer",
+    "question": "How does reward system help in motivating performance?",
+    "answer": "Both monetary (bonus, increment) and non-monetary rewards (recognition, promotion) encourage employees to perform better.",
+    "explanation": "Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between formal and informal communication.",
+    "answer": "Formal follows official channels and is documented. Informal is spontaneous, fast but can spread rumors.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the characteristics of an effective control system?",
+    "answer": "Accurate, timely, flexible, economical, strategic point control and understandable.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the role of feedback in the communication process.",
+    "answer": "Feedback confirms whether the message is properly understood by the receiver and helps in improving future communication.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Maslow’s theory is based on the assumption that human needs are arranged in a ________________.",
+    "answer": "hierarchy",
+    "explanation": "Needs are satisfied from lower to higher level."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Herzberg’s theory, salary, working conditions and company policy are examples of ________________ factors.",
+    "answer": "hygiene",
+    "explanation": "They prevent dissatisfaction but do not motivate."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ is the process that initiates, guides and maintains goal-oriented behavior.",
+    "answer": "Motivation",
+    "explanation": "Basic definition from Unit 8."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The communication channel that carries information outside the official chain of command is called ________________.",
+    "answer": "grapevine",
+    "explanation": "It is informal communication."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ control takes place while the work is being performed.",
+    "answer": "Concurrent",
+    "explanation": "Also known as real-time control."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "TQM focuses on continuous improvement by involving ________________ in the organization.",
+    "answer": "all employees",
+    "explanation": "Key principle of Total Quality Management."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ is a company that has its headquarters in one country but operates in many countries.",
+    "answer": "Multinational Company",
+    "explanation": "Definition of MNC."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The full form of PDCA cycle used in quality management is ________________.",
+    "answer": "Plan-Do-Check-Act",
+    "explanation": "Deming’s continuous improvement cycle."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Self-managed teams are also known as ________________ teams.",
+    "answer": "autonomous",
+    "explanation": "They manage their own work."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ barriers to communication arise due to differences in language and meaning.",
+    "answer": "Semantic",
+    "explanation": "One of the major barriers."
+  }
+]

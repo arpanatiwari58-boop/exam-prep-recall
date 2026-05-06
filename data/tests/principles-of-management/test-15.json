@@ -1,0 +1,164 @@
+[
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of motivation through employee participation.",
+    "answer": "It involves giving employees more say in decision-making, which increases their sense of ownership and motivation. Quality of Work Life and self-managed teams are key methods.",
+    "explanation": "Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "Compare Maslow’s Need Hierarchy Theory with Herzberg’s Two-Factor Theory.",
+    "answer": "Maslow’s theory focuses on a hierarchy of five needs, while Herzberg’s theory divides factors into motivators (satisfiers) and hygiene factors (dissatisfiers).",
+    "explanation": "Important comparison from Unit 8"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the communication process? Draw a simple flow.",
+    "answer": "Sender → Encoding → Message → Channel → Decoding → Receiver → Feedback. It is a two-way process.",
+    "explanation": "Unit 9 – structure and process"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain interpersonal and non-verbal communication with examples.",
+    "answer": "Interpersonal communication occurs between two or more persons. Non-verbal includes body language, facial expressions, gestures, and eye contact.",
+    "explanation": "Unit 9"
+  },
+  {
+    "type": "short_answer",
+    "question": "Discuss any four ways to overcome barriers to effective communication.",
+    "answer": "Use simple language, active listening, proper feedback, empathy, and choosing appropriate channel.",
+    "explanation": "Unit 9 – Enhancing effective communication"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the different types of control systems in management?",
+    "answer": "Feedforward control, Concurrent control, and Feedback control.",
+    "explanation": "Unit 10 – Types of control systems"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of Total Quality Management (TQM).",
+    "answer": "TQM is a philosophy of continuous improvement involving all employees to achieve highest quality standards and customer satisfaction.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "State any five principles/techniques of Deming management.",
+    "answer": "Drive out fear, Break down departmental barriers, Institute training, Eliminate slogans, and Adopt new philosophy.",
+    "explanation": "Unit 10 – Deming management"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the positive and negative effects of globalization?",
+    "answer": "Positive: Access to new markets and technology. Negative: Increased competition and cultural homogenization.",
+    "explanation": "Unit 11 – Effects of globalization"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the meaning, types, and disadvantages of Multinational Companies.",
+    "answer": "MNCs operate in multiple countries. Types: Ethnocentric, Polycentric, Geocentric. Disadvantages: Cultural clash, exploitation of resources, and profit repatriation.",
+    "explanation": "Unit 11"
+  },
+  {
+    "type": "short_answer",
+    "question": "How does reward system help in motivating employees?",
+    "answer": "Reward system includes financial (salary, bonus) and non-financial (recognition, promotion) rewards that encourage desired performance.",
+    "explanation": "Unit 8 – Reward system to motivate performance"
+  },
+  {
+    "type": "short_answer",
+    "question": "Differentiate between centralization and decentralization in the context of leadership.",
+    "answer": "Not applicable — wait, correction: Leadership styles can be autocratic (centralized) or democratic (decentralized).",
+    "explanation": "Unit 7 linkage"
+  },
+  {
+    "type": "short_answer",
+    "question": "What is group formation? Mention its importance in an organization.",
+    "answer": "Group formation is the coming together of individuals to achieve common objectives. It improves coordination, decision-making, and motivation.",
+    "explanation": "Unit 7"
+  },
+  {
+    "type": "short_answer",
+    "question": "How can conflicts be managed effectively in an organization?",
+    "answer": "Through avoidance, accommodation, compromise, collaboration, and confrontation strategies.",
+    "explanation": "Unit 7 – Managing conflicts in organization"
+  },
+  {
+    "type": "short_answer",
+    "question": "What are the characteristics of an effective control system?",
+    "answer": "It should be accurate, timely, flexible, economical, strategic, and acceptable to employees.",
+    "explanation": "Unit 10"
+  },
+  {
+    "type": "short_answer",
+    "question": "Discuss the concept of leadership styles.",
+    "answer": "Major leadership styles are Autocratic, Democratic, and Laissez-faire.",
+    "explanation": "Unit 7 – Leadership styles"
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain any two approaches to leadership.",
+    "answer": "Trait approach (based on personal qualities) and Behavioral approach (based on what leaders do).",
+    "explanation": "Unit 7 – Approaches to leadership"
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "According to Maslow, the highest level of need is ________________ needs.",
+    "answer": "Self-actualization",
+    "explanation": "It is the topmost need in Need Hierarchy Theory."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Hygiene factors in Herzberg’s theory are also called ________________ factors.",
+    "answer": "Dissatisfiers",
+    "explanation": "They prevent dissatisfaction but do not create motivation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ communication flows from superior to subordinate.",
+    "answer": "Downward",
+    "explanation": "It is used for giving instructions and orders."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The return message from receiver to sender is called ________________.",
+    "answer": "Feedback",
+    "explanation": "It completes the communication process."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ is a major barrier to communication that occurs due to preconceived notions.",
+    "answer": "Psychological barrier",
+    "explanation": "It includes perception, attitude, and emotions."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A control system that focuses on preventing problems before they occur is known as ________________ control.",
+    "answer": "Feedforward",
+    "explanation": "It is proactive in nature."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Deming’s approach emphasizes continuous improvement through ________________ cycle.",
+    "answer": "PDCA",
+    "explanation": "Plan-Do-Check-Act cycle."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ refers to the integration and interconnection of world economies.",
+    "answer": "Globalization",
+    "explanation": "It is the process of increasing global interconnectedness."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A ________________ structure allows a company to operate in multiple countries with centralized control.",
+    "answer": "Multinational",
+    "explanation": "Characteristic of MNCs."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ teams consist of employees who manage themselves without direct supervision.",
+    "answer": "Self-managed",
+    "explanation": "Used as a tool for motivation."
+  }
+]

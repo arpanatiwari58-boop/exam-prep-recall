@@ -1,0 +1,302 @@
+[
+  {
+    "type": "mcq",
+    "question": "According to Herzberg’s Two-Factor Theory, which of the following is classified as a motivator rather than a hygiene factor?",
+    "options": [
+      "Company policy and administration",
+      "Interpersonal relations with supervisors",
+      "Recognition for achievement",
+      "Working conditions and job security"
+    ],
+    "answer": "Recognition for achievement",
+    "explanation": "Hygiene factors (extrinsic) prevent dissatisfaction but don't motivate; motivators (intrinsic) like achievement and recognition lead to job satisfaction."
+  },
+  {
+    "type": "mcq",
+    "question": "In the communication process, the transition of a message into symbolic form (words, pictures, or gestures) is known as:",
+    "options": [
+      "Decoding",
+      "Feedback",
+      "Encoding",
+      "Noise"
+    ],
+    "answer": "Encoding",
+    "explanation": "Encoding is the act of converting thought into a communicative form; decoding is the receiver's interpretation of that form."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of control system focuses on preventing anticipated problems before they actually occur?",
+    "options": [
+      "Feedback Control",
+      "Concurrent Control",
+      "Feedforward Control",
+      "Budgetary Control"
+    ],
+    "answer": "Feedforward Control",
+    "explanation": "Feedforward control is proactive, addressing potential issues at the input stage before the activity begins."
+  },
+  {
+    "type": "mcq",
+    "question": "A multinational company that maintains separate operations in each host country and tailors its products to local markets is following which approach?",
+    "options": [
+      "Ethnocentric",
+      "Multi-domestic",
+      "Global",
+      "Geocentric"
+    ],
+    "answer": "Multi-domestic",
+    "explanation": "Multi-domestic corporations decentralize management to the local country to respond to high local responsiveness needs."
+  },
+  {
+    "type": "mcq",
+    "question": "Which barrier to effective communication occurs when a sender purposely manipulates information so it will be seen more favorably by the receiver?",
+    "options": [
+      "Selective Perception",
+      "Filtering",
+      "Information Overload",
+      "Jargon"
+    ],
+    "answer": "Filtering",
+    "explanation": "Filtering involves the deliberate manipulation of information to make it sound better to the listener, often common in vertical communication."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the primary focus of Total Quality Management (TQM)?",
+    "options": [
+      "Increasing short-term profit margins",
+      "Continuous improvement and customer satisfaction",
+      "Strict hierarchical supervision",
+      "Mass production efficiency"
+    ],
+    "answer": "Continuous improvement and customer satisfaction",
+    "explanation": "TQM is a management philosophy that seeks to integrate all organizational functions to focus on meeting customer needs and organizational objectives through continuous improvement."
+  },
+  {
+    "type": "mcq",
+    "question": "Which level of Maslow's Hierarchy of Needs is concerned with achieving one's potential and self-fulfillment?",
+    "options": [
+      "Esteem Needs",
+      "Safety Needs",
+      "Self-Actualization Needs",
+      "Social Needs"
+    ],
+    "answer": "Self-Actualization Needs",
+    "explanation": "Self-actualization is the highest level of Maslow's pyramid, representing the drive to become what one is capable of becoming."
+  },
+  {
+    "type": "mcq",
+    "question": "The 'Grapevine' is a term typically associated with which type of organizational communication?",
+    "options": [
+      "Formal Communication",
+      "Informal Communication",
+      "External Communication",
+      "Upward Communication"
+    ],
+    "answer": "Informal Communication",
+    "explanation": "The grapevine refers to the unofficial, informal communication network within an organization."
+  },
+  {
+    "type": "mcq",
+    "question": "In the Control Process, what is the immediate step after 'Comparing actual performance against standards'?",
+    "options": [
+      "Establishing standards",
+      "Measuring actual performance",
+      "Taking corrective action",
+      "Revising the budget"
+    ],
+    "answer": "Taking corrective action",
+    "explanation": "Once a deviation is identified between actual performance and the standard, management must decide whether to take corrective action."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a method of globalization where a firm provides a foreign brand name and operating system in exchange for a fee and share of profits?",
+    "options": [
+      "Exporting",
+      "Franchising",
+      "Strategic Alliance",
+      "Turnkey Project"
+    ],
+    "answer": "Franchising",
+    "explanation": "Franchising allows a firm (franchisor) to grant another firm (franchisee) the right to use its business model and brand."
+  },
+  {
+    "type": "mcq",
+    "question": "Which quality management pioneer introduced the '14 Points for Management' and emphasized the PDCA cycle?",
+    "options": [
+      "Joseph Juran",
+      "Philip Crosby",
+      "W. Edwards Deming",
+      "Peter Drucker"
+    ],
+    "answer": "W. Edwards Deming",
+    "explanation": "Deming's philosophy focuses on systemic improvement, the 14 points, and the Plan-Do-Check-Act cycle."
+  },
+  {
+    "type": "mcq",
+    "question": "When a manager listens to an employee's grievances and provides emotional support, they are engaging in:",
+    "options": [
+      "Non-verbal communication",
+      "Interpersonal communication",
+      "Mass communication",
+      "Technical communication"
+    ],
+    "answer": "Interpersonal communication",
+    "explanation": "Interpersonal communication occurs between two or more people and is vital for building relationships and understanding motives."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a disadvantage of Multinational Companies (MNCs) for a host country like Nepal?",
+    "options": [
+      "Technology transfer",
+      "Employment generation",
+      "Repatriation of profits",
+      "Improvement in standard of living"
+    ],
+    "answer": "Repatriation of profits",
+    "explanation": "Repatriation of profits means the MNC sends earnings back to its home country, which can lead to capital flight from the host country."
+  },
+  {
+    "type": "mcq",
+    "question": "A team that is given the authority to plan, implement, and control its own work processes without direct supervision is a:",
+    "options": [
+      "Cross-functional team",
+      "Self-managed team",
+      "Virtual team",
+      "Task force"
+    ],
+    "answer": "Self-managed team",
+    "explanation": "Self-managed teams take over management duties like scheduling and inspection, enhancing employee participation and motivation."
+  },
+  {
+    "type": "mcq",
+    "question": "Non-verbal communication includes all of the following EXCEPT:",
+    "options": [
+      "Facial expressions",
+      "Tone of voice",
+      "Written reports",
+      "Physical distance"
+    ],
+    "answer": "Written reports",
+    "explanation": "Written reports are a form of verbal/written communication; non-verbal communication involves transmission of messages without words."
+  },
+    {
+    "type": "fill_in_the_blank",
+    "question": "In the hierarchy of needs, __________ needs include basic requirements for human survival such as food, water, and shelter.",
+    "answer": "Physiological",
+    "explanation": "These are the most basic needs that must be satisfied before higher-level needs become motivators."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The process of monitoring activities to ensure they are being accomplished as planned is called __________.",
+    "answer": "Control",
+    "explanation": "Control is the final functional stage of management that closes the loop back to planning."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ barriers to communication arise from differences in the meaning and interpretation of words or symbols.",
+    "answer": "Semantic",
+    "explanation": "Semantic barriers occur when the sender and receiver have different meanings for the same words."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The movement of goods, services, capital, and people across national borders is a key feature of __________.",
+    "answer": "Globalization",
+    "explanation": "Globalization integrates national economies into a single global market."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "An organizational culture that emphasizes employee well-being, growth, and participation is often referred to as __________.",
+    "answer": "Quality of Work Life (QWL)",
+    "explanation": "QWL refers to the favorableness or unfavorableness of a total job environment for people."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the PDCA cycle, 'A' stands for __________.",
+    "answer": "Act",
+    "explanation": "The cycle is Plan, Do, Check, Act."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The response or reaction provided by the receiver to the sender in a communication process is called __________.",
+    "answer": "Feedback",
+    "explanation": "Feedback confirms whether the message was understood as intended."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Control that takes place while an activity is in progress is known as __________ control.",
+    "answer": "Concurrent",
+    "explanation": "Concurrent control allows for immediate correction during the transformation process."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "__________ refers to the practice of hiring an external organization to perform business functions originally done in-house.",
+    "answer": "Outsourcing",
+    "explanation": "Outsourcing is a major trend in global management, particularly in the tech sector."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "A __________ company views the entire world as a single marketplace and standardizes its products globally.",
+    "answer": "Global",
+    "explanation": "Unlike multi-domestic firms, global companies centralize operations to achieve economies of scale."
+  },
+  {
+    "type": "short_answer",
+    "question": "How do 'Motivators' differ from 'Hygiene factors' in terms of their effect on employee dissatisfaction?",
+    "answer_key": "Hygiene factors prevent dissatisfaction but do not create satisfaction. Motivators create satisfaction and encourage high performance but their absence doesn't necessarily cause deep dissatisfaction.",
+    "explanation": "This distinguishes the two separate continua in Herzberg's theory."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the concept of 'Semantic Barriers' in communication with an example.",
+    "answer_key": "Semantic barriers occur when symbols or words have different meanings for different people. For example, using technical jargon like 'Latency' with a non-technical client may lead to misunderstanding.",
+    "explanation": "Focuses on the interpretation of language/symbols."
+  },
+  {
+    "type": "short_answer",
+    "question": "Why is 'Feedforward Control' considered more desirable than 'Feedback Control' for a project manager?",
+    "answer_key": "Feedforward control is proactive; it detects problems before they occur, saving costs and time. Feedback control only identifies errors after the damage is done.",
+    "explanation": "Compares proactive vs reactive management."
+  },
+  {
+    "type": "short_answer",
+    "question": "Define 'Total Quality Management (TQM)' in the context of customer orientation.",
+    "answer_key": "TQM is a management approach centered on quality, based on the participation of all members and aiming at long-term success through customer satisfaction.",
+    "explanation": "Emphasizes the integration of quality across the organization."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is the difference between an Ethnocentric and a Geocentric approach in global management?",
+    "answer_key": "Ethnocentric views the home country's methods as superior and applies them everywhere. Geocentric is a world-oriented view that seeks the best people and practices regardless of origin.",
+    "explanation": "Tests the orientation of MNC management."
+  },
+  {
+    "type": "short_answer",
+    "question": "How does 'Informal Communication' (Grapevine) both help and hurt an organization?",
+    "answer_key": "It helps by spreading information quickly and providing social support; it hurts by spreading rumors, inaccuracies, and potentially causing conflict.",
+    "explanation": "Analyzes the dual nature of informal networks."
+  },
+  {
+    "type": "short_answer",
+    "question": "Identify two characteristics of an 'Effective Control System'.",
+    "answer_key": "1. Flexibility (adapting to changes). 2. Accuracy (providing reliable data for decision making).",
+    "explanation": "Focuses on the qualities that make control useful."
+  },
+  {
+    "type": "short_answer",
+    "question": "What is meant by 'Quality of Work Life (QWL)'?",
+    "answer_key": "QWL is the extent to which employees can satisfy important personal needs through their experiences in the organization, involving fair pay, safe conditions, and participation.",
+    "explanation": "Connects motivation to the overall work environment."
+  },
+  {
+    "type": "short_answer",
+    "question": "List any two methods used by organizations for Globalization.",
+    "answer_key": "1. Exporting/Importing. 2. Licensing or Franchising.",
+    "explanation": "Identifies the entry strategies for international business."
+  },
+  {
+    "type": "short_answer",
+    "question": "Explain the significance of 'Feedback' in the communication process.",
+    "answer_key": "Feedback is the final link that ensures the message was received and decoded correctly, making communication a two-way process rather than just a transmission.",
+    "explanation": "Highlights the importance of the circular nature of communication."
+  }
+]
