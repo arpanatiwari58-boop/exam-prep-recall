@@ -25,6 +25,7 @@ export default function TestAttemptClient({
   timeLimitInMinutes = 60,
 }: TestAttemptClientProps) {
   const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [checkedAnswers, setCheckedAnswers] = useState<Record<number, boolean>>({});
   const [submitted, setSubmitted] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -38,9 +39,10 @@ export default function TestAttemptClient({
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
-        const { answers: savedAnswers, timeLeft: savedTime, hasStarted: savedStarted } = JSON.parse(saved);
+        const { answers: savedAnswers, checkedAnswers: savedCheckedAnswers, timeLeft: savedTime, hasStarted: savedStarted } = JSON.parse(saved);
         if (savedStarted) {
           setAnswers(savedAnswers || {});
+          setCheckedAnswers(savedCheckedAnswers || {});
           if (savedTime !== undefined) setTimeLeft(savedTime);
           setHasStarted(savedStarted);
         }
@@ -53,11 +55,11 @@ export default function TestAttemptClient({
   // Save progress on changes
   useEffect(() => {
     if (hasStarted && !submitted) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ answers, timeLeft, hasStarted }));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ answers, checkedAnswers, timeLeft, hasStarted }));
     } else if (submitted) {
       localStorage.removeItem(STORAGE_KEY);
     }
-  }, [answers, timeLeft, hasStarted, submitted, STORAGE_KEY]);
+  }, [answers, checkedAnswers, timeLeft, hasStarted, submitted, STORAGE_KEY]);
 
   useEffect(() => {
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
@@ -131,6 +133,7 @@ export default function TestAttemptClient({
         onRetest={() => {
           localStorage.removeItem(STORAGE_KEY);
           setAnswers({});
+          setCheckedAnswers({});
           setSubmitted(false);
           setHasStarted(false);
           setIsPaused(false);
@@ -153,7 +156,13 @@ export default function TestAttemptClient({
         )}
 
         {!submitted ? (
-          <TestQuestions questions={questions} answers={answers} setAnswer={setAnswer} />
+          <TestQuestions 
+            questions={questions} 
+            answers={answers} 
+            setAnswer={setAnswer} 
+            checkedAnswers={checkedAnswers}
+            onCheckAnswer={(index) => setCheckedAnswers(prev => ({ ...prev, [index]: true }))}
+          />
         ) : (
           <TestResults questions={questions} answers={answers} percentage={percentage} score={score} total={total} />
         )}

@@ -3,7 +3,7 @@ import { CalendarHeader } from './_components/CalendarHeader';
 import { AddTopicCard } from './_components/AddTopicCard';
 import { TodayAlerts } from './_components/TodayAlerts';
 import { SubjectList } from './_components/SubjectList';
-import { HowItWorksSidebar } from './_components/HowItWorksSidebar';
+import { UpcomingAlerts } from './_components/UpcomingAlerts';
 
 export default function CalendarPage() {
   return (
@@ -26,7 +26,7 @@ export default function CalendarPage() {
 
           {/* Sidebar Stats */}
           <div className="space-y-6">
-            <HowItWorksSidebar />
+            <UpcomingAlerts />
           </div>
 
         </div>

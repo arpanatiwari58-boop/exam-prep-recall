@@ -172,6 +172,21 @@
           "id": 16,
           "title": "Test 16",
           "path": "principles-of-management\\test-16.json"
+        },
+        {
+          "id": 17,
+          "title": "Test 17",
+          "path": "principles-of-management\\test-17.json"
+        },
+        {
+          "id": 18,
+          "title": "Test 18",
+          "path": "principles-of-management\\test-18.json"
+        },
+        {
+          "id": 19,
+          "title": "Test 19",
+          "path": "principles-of-management\\test-19.json"
         }
       ]
     },

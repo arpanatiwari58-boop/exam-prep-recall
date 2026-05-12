@@ -1,0 +1,163 @@
+[
+  {
+    "type": "fill_in_the_blank",
+    "question": "Maslow’s Need Hierarchy Theory suggests that human motivation is driven by unsatisfied needs. The theory begins with basic ________________ needs. Once these needs are satisfied to a reasonable degree, the individual becomes motivated by higher needs such as esteem needs and ultimately moves towards ________________ needs, which represent personal growth and fulfillment.",
+    "answer": "physiological, self-actualization",
+    "explanation": "This progressive movement forms the foundation of Maslow’s motivational model."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Frederick Herzberg’s Motivation-Hygiene Theory states that job satisfaction and job dissatisfaction are caused by two different sets of factors. Factors such as the work itself, achievement, and advancement are known as ________________ factors. Factors such as company policy, supervision, and salary are called ________________ factors, which only prevent dissatisfaction.",
+    "answer": "motivator, hygiene",
+    "explanation": "This theory helps managers understand what truly drives employee motivation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Organizations use various methods to motivate their employees. One modern approach is to improve the ________________ of Work Life (QWL), which focuses on creating a better work environment. Another approach involves forming ________________ teams, where employees are empowered to take decisions and manage their own performance.",
+    "answer": "Quality, self-managed",
+    "explanation": "These techniques aim to increase intrinsic motivation among employees."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The communication process is a series of steps that begins when the ________________ has an idea which he converts into a message by the process of ________________. This message is then transmitted through a ________________ to the receiver, who interprets it and sends back ________________.",
+    "answer": "sender, encoding, channel, feedback",
+    "explanation": "This model explains how effective communication actually takes place."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In organizational communication, when information moves from higher level to lower level, it is known as ________________ communication. When information moves from lower level to higher level for feedback and suggestions, it is called ________________ communication. Communication between people at the same level is called ________________ communication.",
+    "answer": "downward, upward, horizontal",
+    "explanation": "These three directions serve different purposes in an organization."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Control is the management function concerned with monitoring organizational activities. The control process consists of four basic steps: establishing performance ________________, measuring actual performance, comparing it with standards, and taking ________________ action whenever deviations are found.",
+    "answer": "standards, corrective",
+    "explanation": "Control ensures that actual results match planned results."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Based on timing, control systems are classified into three types. ________________ control anticipates and prevents problems, ________________ control occurs during the performance of work, and ________________ control is applied after the work is completed.",
+    "answer": "Feedforward, concurrent, feedback",
+    "explanation": "Each type has its own advantages depending on the situation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Total Quality Management (TQM) is a management philosophy that focuses on achieving long-term success through ________________ satisfaction. It believes that quality improvement is the responsibility of ________________ and promotes continuous improvement using the principles suggested by ________________.",
+    "answer": "customer, all employees, Deming",
+    "explanation": "TQM represents a complete shift from traditional quality control methods."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Non-verbal communication consists of body language, facial expressions, posture, and tone of voice. It is significant because it often reveals the ________________ emotions and attitudes of a person. In many cases, it carries more weight than the actual ________________ message.",
+    "answer": "true, verbal",
+    "explanation": "This explains why non-verbal cues are very powerful in communication."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Reward system is an important motivational tool. It includes ________________ rewards like salary, bonus, and incentives as well as ________________ rewards such as appreciation, recognition, and opportunities for growth. The ultimate aim is to encourage high ________________ from employees.",
+    "answer": "financial, non-financial, performance",
+    "explanation": "Both types of rewards are necessary for balanced motivation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Psychological barrier in communication arises due to the mental and emotional state of the sender or receiver. Factors such as stress, bias, lack of trust, and ________________ can distort the meaning of the message. Similarly, semantic barrier occurs due to differences in the ________________ of words.",
+    "answer": "prejudice, interpretation",
+    "explanation": "These barriers are very common in organizational settings."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "An ideal control system should be accurate, timely, and economical. Most importantly, it should follow the principle of ________________, which means managers should focus only on significant deviations rather than trying to control every small activity in the organization.",
+    "answer": "management by exception",
+    "explanation": "This principle makes control practical and efficient."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Grapevine is the ________________ network of communication that spreads information very quickly. Although it can be useful for managers to understand employee feelings, it is often criticized for spreading ________________ and incomplete information.",
+    "answer": "informal, rumors",
+    "explanation": "Every organization has a grapevine, whether managers like it or not."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Deming emphasized that most quality problems are caused by the ________________ and not by individual workers. He introduced the PDCA cycle, which stands for Plan, Do, Check, and ________________, as a tool for continuous quality ________________.",
+    "answer": "system, Act, improvement",
+    "explanation": "This approach focuses on improving processes rather than blaming people."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Self-managed teams represent a shift from traditional hierarchical control to employee empowerment. In these teams, members collectively handle planning, scheduling, and ________________ of work, which leads to higher job ________________ and better performance.",
+    "answer": "control, satisfaction",
+    "explanation": "This is considered an advanced motivational technique."
+  },
+
+  {
+    "type": "mcq",
+    "question": "According to Maslow, when an employee’s basic physiological and safety needs are satisfied, the manager should focus on fulfilling which needs to motivate him/her?",
+    "options": ["Only more money", "Social, esteem and self-actualization needs", "Only security needs", "Only physical working conditions"],
+    "answer": "Social, esteem and self-actualization needs",
+    "explanation": "This shows practical application of the hierarchy of needs."
+  },
+  {
+    "type": "mcq",
+    "question": "Herzberg’s theory clearly states that improving hygiene factors will:",
+    "options": ["Create high motivation", "Only prevent dissatisfaction but not create motivation", "Reduce salary cost", "Increase productivity automatically"],
+    "answer": "Only prevent dissatisfaction but not create motivation",
+    "explanation": "This is the core message of the Two-Factor Theory."
+  },
+  {
+    "type": "mcq",
+    "question": "The main purpose of feedback in the communication process is to:",
+    "options": ["Make the message longer", "Confirm that the receiver has understood the message correctly", "Increase noise", "Reduce the cost of communication"],
+    "answer": "Confirm that the receiver has understood the message correctly",
+    "explanation": "Feedback completes the communication loop."
+  },
+  {
+    "type": "mcq",
+    "question": "Which type of control is most useful for preventing problems before they actually occur?",
+    "options": ["Feedback control", "Concurrent control", "Feedforward control", "Post control"],
+    "answer": "Feedforward control",
+    "explanation": "It is a proactive form of control."
+  },
+  {
+    "type": "mcq",
+    "question": "Total Quality Management (TQM) philosophy mainly focuses on:",
+    "options": ["Reducing number of employees", "Achieving customer satisfaction through continuous improvement", "Strict supervision", "Reducing cost only"],
+    "answer": "Achieving customer satisfaction through continuous improvement",
+    "explanation": "This is the central idea of TQM."
+  },
+  {
+    "type": "mcq",
+    "question": "Grapevine communication is best described as:",
+    "options": ["Slow and official", "Fast, informal and unofficial", "Always written", "Only used in top management"],
+    "answer": "Fast, informal and unofficial",
+    "explanation": "It exists in every organization."
+  },
+  {
+    "type": "mcq",
+    "question": "The principle of 'management by exception' in control means:",
+    "options": ["Controlling everything in detail", "Focusing only on significant deviations from standards", "Avoiding control completely", "Controlling only financial matters"],
+    "answer": "Focusing only on significant deviations from standards",
+    "explanation": "This makes control system more practical."
+  },
+  {
+    "type": "mcq",
+    "question": "Semantic barriers in communication mainly arise because of:",
+    "options": ["Physical distance", "Different interpretation of words and language", "Poor lighting", "Emotional disturbance"],
+    "answer": "Different interpretation of words and language",
+    "explanation": "It is a very common communication barrier."
+  },
+  {
+    "type": "mcq",
+    "question": "Self-managed teams are successful in increasing motivation mainly because they:",
+    "options": ["Increase strict control by managers", "Give employees autonomy and a sense of ownership", "Reduce interaction among employees", "Make work more routine"],
+    "answer": "Give employees autonomy and a sense of ownership",
+    "explanation": "This fulfills higher level needs."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is the most important characteristic of an effective control system?",
+    "options": ["It should be very expensive", "It should be flexible and focused on key areas", "It should control every minor activity", "It should be applied only once"],
+    "answer": "It should be flexible and focused on key areas",
+    "explanation": "This ensures control remains practical."
+  }
+]

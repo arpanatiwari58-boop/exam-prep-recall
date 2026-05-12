@@ -1,0 +1,212 @@
+[
+  {
+    "type": "fill_in_the_blank",
+    "question": "Maslow’s Need Hierarchy Theory states that human needs are arranged in a hierarchy. The first level is ________________ needs, followed by ________________ needs, and the highest level is ________________ needs.",
+    "answer": "Physiological, Safety, Self-actualization",
+    "explanation": "Physiological needs are basic survival needs. Safety needs include security. Self-actualization is realizing one’s full potential."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "According to Maslow, once a lower-level need is satisfied, it stops motivating the person and the next higher level need becomes the ________________ need. This process continues up to ________________ needs.",
+    "answer": "motivating, self-actualization",
+    "explanation": "This explains the dynamic and hierarchical nature of motivation in Maslow’s theory."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Herzberg’s Two-Factor Theory divides factors into two categories. Factors like achievement, recognition and responsibility are called ________________ factors because they create ________________. On the other hand, salary and working conditions are ________________ factors.",
+    "answer": "motivator, job satisfaction, hygiene",
+    "explanation": "Motivators give positive satisfaction. Hygiene factors only prevent dissatisfaction."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In Herzberg’s theory, the absence of hygiene factors causes ________________, but their presence does not necessarily create ________________. True motivation comes only from ________________ factors.",
+    "answer": "dissatisfaction, satisfaction, motivator",
+    "explanation": "This is the fundamental distinction of the Motivation-Hygiene Theory."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Motivation can be increased through reward system which includes both ________________ rewards such as salary and bonus, and ________________ rewards such as praise and recognition. Another modern approach is ________________ teams.",
+    "answer": "financial, non-financial, self-managed",
+    "explanation": "Both types of rewards are important. Self-managed teams increase intrinsic motivation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Quality of Work Life (QWL) is a motivation technique that focuses on improving the overall ________________ and ________________ of employees at the workplace.",
+    "answer": "satisfaction, working conditions",
+    "explanation": "QWL leads to higher motivation through better work environment and participation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The communication process starts with the ________________ who does ________________ of the message. Then the message goes through a ________________ to reach the receiver.",
+    "answer": "sender, encoding, channel",
+    "explanation": "This is the basic flow of the communication process."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "In the communication process, after the receiver gets the message, he does ________________ and then gives ________________ which completes the communication cycle.",
+    "answer": "decoding, feedback",
+    "explanation": "Feedback is very important to confirm that the message is understood correctly."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Communication can be classified as ________________ communication which follows official hierarchy, and ________________ communication which is unofficial and spreads through ________________.",
+    "answer": "formal, informal, grapevine",
+    "explanation": "Formal is planned and official. Grapevine is fast but can spread rumors."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "________________ communication flows from superior to subordinate, while ________________ communication flows from subordinate to superior. ________________ communication occurs between people at the same level.",
+    "answer": "Downward, Upward, Horizontal",
+    "explanation": "These are the three main directions of formal communication."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Non-verbal communication includes ________________ expressions, ________________ language and gestures. It is very important because it often conveys more meaning than ________________ communication.",
+    "answer": "facial, body, verbal",
+    "explanation": "A large part of communication is non-verbal."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Semantic barrier in communication occurs due to ________________ of words, while psychological barrier occurs due to ________________ and emotions of the receiver.",
+    "answer": "different meanings, preconceived notions",
+    "explanation": "These are two very common barriers to effective communication."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "Self-managed teams are also called ________________ teams. They are given freedom to ________________ and control their own work which increases their ________________.",
+    "answer": "autonomous, plan, motivation",
+    "explanation": "This is an advanced technique of employee motivation."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "According to Maslow, physiological and safety needs are called ________________ needs, whereas esteem and self-actualization are called ________________ needs.",
+    "answer": "lower-level, higher-level",
+    "explanation": "Lower-level needs are deficiency needs, higher-level are growth needs."
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question": "The main criticism of Maslow’s theory is that human needs do not always follow a strict ________________ and that different people may have different ________________ of needs.",
+    "answer": "hierarchy, priority",
+    "explanation": "This is a practical limitation of the theory."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is the highest level need in Maslow’s hierarchy?",
+    "options": [
+      "Safety need",
+      "Social need",
+      "Esteem need",
+      "Self-actualization need"
+    ],
+    "answer": "Self-actualization need",
+    "explanation": "It is the desire to achieve one’s full potential."
+  },
+  {
+    "type": "mcq",
+    "question": "According to Herzberg, salary is a:",
+    "options": [
+      "Motivator factor",
+      "Hygiene factor",
+      "Growth factor",
+      "Social factor"
+    ],
+    "answer": "Hygiene factor",
+    "explanation": "It prevents dissatisfaction but does not motivate."
+  },
+  {
+    "type": "mcq",
+    "question": "Grapevine is a form of:",
+    "options": [
+      "Formal communication",
+      "Downward communication",
+      "Informal communication",
+      "Non-verbal communication"
+    ],
+    "answer": "Informal communication",
+    "explanation": "It is the unofficial communication network."
+  },
+  {
+    "type": "mcq",
+    "question": "Encoding is done by:",
+    "options": [
+      "Receiver",
+      "Sender",
+      "Channel",
+      "Feedback"
+    ],
+    "answer": "Sender",
+    "explanation": "Sender converts ideas into message."
+  },
+  {
+    "type": "mcq",
+    "question": "Which communication flows between people of same rank?",
+    "options": [
+      "Vertical",
+      "Upward",
+      "Downward",
+      "Horizontal"
+    ],
+    "answer": "Horizontal",
+    "explanation": "It is used for coordination between peers."
+  },
+  {
+    "type": "mcq",
+    "question": "Self-managed teams mainly increase:",
+    "options": [
+      "Centralization",
+      "Employee motivation and ownership",
+      "Bureaucracy",
+      "Strict control"
+    ],
+    "answer": "Employee motivation and ownership",
+    "explanation": "They give autonomy to employees."
+  },
+  {
+    "type": "mcq",
+    "question": "Feedback is important in communication because it:",
+    "options": [
+      "Increases noise",
+      "Confirms correct understanding",
+      "Creates barrier",
+      "Delays the process"
+    ],
+    "answer": "Confirms correct understanding",
+    "explanation": "It completes the two-way communication."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following is a non-financial reward?",
+    "options": [
+      "Bonus",
+      "Salary increment",
+      "Recognition and praise",
+      "Provident fund"
+    ],
+    "answer": "Recognition and praise",
+    "explanation": "It fulfills higher-level psychological needs."
+  },
+  {
+    "type": "mcq",
+    "question": "The correct order of communication process is:",
+    "options": [
+      "Feedback → Decoding → Encoding",
+      "Sender → Encoding → Message → Channel → Receiver → Decoding → Feedback",
+      "Receiver → Sender → Message",
+      "Message → Sender → Receiver"
+    ],
+    "answer": "Sender → Encoding → Message → Channel → Receiver → Decoding → Feedback",
+    "explanation": "This is the standard communication model."
+  },
+  {
+    "type": "mcq",
+    "question": "Hygiene factors in Herzberg’s theory prevent:",
+    "options": [
+      "Motivation",
+      "Dissatisfaction",
+      "Productivity",
+      "Teamwork"
+    ],
+    "answer": "Dissatisfaction",
+    "explanation": "Their presence maintains normal satisfaction level."
+  }
+]
